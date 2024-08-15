@@ -2,8 +2,18 @@ import yaml
 from datetime import datetime, timedelta
 import os
 
+# Custom Dumper to ensure strings are dumped without quotes
+class CustomDumper(yaml.SafeDumper):
+    def represent_str(self, data):
+        if data.startswith('202'):
+            return self.represent_scalar('tag:yaml.org,2002:timestamp', data)
+        return self.represent_scalar('tag:yaml.org,2002:str', data)
+
+# Register custom dumper for strings
+yaml.add_representer(str, CustomDumper.represent_str, Dumper=CustomDumper)
+
 # Path to the file
-file_path = '/home/jramos/sovereign-university-data/resources/conference/pleblab-hackerspace-2024/events.yml'
+file_path = '/home/jramos/sovereign-university-data/resources/conference/pleblab-sunday-2024/events.yml'
 
 # Create the directory if it does not exist
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -15,29 +25,16 @@ if os.path.exists(file_path):
 else:
     existing_events = []
 
-# Base event data
-base_event = {
-    'address_line_1': 'Austin, USA',
-    'address_line_2': '',
-    'address_line_3': '',
-    'name': 'Bitcoin Project Day at PlebLab',
-    'type': 'course',
-    'book_online': False,
-    'book_in_person': False,
-    'price_dollars': 0,
-    'description': 'Every Sunday, we open our doors to the Bitcoin Builders, from simple projects and creators to forward-thinking developers. It is a collaborative space where your Bitcoin project or startup takes center stage.',
-    'language': ['en'],
-    'links': {
-        'website': 'https://www.meetup.com/pleb-lab/events/301693658/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link',
-        'replay_url': '',
-        'live_url': ''
-    },
-    'tags': ['bitcoiner', 'general', 'hacker']
-}
+# Remove all events that have a start date before today
+today = datetime.now()
+
+existing_events = [
+    event for event in existing_events
+    if isinstance(event['start_date'], str) and datetime.strptime(event['start_date'], '%Y-%m-%d %H:%M:%S') >= today
+]
 
 # Recurring event configuration
 days_interval = 7  # Every week
-today = datetime.now().date()
 
 # Find the next Sunday
 next_sunday = today + timedelta(days=(6 - today.weekday()))
@@ -47,15 +44,35 @@ existing_event = next((event for event in existing_events if event['start_date']
 
 if not existing_event:
     # Create a new event if it does not exist
-    new_event = base_event.copy()
-    new_event['start_date'] = next_sunday.strftime('%Y-%m-%d 14:00:00')
-    new_event['end_date'] = next_sunday.strftime('%Y-%m-%d 22:00:00')  # End on the same day
-    new_event['timezone'] = 'America/Chicago'  # Texas timezone
-    existing_events.append(new_event)
+    new_event = {
+        'start_date': next_sunday.strftime('%Y-%m-%d 14:00:00'),
+        'end_date': next_sunday.strftime('%Y-%m-%d 22:00:00'),
+        'address_line_1': 'Austin, USA',
+        'address_line_2': '',
+        'address_line_3': '',
+        'name': 'Bitcoin Project Day at PlebLab',
+        'builder': 'PlebLab',
+        'type': 'course',
+        'book_online': False,
+        'book_in_person': False,
+        'price_dollars': 0,
+        'description': 'Every Sunday, we open our doors to the Bitcoin Builders, from simple projects and creators to forward-thinking developers. It is a collaborative space where your Bitcoin project or startup takes center stage.',
+        'language': ['en'],
+        'links': {
+            'website': 'https://www.meetup.com/pleb-lab/events/301693658/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link',
+            'replay_url': '',
+            'live_url': ''
+        },
+        'tags': ['bitcoiner', 'general', 'hacker'],
+        'timezone': 'America/Chicago'
+    }
 
-    # Save the updated events
+    # Only keep the next event
+    existing_events = [new_event]
+
+    # Save the updated events using the custom dumper
     with open(file_path, 'w') as file:
-        yaml.dump(existing_events, file, default_flow_style=False)
+        yaml.dump(existing_events, file, default_flow_style=False, Dumper=CustomDumper)
 
     print(f'An event has been added for the date {new_event["start_date"]}')
 else:

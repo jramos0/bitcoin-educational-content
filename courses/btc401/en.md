@@ -75,7 +75,7 @@ Bitcoin is much more than just a digital currency. It is a tool for protecting p
 
 In authoritarian regimes, where financial repression is common, Bitcoin’s **uncensorable nature** allows people to transact without fear of their funds being frozen or confiscated. Its **open-source** nature encourages global participation, fostering a community that continually improves the network.
 
-![Image](assets/en/1/5.webp)
+![Image](assets/en/1/4.webp)
 
 Despite its potential, Bitcoin faces significant challenges. In areas such as Africa and India, basic infrastructure like electricity and internet access is often lacking, limiting adoption. Moreover, **digital inclusion**—ensuring that people of all ages and educational levels can use technology—remains a major hurdle.
 
@@ -137,7 +137,7 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 
 El Salvador's adoption of Bitcoin reflects its potential as a tool for financial freedom, aligning with **Austrian Economics** by promoting voluntary adoption and decentralization. This move challenges traditional financial systems by addressing key issues: competition, monopoly, and confiscation.
 
-![Image](assets/en/1/4.webp)
+![Image](assets/en/1/5.webp)
 
 - **Competition**: Bitcoin introduces competition to the financial landscape by offering an alternative to traditional banking, allowing Salvadorans to bypass financial gatekeepers and choose services that better meet their needs.
 
@@ -187,6 +187,8 @@ Bitcoin relies on **digital signatures** using **elliptic curve cryptography** t
 Bitcoin transactions are validated and added to blocks by **miners**, who compete to solve a cryptographic puzzle using the proof-of-work algorithm. This involves finding a hash with a specific number of leading zeros by adjusting a **nonce** value until the correct hash is discovered.
 
 Each **block** in the blockchain consists of a **header** (with data like the previous block’s hash) and a list of transactions. The first block, known as the **Genesis Block**, is unique because it has no predecessor.
+
+![Image](assets/en/1/6.webp)
 
 Before transactions are included in a block, they reside in the **mempool**, where they await validation. Once validated, these transactions are added to the newly mined block and then to the blockchain.
 
@@ -2146,7 +2148,7 @@ By addressing these challenges, the Lightning Network will continue to mature, b
 
 ![Video](https://youtu.be/VXMON_nD650)
 
-### 1. Bitcoin's Resilience and Evolution
+### Bitcoin's Resilience and Evolution
 
 **Bitcoin Mascot: Honey Badger**
 Bitcoin is often personified by the honey badger, a creature renowned for its tenacity and resilience. This symbol aptly represents Bitcoin's robust and unyielding nature. Just as the honey badger can withstand venomous bites and continue to thrive, Bitcoin has demonstrated remarkable resilience against various adversities, including regulatory challenges, market volatility, and technical attacks.
@@ -2154,7 +2156,7 @@ Bitcoin is often personified by the honey badger, a creature renowned for its te
 **Bitcoin's Nature: Constantly Evolving**
 Contrary to the notion of being static, Bitcoin is in a state of perpetual evolution. Its protocol and ecosystem are continuously refined and improved by a global community of developers and researchers. This evolutionary process is driven by the need to enhance security, scalability, and functionality, ensuring that Bitcoin remains at the forefront of the cryptocurrency landscape.
 
-### 2. Innovations in the Lightning Network
+### Innovations in the Lightning Network
 
 **Lightning Network: Rapid Development**
 The Lightning Network, Bitcoin's second-layer solution for scaling and speeding up transactions, is undergoing rapid development. This layer allows for fast, low-cost transactions by enabling off-chain payment channels. Significant innovations are being integrated to bolster its efficiency and usability.
@@ -2171,7 +2173,7 @@ The L2 mechanism introduces a new method for invalidating old channel states wit
 **Bolt 12**
 Bolt 12 addresses the limitations of the current Bolt 11 invoices used in the Lightning Network. It introduces reusable invoices and automates processes, eliminating the need for HTTP and web servers by operating solely within the Lightning network. This innovation streamlines transactions and enhances user experience.
 
-### 3. Enhancing Privacy and Efficiency in Bitcoin Transactions
+### Enhancing Privacy and Efficiency in Bitcoin Transactions
 
 **Taproot, MuSig, and Schnorr Signatures**
 Taproot is a significant upgrade that consolidates transaction complexity and enhances privacy. When combined with MuSig (a protocol for multi-signature transactions) and Schnorr Signatures, Taproot improves transaction efficiency. These advancements allow Lightning transactions to resemble regular Bitcoin transactions, simplifying the process and bolstering privacy.

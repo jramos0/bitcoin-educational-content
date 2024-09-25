@@ -1659,8 +1659,6 @@ When developing Bitcoin projects, Rust is often preferred due to its safety and 
 
 BDK relies on several key dependencies, including Rust-Bitcoin and Rust-Miniscipt. Additional libraries may be employed for database management and cryptography.
 
----
-
 By understanding these components, from Bitcoin nodes and wallets to the Bitcoin Development Kit (BDK), you can navigate the Bitcoin ecosystem with greater confidence and competence. This knowledge empowers you to develop robust and secure Bitcoin applications, contributing to the ongoing evolution of this revolutionary technology.
 
 
@@ -1675,7 +1673,7 @@ By understanding these components, from Bitcoin nodes and wallets to the Bitcoin
 
 ![Video](https://youtu.be/VtpbCspK5T4)
 
-### 1. History of Payment Channels
+### History of Payment Channels
 
 Welcome to our lecture on modern payment solutions within blockchain technology. Today, we will explore the historical context and key developments of multi-hop locks (MHLs) and the Lytle Network.
 

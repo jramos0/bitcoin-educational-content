@@ -693,7 +693,7 @@ This concludes our lecture on security and device setup for Bitcoin using Specte
 
 Over more than a decade, Bitcoin has proven to be a transformative innovation in the financial world, successfully operating on a global scale and opening new possibilities in the digital economy. However, it still faces challenges that require creative and collaborative solutions. The ongoing evolution of Bitcoin presents a unique opportunity for those interested in shaping the future of decentralized finance.
 
-![Image](assets/en/1/3.webp)
+![Image](assets/en/1/8.webp)
 
 
 #### Open Problems in the Bitcoin Usability
@@ -719,6 +719,8 @@ Flexibility within the Bitcoin protocol is necessary to foster improvements in p
 ### Trade-offs in Enhancing Bitcoin
 
 #### Usability vs. Security and Privacy
+
+![Image](assets/en/1/7.webp)
 
 Efforts to enhance Bitcoin's usability often come at the expense of security and privacy. For instance, user-friendly custodial wallets, such as the Wallet of Satoshi, provide an accessible interface but compromise significantly on security and privacy. Simplified systems may increase usability but can lead to issues like address reuse, which undermines privacy. Therefore, any improvements in usability must be carefully weighed against potential security and privacy trade-offs.
 

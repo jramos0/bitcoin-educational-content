@@ -96,7 +96,7 @@ In summary, Bitcoin holds immense promise for financial empowerment and inclusio
 
 ![video](https://youtube.com/live/KIaC31YQLBA)
 
-### Cypherpunk Movement
+#### Cypherpunk Movement
 
 The **Cypherpunk movement** emerged in the late 20th century, advocating for privacy and freedom through cryptography. Pioneers like **Eric Hughes** and **Tim May** believed that strong encryption was essential to protect personal freedom in a digital world. Their ideas heavily influenced the creation of Bitcoin.
 
@@ -104,7 +104,7 @@ The **Cypherpunk movement** emerged in the late 20th century, advocating for pri
 >
 > - _Cypherpunk:_ A movement promoting privacy and freedom using cryptography.
 
-### Austrian Economics
+#### Austrian Economics
 
 At the same time, **Austrian Economics** provided the foundation for Bitcoin's monetary principles. Economists like **Ludwig von Mises** and **Friedrich Hayek** argued that sound money should be scarce, durable, and a good store of value—core principles that shaped Bitcoin’s design.
 
@@ -508,7 +508,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-### 3. **Configuration and Setup**
+#### 3. **Configuration and Setup**
 
 **Create Necessary Directories and Configuration Files**
 Create directories and configuration files required for C-Lightning.
@@ -683,6 +683,12 @@ This concludes our lecture on security and device setup for Bitcoin using Specte
 ### Open Problems in the Bitcoin ecosystem
 
 ![video](https://youtu.be/Vlm2ZdxcidA)
+
+
+Over more than a decade, Bitcoin has proven to be a transformative innovation in the financial world, successfully operating on a global scale and opening new possibilities in the digital economy. However, it still faces challenges that require creative and collaborative solutions. The ongoing evolution of Bitcoin presents a unique opportunity for those interested in shaping the future of decentralized finance.
+
+![Image](assets/en/1/3.webp)
+
 
 ### Open Problems in the Bitcoin Usability
 

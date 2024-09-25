@@ -1113,11 +1113,11 @@ Running a Bitcoin node is a powerful way to participate in the Bitcoin network, 
 
 ![video](https://youtu.be/okvV9hqDOtM)
 
-### 1. Parsing Bitcoin Blocks and Transactions in Rust
-
-#### Objective
-
 The primary goal of this lecture is to guide you through the process of parsing a Bitcoin block by coding a parser in Rust. This involves understanding the structure of Bitcoin blocks and transactions, and implementing the necessary logic to extract and interpret this data.
+
+### Parsing Bitcoin Blocks and Transactions in Rust
+
+
 
 #### Components to Parse
 
@@ -1206,7 +1206,7 @@ To ensure our parser works correctly:
 - Compare parsed data against known block details (e.g., from mempool.space).
 - Validate that parsed transaction counts and block details match expected values.
 
-### 2. Handling Special Cases and Script Parsing
+### Handling Special Cases and Script Parsing
 
 #### Implementation of 'parse' Function
 
@@ -1366,7 +1366,7 @@ For consensus-critical applications, it is recommended to use existing libraries
 
 ![libraries](assets/en/3/9.webp)
 
-### 3. Efficiency and Security in Bitcoin Mining
+### Efficiency and Security in Bitcoin Mining
 
 #### Efficiency in Mining
 

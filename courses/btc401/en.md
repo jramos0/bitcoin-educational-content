@@ -75,6 +75,8 @@ Bitcoin is much more than just a digital currency. It is a tool for protecting p
 
 In authoritarian regimes, where financial repression is common, Bitcoin’s **uncensorable nature** allows people to transact without fear of their funds being frozen or confiscated. Its **open-source** nature encourages global participation, fostering a community that continually improves the network.
 
+![Image](assets/en/1/5.webp)
+
 Despite its potential, Bitcoin faces significant challenges. In areas such as Africa and India, basic infrastructure like electricity and internet access is often lacking, limiting adoption. Moreover, **digital inclusion**—ensuring that people of all ages and educational levels can use technology—remains a major hurdle.
 
 > **Definitions:**
@@ -134,6 +136,8 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 ### Bitcoin in El Salvador
 
 El Salvador's adoption of Bitcoin reflects its potential as a tool for financial freedom, aligning with **Austrian Economics** by promoting voluntary adoption and decentralization. This move challenges traditional financial systems by addressing key issues: competition, monopoly, and confiscation.
+
+![Image](assets/en/1/4.webp)
 
 - **Competition**: Bitcoin introduces competition to the financial landscape by offering an alternative to traditional banking, allowing Salvadorans to bypass financial gatekeepers and choose services that better meet their needs.
 
@@ -744,15 +748,15 @@ Simplifying user interactions with Bitcoin and the Lightning Network while maint
 
 Creating educational materials to improve Bitcoin's usability, security, and privacy is impactful. Educating users on best practices and the underlying principles of Bitcoin can empower them to make informed decisions and enhance their overall experience with the network.
 
-### Layer 1 and Layer 2 Changes
+**Layer 1 and Layer 2 Changes**
 
 Innovations at the base layer (Layer 1) are challenging but critical for the long-term evolution of Bitcoin. Layer 2 solutions, like the Lightning Network, allow for more experimental changes and can address scalability and privacy issues more flexibly. Both layers play a crucial role in Bitcoin's ongoing development.
 
-### Consensus Coordination
+**Consensus Coordination**
 
 Changes to Bitcoin's protocol require significant coordination and community consensus. The decentralized nature of Bitcoin makes this process inherently challenging. Effective coordination and clear communication are essential to navigate the complexities of protocol changes and ensure the successful adoption of improvements.
 
-### Scalability Challenges
+**Scalability Challenges**
 
 Achieving global consensus and managing complex secondary layers, such as the Lightning Network, present scalability challenges. These issues must be addressed to ensure Bitcoin can accommodate increasing transaction volumes while maintaining its core principles of security and decentralization.
 

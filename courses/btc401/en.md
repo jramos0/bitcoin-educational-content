@@ -781,7 +781,7 @@ A quintessential example of reliability engineering can be traced back to the 18
 
 Unlike reliability, security deals with intentional threats. For instance, a 256-bit cryptographic key provides a mathematical guarantee of security due to the infeasibility of brute-forcing it. Security measures must account for different threat models, from physical tampering to sophisticated cyber-attacks.
 
-### Real-World Applications
+#### Real-World Applications
 
 Consider the process of creating and storing Bitcoin keys using paper wallets. While paper wallets can be secure, they are susceptible to physical damage and tampering. Ensuring the integrity of such wallets requires tamper-evident methods and robust verification protocols.
 
@@ -1106,7 +1106,7 @@ Running a Bitcoin node is a powerful way to participate in the Bitcoin network, 
 
 ![video](https://youtu.be/okvV9hqDOtM)
 
-### Parsing Bitcoin Blocks and Transactions in Rust
+### 1. Parsing Bitcoin Blocks and Transactions in Rust
 
 #### Objective
 
@@ -1199,7 +1199,7 @@ To ensure our parser works correctly:
 - Compare parsed data against known block details (e.g., from mempool.space).
 - Validate that parsed transaction counts and block details match expected values.
 
-## 2. Handling Special Cases and Script Parsing
+### 2. Handling Special Cases and Script Parsing
 
 #### Implementation of 'parse' Function
 
@@ -1359,7 +1359,7 @@ For consensus-critical applications, it is recommended to use existing libraries
 
 ![libraries](assets/en/3/9.webp)
 
-### Efficiency and Security in Bitcoin Mining
+### 3. Efficiency and Security in Bitcoin Mining
 
 #### Efficiency in Mining
 
@@ -1657,6 +1657,7 @@ BDK relies on several key dependencies, including Rust-Bitcoin and Rust-Miniscip
 
 By understanding these components, from Bitcoin nodes and wallets to the Bitcoin Development Kit (BDK), you can navigate the Bitcoin ecosystem with greater confidence and competence. This knowledge empowers you to develop robust and secure Bitcoin applications, contributing to the ongoing evolution of this revolutionary technology.
 
+
 # Lightning Network
 
 <partId>d7ac2ad7-a4b3-564f-8a8d-cfec5297b3a5</partId>
@@ -1668,11 +1669,11 @@ By understanding these components, from Bitcoin nodes and wallets to the Bitcoin
 
 ![Video](https://youtu.be/VtpbCspK5T4)
 
-### History of Payment Channels
+### 1. History of Payment Channels
 
 Welcome to our lecture on modern payment solutions within blockchain technology. Today, we will explore the historical context and key developments of multi-hop locks (MHLs) and the Lytle Network.
 
-### Overview and Historical Context
+#### Overview and Historical Context
 
 Multi-hop locks (MHLs) and the Lytle Network are advanced concepts in blockchain technology that facilitate efficient and secure micropayments across the network. Historically, the need for these innovations arose from the inefficiencies and limitations observed in the initial deployment of blockchain technologies, particularly Bitcoin. As we delve deeper, you will understand how topic-based structures and layered approaches have revolutionized blockchain transactions.
 
@@ -1757,6 +1758,8 @@ Alice must have knowledge of the network topology to decide on the payment route
 
 ![Source Routing](assets/en/4/4.webp)_Source Routing Path_
 
+#### Conclusion
+
 In summary, proper node operation ensures atomic payments, and the Lightning Network aims to address many issues faced by traditional payment systems like Ripple. By leveraging HTLCs and strategic routing, the Lightning Network provides a more scalable, efficient, and secure solution for decentralized payments.
 
 ## BOLT Review
@@ -1765,8 +1768,6 @@ In summary, proper node operation ensures atomic payments, and the Lightning Net
 <professor>another-satoshi</professor>
 
 ![Video](https://youtu.be/1aIuKBkPlkg)
-
-### Introducing Lightning Network
 
 The Bitcoin network operates as a trustless value exchange system, primarily serving as a settlement layer where transactions are recorded on a public ledger. This ensures security and immutability but comes with limitations, particularly in terms of transaction speed and fees. As a result, Bitcoin can be inefficient for everyday small transactions.
 
@@ -1778,7 +1779,7 @@ To grasp the concept better, consider the analogy of a bar tab. When you open a 
 
 In essence, the Lightning Network complements the Bitcoin network by addressing its limitations, transforming it from a mere settlement layer into a versatile system capable of handling everyday transactions efficiently.
 
-### Lightning Network Specifications
+### **Lightning Network Specifications**
 
 The Lightning Network protocol is meticulously defined through 10 BOLTs (Basis of Lightning Technology). These BOLTs were agreed upon during a conference in Milan and serve as the foundation for various implementations of the Lightning Network.
 
@@ -1892,8 +1893,6 @@ In conclusion, understanding the Second Layer Importance, Lightning Network Spec
 
 ![Video](https://youtu.be/a0Q_5dzpqKw)
 
-### The Lightning Network Clients
-
 The Lightning Network (LN) represents a significant breakthrough in Bitcoin scalability and transaction speed. LN clients, typically referred to as Lightning wallets, are specialized software or apps that enable users to conduct transactions through the Lightning Network. These wallets serve as a crucial interface between the user and the LN, facilitating instantly settled, low-fee transactions by leveraging off-chain paths.
 
 Lightning wallets are designed to make the process user-friendly, allowing even those with minimal technical knowledge to benefit from advanced Bitcoin functionalities. By enabling quick and cost-effective microtransactions, these wallets contribute significantly to the broader adoption of Bitcoin for everyday transactions.
@@ -1939,7 +1938,7 @@ Consider a scenario involving Alice, Bob, Charlie, and Dan - typical LN users in
 
 However, if any of these channels face depletion or connectivity issues, the transaction may fail. This illustrates the importance of maintaining balanced liquidity across the network.
 
-### Challenges in the Lightning Network:
+#### Challenges in the Lightning Network:
 
 - **Channel Depletion**: Over time, channels can become unbalanced, with funds concentrated on one side, limiting transaction capabilities.
 - **Connectivity Issues**: Efficient transaction routing requires robust network connections, which can be challenging to maintain.
@@ -2139,7 +2138,7 @@ By addressing these challenges, the Lightning Network will continue to mature, b
 
 ![Video](https://youtu.be/VXMON_nD650)
 
-### Bitcoin's Resilience and Evolution
+### 1. Bitcoin's Resilience and Evolution
 
 **Bitcoin Mascot: Honey Badger**
 Bitcoin is often personified by the honey badger, a creature renowned for its tenacity and resilience. This symbol aptly represents Bitcoin's robust and unyielding nature. Just as the honey badger can withstand venomous bites and continue to thrive, Bitcoin has demonstrated remarkable resilience against various adversities, including regulatory challenges, market volatility, and technical attacks.
@@ -2147,7 +2146,7 @@ Bitcoin is often personified by the honey badger, a creature renowned for its te
 **Bitcoin's Nature: Constantly Evolving**
 Contrary to the notion of being static, Bitcoin is in a state of perpetual evolution. Its protocol and ecosystem are continuously refined and improved by a global community of developers and researchers. This evolutionary process is driven by the need to enhance security, scalability, and functionality, ensuring that Bitcoin remains at the forefront of the cryptocurrency landscape.
 
-### Innovations in the Lightning Network
+### 2. Innovations in the Lightning Network
 
 **Lightning Network: Rapid Development**
 The Lightning Network, Bitcoin's second-layer solution for scaling and speeding up transactions, is undergoing rapid development. This layer allows for fast, low-cost transactions by enabling off-chain payment channels. Significant innovations are being integrated to bolster its efficiency and usability.
@@ -2164,7 +2163,7 @@ The L2 mechanism introduces a new method for invalidating old channel states wit
 **Bolt 12**
 Bolt 12 addresses the limitations of the current Bolt 11 invoices used in the Lightning Network. It introduces reusable invoices and automates processes, eliminating the need for HTTP and web servers by operating solely within the Lightning network. This innovation streamlines transactions and enhances user experience.
 
-### Enhancing Privacy and Efficiency in Bitcoin Transactions
+### 3. Enhancing Privacy and Efficiency in Bitcoin Transactions
 
 **Taproot, MuSig, and Schnorr Signatures**
 Taproot is a significant upgrade that consolidates transaction complexity and enhances privacy. When combined with MuSig (a protocol for multi-signature transactions) and Schnorr Signatures, Taproot improves transaction efficiency. These advancements allow Lightning transactions to resemble regular Bitcoin transactions, simplifying the process and bolstering privacy.
@@ -2220,7 +2219,7 @@ However, traditional invoices have their limitations. For example:
 > - **HTLC (Hash Time-Locked Contract)**: A type of smart contract used to ensure conditional payments within a time limit.
 > - **Onion Routing**: A privacy technique where transaction data is layered like an onion to protect the identities of the sender and recipient.
 
-### Protocols and Use Cases
+#### Protocols and Use Cases
 
 To overcome the limitations of traditional invoices, several protocols have emerged to extend and enhance Lightning payments.
 
@@ -2242,7 +2241,7 @@ Another protocol, **RGB**, further extends Lightning's functionality by enabling
 > - **RGB Protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
 > - **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
 
-### Business Models and Advanced Protocols
+#### Business Models and Advanced Protocols
 
 The advancements in Lightning payments have paved the way for new business models, particularly for **Lightning Service Providers (LSPs)**. LSPs enhance the user experience by opening channels only when payments are detected, thus reducing pre-setup complexity.
 
@@ -2262,6 +2261,7 @@ Protocols such as **LNURL** and **BOLT 12** streamline payments by reducing manu
 > - **Pre-image**: A value used to unlock an HTLC, which can also serve as an access key for services.
 > - **Auction Model**: A payment model where payments are held pending during an auction and released only when the highest bid is accepted.
 
+### Conclusion
 
 The extension and integration of Lightning payments through various protocols and use cases demonstrate the dynamic evolution of the Lightning Network. From improving the basic functionality of payments to introducing advanced business models and cryptographic protocols, the future of Lightning holds significant promise for innovation and widespread adoption.
 

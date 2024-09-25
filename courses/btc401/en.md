@@ -284,7 +284,7 @@ Understanding the realities of Bitcoin’s energy consumption, privacy features,
 
 In the first lecture of the 4th module, we explored Bitcoin's architecture and the installation of a Bitcoin Core node.
 
-### Lecture: Running a Bitcoin Node
+### Running a Bitcoin Node
 
 **1. Introduction Recap**
 Welcome back! In the previous session, we covered the fundamental concepts behind Bitcoin’s architecture, including its cryptographic foundations and the peer-to-peer network structure. Today, we'll move from theory to practice by demonstrating how to install and configure a Bitcoin node.
@@ -292,7 +292,6 @@ Welcome back! In the previous session, we covered the fundamental concepts behin
 **2. Practical Session Overview**
 In this session, Alekos will walk us through the process of setting up a Bitcoin node using a virtual machine. This hands-on tutorial is designed to familiarize you with the steps involved in configuring your node to participate in the Bitcoin network.
 
-### Running a Bitcoin Node
 
 Running a Bitcoin node involves validating transactions and blocks, enforcing consensus rules, and supporting the network’s decentralization. Setting up a node ensures you have a direct connection to the Bitcoin network, allowing you to contribute to its security and integrity.
 

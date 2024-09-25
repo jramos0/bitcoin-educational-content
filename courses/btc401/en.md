@@ -751,6 +751,8 @@ Simplifying user interactions with Bitcoin and the Lightning Network while maint
 
 Creating educational materials to improve Bitcoin's usability, security, and privacy is impactful. Educating users on best practices and the underlying principles of Bitcoin can empower them to make informed decisions and enhance their overall experience with the network.
 
+![Image](assets/en/1/3.webp)
+
 **Layer 1 and Layer 2 Changes**
 
 Innovations at the base layer (Layer 1) are challenging but critical for the long-term evolution of Bitcoin. Layer 2 solutions, like the Lightning Network, allow for more experimental changes and can address scalability and privacy issues more flexibly. Both layers play a crucial role in Bitcoin's ongoing development.

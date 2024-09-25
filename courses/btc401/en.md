@@ -2223,9 +2223,10 @@ However, traditional invoices have their limitations. For example:
 > - **HTLC (Hash Time-Locked Contract)**: A type of smart contract used to ensure conditional payments within a time limit.
 > - **Onion Routing**: A privacy technique where transaction data is layered like an onion to protect the identities of the sender and recipient.
 
-#### Protocols and Use Cases
+### Protocols and Use Cases
 
-To overcome the limitations of traditional invoices, several protocols have emerged to extend and enhance Lightning payments.
+To oBusiness Models and Advanced Protocols
+vercome the limitations of traditional invoices, several protocols have emerged to extend and enhance Lightning payments.
 
 - **LNURL**: A protocol that simplifies invoice generation by allowing for the creation of invoices dynamically, supporting fiat denomination, and enabling the use of **Lightning addresses**. This approach greatly enhances user experience by offering more flexible payment methods and integration with different use cases.
 
@@ -2241,11 +2242,12 @@ Another protocol, **RGB**, further extends Lightning's functionality by enabling
 >
 > - **LNURL**: A protocol that allows for dynamic invoice creation, making payments easier and more flexible.
 > - **BOLT 12**: An extension of Lightning that leverages Onion messaging for privacy while automating invoice fetching.
-> - **Nostr**: A decentralized platform that integrates Lightning payments for micro-transactions.
+> - **Nostr**: A decentralized platform that integrates LProtocols and Use Cases
+ightning payments for micro-transactions.
 > - **RGB Protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
 > - **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
 
-#### Business Models and Advanced Protocols
+### Business Models and Advanced Protocols
 
 The advancements in Lightning payments have paved the way for new business models, particularly for **Lightning Service Providers (LSPs)**. LSPs enhance the user experience by opening channels only when payments are detected, thus reducing pre-setup complexity.
 

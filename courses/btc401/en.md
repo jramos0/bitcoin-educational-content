@@ -928,7 +928,7 @@ In this section, we will explore the application of these concepts in real-world
 
 **Elliptic Curves in Cryptography**: Key tweaking and security are important topics, such as modifying a public key using an additional private key while ensuring security. Bitcoin's specific elliptic curve, SECP256K1, and its parameters (P and N) are fundamental to its implementation.
 
-### Conclusion
+#### Conclusion
 
 In this lecture, we've explored the fundamental cryptographic concepts that underpin the security and functionality of Bitcoin. From the critical roles of hash functions, Merkle trees, and digital signatures to the intricate mathematics of elliptic curve cryptography, these elements form the backbone of Bitcoin's decentralized network. Understanding these concepts isn't just about grasping the theory—it's about recognizing the practical implications and potential pitfalls in real-world development.
 
@@ -1402,7 +1402,6 @@ In conclusion, parsing Bitcoin blocks and transactions in Rust involves understa
 
 ![Video](https://youtu.be/xOdz9GEiShM)
 
-### Introduction
 
 Daniela Brozzoni offers a comprehensive overview of the Bitcoin Layer 1 software stack, explaining the layers that comprise the foundation of Bitcoin's protocol (ie. Bitcoin nodes and Bitcoin wallets) and how to build Bitcoin software with an introduction to Bitcoin libraries and a deep dive into Bitcoin Development Kit (BDK).
 

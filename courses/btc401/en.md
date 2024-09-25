@@ -690,23 +690,23 @@ Over more than a decade, Bitcoin has proven to be a transformative innovation in
 ![Image](assets/en/1/3.webp)
 
 
-### Open Problems in the Bitcoin Usability
+#### Open Problems in the Bitcoin Usability
 
 Bitcoin, despite its over-a-decade-long existence, still grapples with significant usability challenges. The tools and interfaces available to users often lack the maturity and user-friendliness found in more traditional financial systems. This is particularly evident in regions such as El Salvador, where Bitcoin adoption has been government-endorsed. The primary issue here is the need for better abstractions that can simplify the user experience, making Bitcoin accessible even to individuals with minimal technical know-how.
 
-### Open Problems in Scalability
+#### Open Problems in Scalability
 
 Scalability has been a persistent problem in Bitcoin's development. The network's ability to handle a high volume of transactions remains limited, often leading to high on-chain fees that can exclude some users from participating. While solutions like the Lightning Network offer some relief by enabling off-chain transactions, they do not fully address the scalability concerns. The need for more comprehensive solutions that can handle growing transaction volumes without compromising the network's integrity is evident.
 
-### Open Problems in Security
+#### Open Problems in Security
 
 Securing Bitcoin assets is a complex task, fraught with challenges. Hot wallets, which are often used for everyday transactions, pose significant security risks, especially for those who operate Lightning nodes. Additionally, planning for the inheritance of Bitcoin assets remains a convoluted and often insecure process. The complexity of these security measures can deter potential users and complicate widespread adoption.
 
-### Open Problems in Privacy
+#### Open Problems in Privacy
 
 Privacy is another critical issue within the Bitcoin ecosystem. While privacy is essential for security, Bitcoin's current framework offers limited privacy features. On-chain transactions are easily traceable, posing a risk to user anonymity. Although the Lightning Network has the potential to enhance privacy, it still requires substantial improvements. The balance between transparency and privacy is delicate and demands innovative solutions to ensure user security and privacy.
 
-### Open Problems in Flexibility
+#### Open Problems in Flexibility
 
 Flexibility within the Bitcoin protocol is necessary to foster improvements in privacy, security, and scalability. However, too much flexibility can become a vulnerability, potentially serving as an attack vector and threatening the network's decentralization. Striking the right balance is crucial to maintain the integrity and resilience of the Bitcoin protocol.
 

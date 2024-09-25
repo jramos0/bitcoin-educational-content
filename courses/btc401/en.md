@@ -2262,6 +2262,7 @@ Protocols such as **LNURL** and **BOLT 12** streamline payments by reducing manu
 > - **Pre-image**: A value used to unlock an HTLC, which can also serve as an access key for services.
 > - **Auction Model**: A payment model where payments are held pending during an auction and released only when the highest bid is accepted.
 
+
 The extension and integration of Lightning payments through various protocols and use cases demonstrate the dynamic evolution of the Lightning Network. From improving the basic functionality of payments to introducing advanced business models and cryptographic protocols, the future of Lightning holds significant promise for innovation and widespread adoption.
 
 # Bonus
@@ -2279,7 +2280,7 @@ The extension and integration of Lightning payments through various protocols an
 
 Ajelex focuses on the business aspect of Bitcoin mining, examining strategies for maintaining profitability in a competitive market. The discussion includes an analysis of operational costs, efficiency measures, and the economics driving the mining industry.
 
-### Mining Complexity and Profitability Factors
+### 1. Mining Complexity and Profitability Factors
 
 #### Technical and Strategic Factors
 
@@ -2311,7 +2312,7 @@ Miners face three primary bottlenecks: hardware availability, energy access, and
 
 ---
 
-### Evolution and Efficiency of Mining Hardware
+### 2. Evolution and Efficiency of Mining Hardware
 
 #### Historical Evolution
 
@@ -2341,7 +2342,7 @@ Aftermarket software can enhance the efficiency and functionality of mining hard
 
 ---
 
-### Regulatory and Market Dynamics in Mining Operations
+### 3. Regulatory and Market Dynamics in Mining Operations
 
 #### Regulatory Impact
 
@@ -2365,7 +2366,7 @@ Regulation plays a significant role in shaping the mining landscape. For instanc
 
    ![prop](assets/en/bonus/mining/5.webp)
 
-### Future of Mining
+#### Future of Mining
 
 As block rewards diminish, miners will increasingly rely on transaction fees. This shift raises concerns about whether transaction fees alone will provide sufficient incentives for miners to continue securing the network.
 

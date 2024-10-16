@@ -31,6 +31,32 @@ We strongly invite you to also check the other half of the Plan ₿ Network educ
 
 ![Video](https://youtu.be/8OrIOik0rjM)
 
+### Introduction to Bitcoin Education
+
+Welcome to this introductory lecture on the PlanB School. In this session, our professor walks us through their journey from a traditional fiat job to becoming a leader in the Bitcoin space, and the exciting educational initiatives we will explore throughout this course.
+
+### Overview of the Course
+
+Our professor begins by explaining how this school aims to provide a structured learning experience around Bitcoin. Starting with a background in fiat payments, the professor transitioned into the world of Bitcoin in 2013, founding several Bitcoin-related ventures. Some failed, but those experiences shaped the educational approach you will benefit from in this course.
+
+In this course, you will learn about various aspects of Bitcoin, including:
+
+- Why Bitcoin matters
+- The technical components of Bitcoin
+- The cultural and business dimensions surrounding Bitcoin
+
+### Why Bitcoin?
+
+Running a Bitcoin-based business comes with its own challenges and opportunities. The professor shares personal anecdotes about how abandoning blockchain buzzwords led to success in certain ventures. They emphasize the importance of understanding Bitcoin deeply to avoid common pitfalls.
+
+### Education Initiatives in Bitcoin
+
+The PlanB Network initiative, supported by Fulgur Ventures and Tether, is rooted in Lugano and focused on developing Bitcoin education globally. The PlanB School offers comprehensive programs covering technical aspects of Bitcoin, its history, and the business side of running Bitcoin-related ventures.
+
+### Conclusion
+
+This lecture sets the stage for a deeper dive into Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics from technical skills to the broader Bitcoin ecosystem.
+
 # WHY BITCOIN?
 
 <partId>5b57b183-31b0-5e8d-99af-fd8047007ebf</partId>

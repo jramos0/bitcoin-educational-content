@@ -17,14 +17,14 @@ level: beginner
 # hours
 # Evaluate the number of hours that it would take to
 # complete the whole course
-hours: 20
+hours: 15
 
 # professors
 # List who is/are the professor(s)
 # They are identified by their UUID
 # See /professors folder for examples
 professors:
-  - another-satoshi
+  - rabbit-hole
 
 # contributors
 # List who is/are the contributors who help format, review,
@@ -33,7 +33,6 @@ professors:
 # Currently, there are no shared record of these UUIDs
 contributors:
   - another-satoshi
-
 
 # Proofreading metadata
 original_language: fr
@@ -100,17 +99,20 @@ proofreading:
       - Henry-Da0
     reward: 31697
   - language: et
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 43096
+      - taneltheplanet
+    reward: 21548
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 53245
+      - AraleB
+    reward: 26622
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2024-09-24
     urgency: 1
     contributors_id:
-    reward: 53245
+      - MilankovicProtocol
+    reward: 26622

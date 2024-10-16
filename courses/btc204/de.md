@@ -1339,7 +1339,7 @@ Eine der am häufigsten verwendeten Heuristiken in der Kettenanalyse ist die COI
 
 ![BTC204](assets/notext/45/04.webp)
 
-In praktischer Hinsicht bedeutet dies, dass ein externer Beobachter wissen kann, dass alle zusammengeführten UTXOs wahrscheinlich derselben Person gehören und dass die Ausgabe immer dieser gleichen Person gehört. Dies ist offensichtlich problematisch für Ihre Privatsphäre, da Sie verschiedene Historien verknüpfen. Zum Beispiel stellen Sie sich vor, ich konsolidiere 3 UTXOs, die P2P gekauft wurden, und ein UTXO, das über eine Plattform durch einen KYC-Prozess gekauft wurde.
+
 In der Praxis bedeutet dies, dass ein externer Beobachter ableiten kann, dass alle konsolidierten UTXOs wahrscheinlich derselben Person gehören und dass die erzeugte einzelne Ausgabe ebenfalls ihnen gehört. Diese Situation kann Ihre Privatsphäre gefährden, indem sie verschiedene Transaktionshistorien verknüpft. Nehmen wir zum Beispiel an, ich konsolidiere 3 UTXOs, die im P2P erworben wurden, mit einem UTXO, der über eine Plattform erworben wurde, die KYC erfordert:
 ![BTC204](assets/notext/45/05.webp)
 
@@ -2093,15 +2093,11 @@ Die Berechnung des Boltzmann-Scores beinhaltet die Teilung der Anzahl der Interp
 
 $$
 \begin{align*}
-$$
-
-\begin{align*}
 \text{Interpretationen (IN.0 > OUT.3)} &= 512 \\
 \text{Gesamtinterpretationen} &= 1496 \\
 \text{Punktzahl} &= \frac{512}{1496} \\
 \text{Punktzahl} &= 34 \%
 \end{align*}
-
 $$
 
 Wenn wir das Beispiel eines Whirlpool-Coinjoin 8x8 Surge Cycle erneut betrachten, würde die Boltzmann-Tabelle wie folgt aussehen:

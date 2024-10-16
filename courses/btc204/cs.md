@@ -1319,7 +1319,7 @@ Jedna z nejčastěji používaných heuristik v analýze blockchainu je COIH (_C
 
 ![BTC204](assets/notext/45/04.webp)
 
-V praktickém smyslu to znamená, že vnější pozorovatel může vědět, že všechna sloučená UTXO pravděpodobně patří téže osobě a že výstup vždy patří této samé osobě. To je samozřejmě problematické pro vaše soukromí, protože spojujete různé historie. Například si představte, že konsoliduji 3 UTXO zakoupené P2P a s UTXO zakoupeným na platformě prostřednictvím procesu KYC.
+
 V praxi to znamená, že vnější pozorovatel může usoudit, že všechna konsolidovaná UTXO pravděpodobně patří téže osobě a že jediný vygenerovaný výstup jim také patří. Tato situace může ohrozit vaše soukromí spojením různých historií transakcí. Představme si, že konsoliduji 3 UTXO získané P2P s UTXO získaným prostřednictvím platformy vyžadující KYC:
 ![BTC204](assets/notext/45/05.webp)
 
@@ -2057,12 +2057,12 @@ Výpočet Boltzmannova skóre zahrnuje dělení počtu interpretací, ve kterýc
 
 $$
 \begin{align*}
-\begin{align*}
 \text{Interpretace (IN.0 > OUT.3)} &= 512 \\
-\text{Celkový počet interpretací} &= 1496 \\
-\text{Skóre} &= \frac{512}{1496} \\
-\text{Skóre} &= 34 \%
+\text{Celkovy pocet interpretaci} &= 1496 \\
+\text{Skore} &= \frac{512}{1496} \\
+\text{Skore} &= 34 \%
 \end{align*}
+$$
 
 Pokud se vrátíme k příkladu Whirlpool coinjoin 8x8 Surge Cycle, Boltzmannova tabulka by vypadala takto:
 

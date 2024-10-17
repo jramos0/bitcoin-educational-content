@@ -40,8 +40,9 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-22 </startDate>
-<endDate>2024-10-22 </endDate>
+<startDate>2024-10-22 14:00:00</startDate>
+<endDate>2024-10-22 15:00:00</endDate>
+<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/KVU4eztbWPs?si=lbhuMVznFxUbtX89</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -56,8 +57,9 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-22 </startDate>
-<endDate>2024-10-22 </endDate>
+<startDate>2024-10-22 16:00:00</startDate>
+<endDate>2024-10-22 17:00:00</endDate>
+<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/imUdrJKUG08?si=WthxgMNubbPV6mJc</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -72,8 +74,9 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-22 </startDate>
-<endDate>2024-10-22 </endDate>
+<startDate>2024-10-22 17:00:00</startDate>
+<endDate>2024-10-22 18:00:00</endDate>
+<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/qEBx1KwYwLg?si=JOGNC9kaUOozS8fe</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -89,8 +92,9 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-22 </startDate>
-<endDate>2024-10-22 </endDate>
+<startDate>2024-10-22 15:00:00</startDate>
+<endDate>2024-10-22 16:00:00</endDate>
+<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/xtL03QcbJz0?si=tBEr0yecmJneujxq</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -109,8 +113,9 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-23 </startDate>
-<endDate>2024-10-23 </endDate>
+<startDate>2024-10-23 14:00:00</startDate>
+<endDate>2024-10-23 15:00:00</endDate>
+<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/kEdZtFeKSIU?si=U4y__BlLnuiURtOG</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -125,8 +130,8 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-23 </startDate>
-<endDate>2024-10-23 </endDate>
+<startDate>2024-10-23 15:00:00</startDate>
+<endDate>2024-10-23 16:00:00</endDate>
 <timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/kuxGej2-wbo?si=4Pg-Kw9IiKq_S_sM</liveUrl>
@@ -142,8 +147,8 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-23 </startDate>
-<endDate>2024-10-23 </endDate>
+<startDate>2024-10-23 16:00:00</startDate>
+<endDate>2024-10-23 17:00:00</endDate>
 <timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/NVpSWFLR6GI?si=GO47CP31knli_TQ4</liveUrl>
@@ -159,8 +164,8 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-23 </startDate>
-<endDate>2024-10-23 </endDate>
+<startDate>2024-10-23 17:00:00</startDate>
+<endDate>2024-10-23 18:00:00</endDate>
 <timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/OJxw0Rxkwnc?si=H_QDRsJzBUGlzd_p</liveUrl>
@@ -176,8 +181,8 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-23 </startDate>
-<endDate>2024-10-23 </endDate>
+<startDate>2024-10-23 18:00:00</startDate>
+<endDate>2024-10-23 19:00:00</endDate>
 <timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/yMhLqgTGAIY?si=aejraunDt_aVocHC</liveUrl>

@@ -40,8 +40,8 @@ This is your chance to gain insider knowledge and become a mining professional.
 <isInPerson>true</isInPerson>
 <availableSeats>30</availableSeats>
 <liveLanguage>English</liveLanguage>
-<startDate>2024-10-22 14:00:00</startDate>
-<endDate>2024-10-22 15:00:00</endDate>
+<startDate>2024-10-22 15:00:00</startDate>
+<endDate>2024-10-22 16:00:00</endDate>
 <timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/KVU4eztbWPs?si=lbhuMVznFxUbtX89</liveUrl>

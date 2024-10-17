@@ -42,7 +42,6 @@ This is your chance to gain insider knowledge and become a mining professional.
 <liveLanguage>English</liveLanguage>
 <startDate>2024-10-22 </startDate>
 <endDate>2024-10-22 </endDate>
-<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/KVU4eztbWPs?si=lbhuMVznFxUbtX89</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -59,7 +58,6 @@ This is your chance to gain insider knowledge and become a mining professional.
 <liveLanguage>English</liveLanguage>
 <startDate>2024-10-22 </startDate>
 <endDate>2024-10-22 </endDate>
-<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/imUdrJKUG08?si=WthxgMNubbPV6mJc</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -76,7 +74,6 @@ This is your chance to gain insider knowledge and become a mining professional.
 <liveLanguage>English</liveLanguage>
 <startDate>2024-10-22 </startDate>
 <endDate>2024-10-22 </endDate>
-<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/qEBx1KwYwLg?si=JOGNC9kaUOozS8fe</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -94,7 +91,6 @@ This is your chance to gain insider knowledge and become a mining professional.
 <liveLanguage>English</liveLanguage>
 <startDate>2024-10-22 </startDate>
 <endDate>2024-10-22 </endDate>
-<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/xtL03QcbJz0?si=tBEr0yecmJneujxq</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>
@@ -115,7 +111,6 @@ This is your chance to gain insider knowledge and become a mining professional.
 <liveLanguage>English</liveLanguage>
 <startDate>2024-10-23 </startDate>
 <endDate>2024-10-23 </endDate>
-<timeZone>Europe/Rome</timeZone>
 <addressLine1>Lugano, Switzerland</addressLine1>
 <liveUrl>https://www.youtube.com/embed/kEdZtFeKSIU?si=U4y__BlLnuiURtOG</liveUrl>
 <chatUrl>https://peertube.planb.network/plugins/livechat/router/webchat/room/5da4b446-b74b-4408-bc76-7ed332de4b96</chatUrl>

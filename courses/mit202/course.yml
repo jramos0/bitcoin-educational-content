@@ -1,0 +1,19 @@
+topic: mining
+subtopic: mining
+level: advanced
+hours: 12
+
+professors:
+  - diamond-jar
+
+contributors:
+  - another-satoshi
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributors_id:
+      - Asi0Flammeus
+    reward: 0

@@ -81,6 +81,8 @@ Money, in its simplest form, is a tool used to facilitate trade and store wealth
 
 Aristotle was one of the first to define these essential characteristics of money in ancient Greece. He recognized that, for something to function effectively as money, it must be durable, divisible, portable, and intrinsically valuable. This foundation set the stage for modern economic thought on money and its role in society.
 
+![Image](assets/1/1.webp)
+
 ### Store of Value: From Gold to Bitcoin
 
 Historically, gold has been the premier store of value due to its scarcity, durability, and intrinsic worth. Gold's limited supply ensures that it holds its value over time, even in the face of inflation or economic downturns.
@@ -116,6 +118,8 @@ Bitcoin’s alignment with Austrian economic principles is one of its most compe
 - **Ludwig von Mises**: Mises expanded on Menger’s work with his Mises Regression Theorem, which traces the origin of money back to commodities with intrinsic value. Bitcoin, as a digital commodity, fits neatly into this framework.
 - **Friedrich von Hayek**: Hayek’s advocacy for the denationalization of money laid the intellectual groundwork for Bitcoin. He believed that money should be separated from government control to prevent inflation and preserve individual liberty.
 
+![Image](assets/1/2.webp)
+
 #### Marginal Utility and Bitcoin
 
 The concept of marginal utility helps explain why Bitcoin, despite its digital nature, is valuable. Marginal utility suggests that the value of an additional unit of a good decreases as the supply of that good increases. Since Bitcoin has a finite supply, its marginal utility remains high, particularly as more people adopt it.
@@ -132,6 +136,8 @@ Bitcoin is not just a product of economic theory—it is also a direct response 
 The importance of privacy in the Bitcoin network cannot be overstated. In traditional financial systems, transactions are monitored and controlled by central authorities, which can block or reverse payments. Bitcoin, by contrast, allows for pseudonymous transactions, meaning that while all transactions are recorded on the public blockchain, users’ identities are not directly tied to their Bitcoin addresses.
 
 - **Bitcoin’s Role in Financial Sovereignty**: By allowing individuals to store and transfer value without the need for a bank or government, Bitcoin provides financial sovereignty to those who may not have access to traditional financial services.
+
+![Image](assets/1/3.webp)
 
 ### Unit of Account: A New Measure of Value
 

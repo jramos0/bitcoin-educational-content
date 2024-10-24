@@ -699,11 +699,11 @@ The Bitcoin ecosystem represents a complex interplay between mining activities a
 
 The Mining Process Bitcoin mining serves as the backbone of the cryptocurrency, enabling the addition of transactions to the blockchain. The process involves solving complex computational problems using SHA-256 hash functions, typically powered by ASICs (Application-Specific Integrated Circuits). Like other energy-intensive industries, such as data centers or steel production, Bitcoin mining requires significant energy resources.
 
-![image](assets/es/chapter7/1.webp)
+![image](assets/7/1.webp)
 
 **Energy Considerations**: Bitcoin mining’s energy demand has sparked global debate, particularly concerning its environmental impact. Critics point to the high electricity consumption, especially when powered by non-renewable sources such as coal. However, approximately 60% of Bitcoin mining is now powered by sustainable energy sources, including hydroelectric and geothermal energy, as evidenced by Iceland's distinct energy mix.
 
-![image](assets/es/chapter7/2.webp)
+![image](assets/7/2.webp)
 
 Understanding the energy dynamics of Bitcoin mining is vital for recognizing its future role in the global economy. While its energy use is substantial, the industry is progressively incorporating more renewable energy sources, which offer potential environmental advantages.
 
@@ -717,7 +717,7 @@ The economics of Bitcoin mining encompass diverse business models and market str
 
 As the industry evolves, these business models adapt to market trends and technological advancements, shaping the landscape of Bitcoin mining and its economic impact.
 
-![image](assets/es/chapter7/3.webp)
+![image](assets/7/3.webp)
 
 ### Environmental and Technological Impacts of Cryptocurrency Mining
 
@@ -725,7 +725,7 @@ Cryptocurrency mining has both environmental and technological impacts that infl
 
 - **Environmental Impacts**: Concerns surrounding Bitcoin mining are often tied to its energy consumption and associated carbon footprint, particularly in regions that rely heavily on coal-powered electricity. However, growing efforts to integrate renewable energy sources, such as flared gas and hydroelectric power, are positioning Bitcoin mining as a forward-thinking energy consumer, offering innovative solutions to traditional energy use.
 
-![image](assets/es/chapter7/4.webp)
+![image](assets/7/4.webp)
 
 - **Technological Impacts**: Technological advances in mining equipment have significantly increased efficiency over time. The shift from early CPU-based mining to the use of highly specialized ASICs has industrialized the process, making it both capital- and energy-intensive. Additionally, the development of supporting infrastructure, such as data centers and energy grids, has had a significant impact on the technological landscape surrounding mining operations.
 
@@ -755,25 +755,25 @@ The interplay between AI and the Lightning Network presents new entrepreneurial 
 
 The open-source movement, deeply rooted in the principles of transparency and community collaboration, has significantly shaped modern technology. It began as a counter-movement to proprietary software, championed by figures like Richard Stallman, who founded the Free Software Foundation (FSF) in the 1980s. The FSF advocated for software freedom, encapsulated in the concept of "free software," which emphasized the freedom to study, modify, and distribute code.
 
-![image](assets/es/chapter7/5.webp)
+![image](assets/7/5.webp)
 
 #### Impact of Free and Open Source Software (FOSS)
 
 The impact of free and open-source software (FOSS) on technology is profound and multifaceted. Major projects like Linux, Apache, and Bitcoin itself exemplify the transformative power of open-source development. These projects illustrate how open collaboration can lead to robust, secure, and innovative solutions. The open-source model fosters an environment where developers can freely contribute, leading to a diverse range of perspectives and solutions.
 
-![image](assets/es/chapter7/6.webp)
+![image](assets/7/6.webp)
 
 #### Licensing and Business Models
 
 Open-source software employs various licenses, such as the GPL, MIT, and newer models like BSL, which balance openness with commercial strategy. Business models in the open-source realm are diverse, ranging from the OpenCore model to SaaS and marketplace platforms. Companies like Red Hat have demonstrated profitability through service-based models, proving that open-source can be both sustainable and lucrative.
 
-![image](assets/es/chapter7/7.webp)
+![image](assets/7/7.webp)
 
 #### Technological and Market Impact
 
 Open-source software has become integral to the tech industry, prevalent in DevOps, IT operations, and data analytics. It promotes healthy market competition and transparency, enabling developers to build on existing solutions and innovate freely. The open-source ethos supports technological advancements by facilitating integration and interoperability through open APIs and collaborative development.
 
-![image](assets/es/chapter7/8.webp)
+![image](assets/7/8.webp)
 
 ### Bitcoin's Scalability and the Role of the Lightning Network
 
@@ -819,13 +819,13 @@ Integrating Bitcoin into investment portfolios involves evaluating its risk-retu
 
 Exploring Bitcoin's market dynamics involves understanding the micro and macroeconomic factors that influence its price. Bitcoin's halving cycle, occurring every four years, significantly impacts its supply-demand equilibrium, often leading to price appreciation. This cyclical pattern aligns with historical returns, where post-halving periods witness notable gains, despite skepticism from traditional financial institutions.
 
-![image](assets/es/chapter8/2.webp)
+![image](assets/8/2.webp)
 
 #### Price Analysis and Predictive Models
 
 Price forecasting in Bitcoin markets necessitates sophisticated modeling techniques. While models like the stock-to-flow are popular, their predictive power is limited by market inefficiencies and collective behavior. The recursive nature of these models means that as they become widely adopted, they may alter market dynamics, challenging their accuracy. Thus, alternative models focusing on Bitcoin adoption metrics, such as user count and transaction volume, are crucial for nuanced analysis.
 
-![image](assets/es/chapter8/3.webp)
+![image](assets/8/3.webp)
 
 #### External Influences and Institutional Dynamics
 
@@ -835,7 +835,7 @@ Global liquidity, influenced by central bank policies, plays a pivotal role in B
 
 Bitcoin's expanding role in global financial systems presents both opportunities and challenges. Its potential to serve as a global reserve asset, akin to gold, underscores its transformative impact on monetary policy. Despite its current market presence being relatively small compared to large asset managers, Bitcoin's potential for growth remains substantial.
 
-![image](assets/es/chapter8/4.webp) //imagen assets
+![image](assets/8/4.webp) //imagen assets
 
 #### Global Adoption and Legal Considerations
 
@@ -869,7 +869,7 @@ One of the central legal challenges surrounding Bitcoin is its classification. D
 
 - **El Salvador**: El Salvador became the first country to adopt Bitcoin as legal tender in 2021. This groundbreaking move integrates Bitcoin into the country's monetary system, allowing it to be used for everyday transactions alongside the U.S. dollar. The decision has sparked global debates, especially regarding its potential impact on El Salvador's economy, financial stability, and sovereignty.
 
-![image](assets/es/chapter8/5.webp) //Europa Bitcoin
+![image](assets/8/5.webp) //Europa Bitcoin
 
 ### Legal Precedents and Court Rulings
 
@@ -881,7 +881,7 @@ Several court rulings worldwide have established legal precedents in the classif
 
 - **Fraud and Money Laundering**: Cases such as Silk Road and other fraud-related trials have linked Bitcoin with criminal activities. Courts have tackled issues of whether Bitcoin qualifies as "money" for purposes of prosecution under money laundering laws, often ruling based on local statutes and case-specific interpretations.
 
-![image](assets/es/chapter8/6.webp) // silk road image
+![image](assets/8/6.webp) // silk road image
 
 ### Regulatory Approaches
 
@@ -893,7 +893,7 @@ Different countries have implemented diverse approaches to regulating Bitcoin, o
 
 - **Taxation**: Many jurisdictions, including the U.S. and the EU, tax Bitcoin as a form of property, subjecting transactions to capital gains tax. In contrast, countries like Germany offer more favorable treatment, exempting Bitcoin held for over a year from capital gains tax.
 
-![image](assets/es/chapter8/7.webp) //taxes image
+![image](assets/8/7.webp) //taxes image
 
 ### Challenges in Legal Frameworks
 
@@ -937,7 +937,7 @@ A successful Bitcoin startup hinges on finding the right balance between leaders
 
 Understanding one's role within this spectrum can define the company's culture and directly influence its trajectory. An entrepreneur in the Bitcoin space must be able to inspire belief in their mission while also making pragmatic decisions to keep the venture moving forward.
 
-![image](assets/es/chapter9/1.webp)
+![image](assets/9/1.webp)
 
 ### Personal Capability and Skill Acquisition
 
@@ -959,13 +959,13 @@ Navigating the Bitcoin market is like stepping into a still-maturing ecosystem w
 
 Many new entrepreneurs fall victim to the Dunning-Kruger effect, overestimating their knowledge of the Bitcoin market. The key is to understand the typical journey of Bitcoiners—those new to the space often begin with skepticism, move through stages of discovery, and eventually become dedicated users. Recognizing where the target audience is on this journey can inform effective communication and product development strategies.
 
-![image](assets/es/chapter9/2.webp)
+![image](assets/9/2.webp)
 
 #### Axioms for Bitcoin Entrepreneurs
 
 A critical aspect of engaging the Bitcoin market is understanding the diversity within the audience. From tech-savvy developers to those interested in the financial benefits, entrepreneurs must tailor their approach to different segments. Knowing how to speak to newcomers versus seasoned Bitcoiners can define a startup's success. The Bitcoin market requires a nuanced understanding of its participants and a strategic engagement plan to navigate its unique dynamics.
 
-![image](assets/es/chapter9/3.webp)
+![image](assets/9/3.webp)
 
 #### Market Engagement and Dynamics
 
@@ -1003,7 +1003,7 @@ Bitcoin startups face complex regulatory environments that vary across regions. 
 
 The Bitcoin ecosystem thrives on personal connections and community involvement. Participating in conferences, hackathons, and meetups is essential for building relationships with potential users, investors, and collaborators. Creating a loyal community around a product or brand not only aids in gaining early traction but also helps in refining the product based on real user feedback. In Bitcoin, where the audience values authenticity and transparency, building a community can be as crucial as building the product itself.
 
-![image](assets/es/chapter9/4.webp)
+![image](assets/9/4.webp)
 
 ### Future Outlook for Bitcoin Startups
 
@@ -1031,19 +1031,19 @@ Free Libre Open Source Software (FLOSS) is a paradigm that combines the principl
 
 In the late 1960s, the software industry began to recognize the business potential of software products, leading to the introduction of software copyrights in 1974. This shift in perception transformed software into a valuable asset, with companies like AT&T initially offering Unix systems for free before transitioning to a commercial model. This commercialization prompted resistance from the hacker community, resulting in pivotal moments like Richard Stallman's launch of the GNU Project in 1983 and the publication of the GNU Manifesto in 1985. These efforts laid the groundwork for the Free Software Movement and the subsequent formation of the Free Software Foundation.
 
-![image](assets/es/chapter9/5.webp)
+![image](assets/9/5.webp)
 
 #### Key Principles and Expansion of FLOSS
 
 The Free Software Definition emphasizes four key freedoms that ensure software remains free and adaptable. The introduction of the GNU General Public License (GPL) in 1989 further enforced these principles, requiring that derivative works remain open and accessible. The release of the Linux kernel by Linus Torvalds in 1991 marked a significant acceleration in free software development, leading to the proliferation of FLOSS projects throughout the 1990s. This expansion was fueled by the increasing accessibility of the internet, enabling global collaboration and innovation.
 
-![image](assets/es/chapter9/6.webp)
+![image](assets/9/6.webp)
 
 #### The Rise of Open Source and its Market Impact
 
 By the late 1990s, the term "open source" gained prominence as a more commercially palatable alternative to "free software." This rebranding, coupled with significant milestones like Netscape's release of the Mozilla source code, led to the establishment of the Open Source Initiative. This shift emphasized the practical benefits of open source software, encouraging diverse licensing and widespread adoption. The evolution of FLOSS has been critical in shaping the software industry, influencing both the development methodologies and market strategies of companies worldwide.
 
-![image](assets/es/chapter9/7.webp)
+![image](assets/9/7.webp)
 
 ### FLOSS in the Modern Context
 

@@ -1,0 +1,26 @@
+id: ec915b5f-5506-4629-b90c-5fc1e018aefd
+start_date: 2025-09-25 13:00:00
+end_date: 2025-09-28 21:00:00
+timezone: America/Sao_Paulo
+address_city_country: São Paulo, Rio de Janeiro, Brasil
+name: Suriname Decentralized Conference 2025
+type: conference
+description: "Welcome to Suriname Decentralized, the premier conference
+  dedicated to exploring the future of Bitcoin and decentralized technologies in
+  the heart of Suriname. Get ready for four days packed with expert talks,
+  hands-on workshops, a hackathon, and the SuriPalooza festival!\r
+
+  \r
+
+  Suriname is ready for a major shift and is all about innovation. Our nation
+  stands at the threshold of a new era, embracing the potential of decentralized
+  money with Bitcoin and decentralized social media and more with Nostr."
+language:
+  - pt
+  - en
+links:
+  website: https://surinamedecentralized.com/
+tags:
+  - adoption
+  - finance
+  - decentralization

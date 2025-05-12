@@ -1,0 +1,17 @@
+id: cdf858dd-9356-4f59-9866-c6d32061aced
+start_date: 2025-05-12 10:43:09
+end_date: 2025-05-12 10:43:09
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: Test Event
+type: conference
+description: skdjhvbsjf
+language:
+  - fr
+  - et
+links:
+  website: sinweb.com
+tags:
+  - proof-of-work
+  - decentralization
+  - keys

@@ -1,0 +1,17 @@
+id: e09a6e20-bdc3-4502-b0df-db784e7c8343
+start_date: 2025-05-12 10:28:11
+end_date: 2025-05-12 10:28:11
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: TimezoneTest
+type: conference
+description: ojsdcnksjdn
+language:
+  - fr
+  - it
+links:
+  website: sinweb.com
+tags:
+  - keys
+  - DIY
+  - offchain

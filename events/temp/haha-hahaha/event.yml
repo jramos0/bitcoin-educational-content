@@ -1,0 +1,16 @@
+id: f7c1b592-3d6d-4fcb-8092-180feaaa0b0b
+start_date: 2025-05-21 16:00:00
+end_date: 2025-05-29 19:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: haha hahaha
+type: meetup
+description: sjsjsjsjsjs
+language:
+  - en
+links:
+  website: hello
+tags:
+  - smart-contracts
+  - offchain
+  - DIY

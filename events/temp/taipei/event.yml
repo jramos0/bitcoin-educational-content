@@ -1,0 +1,16 @@
+id: 5419ee3d-fc41-49f4-9bb3-009e782753cf
+start_date: 2025-05-21 19:00:00
+end_date: 2025-05-24 23:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei , Taiwan
+name: taipei
+type: meetup
+description: jajajajaajajaj
+language:
+  - en
+links:
+  website: www.com
+tags:
+  - mining
+  - software
+  - backup

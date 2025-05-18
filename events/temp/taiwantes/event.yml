@@ -1,0 +1,16 @@
+id: 5b05b34d-fb66-4820-bc0a-c43946474fcc
+start_date: 2025-05-23 19:00:00
+end_date: 2025-05-24 03:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+name: taiwantes
+type: meetup
+description: testing the component
+language:
+  - vi
+links:
+  website: ww..wcvv
+tags:
+  - mining
+  - software
+  - lightning

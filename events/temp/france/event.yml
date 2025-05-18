@@ -1,0 +1,16 @@
+id: e3ad35f8-9714-4db7-a6e8-db3a071e52d2
+start_date: 2025-05-21 16:00:00
+end_date: 2025-05-20 19:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: france
+type: lecture
+description: eee
+language:
+  - vi
+links:
+  website: www.com
+tags:
+  - node
+  - market-trends
+  - lightning

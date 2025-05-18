@@ -1,0 +1,16 @@
+id: be76876f-74fe-4bc9-84be-ee2777c6318a
+start_date: 2025-05-23 19:00:00
+end_date: 2025-05-25 23:00:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+name: tai2
+type: meetup
+description: jajajjajajja
+language:
+  - ru
+links:
+  website: www.com
+tags:
+  - decentralization
+  - onchain
+  - DIY

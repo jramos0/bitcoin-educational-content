@@ -1,0 +1,16 @@
+id: ffce26af-690f-4e7b-ba31-87cd614ca5c0
+start_date: 2025-05-19 08:00:00
+end_date: 2025-05-19 10:30:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: Plebs Together Strong
+type: meetup
+description: yyyyy
+language:
+  - nb
+links:
+  website: www.com
+tags:
+  - onchain
+  - smart-contracts
+  - hardware

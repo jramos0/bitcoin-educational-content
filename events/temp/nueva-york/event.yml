@@ -1,0 +1,16 @@
+id: a979022b-bd94-4263-8649-7e56db2387c8
+start_date: 2025-05-21 19:00:00
+end_date: 2025-05-21 20:00:00
+timezone: America/New_York
+address_city_country: New York, USA
+name: nueva york
+type: meetup
+description: jajajaja
+language:
+  - en
+links:
+  website: mwmw
+tags:
+  - smart-contracts
+  - node
+  - wallets

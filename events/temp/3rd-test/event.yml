@@ -1,0 +1,16 @@
+id: 118bfe2e-2e39-4f28-b94f-a7d1c74a0384
+start_date: 2025-05-22 18:00:00
+end_date: 2025-05-23 22:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: 3rd test
+type: meetup
+description: Jajajaj
+language:
+  - pt
+links:
+  website: w
+tags:
+  - education
+  - lightning
+  - market-trends

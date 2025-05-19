@@ -1,0 +1,16 @@
+id: 2a39ec69-34b6-446a-864b-cf7a8afa56ce
+start_date: 2025-05-20 16:00:00
+end_date: 2025-05-22 19:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: vamooo
+type: meetup
+description: jajajajaa
+language:
+  - fr
+links:
+  website: www.com
+tags:
+  - mining
+  - node
+  - backup

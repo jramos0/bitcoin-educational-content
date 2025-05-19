@@ -1,0 +1,16 @@
+id: 2ce48147-82b1-4202-8ccd-48921fc0562a
+start_date: 2025-05-20 18:00:00
+end_date: 2025-05-22 22:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: fe
+type: meetup
+description: hello
+language:
+  - en
+links:
+  website: wj
+tags:
+  - smart-contracts
+  - education
+  - node

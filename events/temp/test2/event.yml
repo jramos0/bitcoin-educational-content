@@ -1,0 +1,16 @@
+id: e49d29ae-6236-4cd9-96b1-ed1bc4e4b25d
+start_date: 2025-05-20 14:00:00
+end_date: 2025-05-20 22:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: test2
+type: meetup
+description: test event
+language:
+  - fr
+links:
+  website: www.com
+tags:
+  - market-trends
+  - smart-contracts
+  - investment

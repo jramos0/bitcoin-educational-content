@@ -1,0 +1,16 @@
+id: ad1f867f-0143-45b1-956d-b9726fb4c39c
+start_date: 2025-05-22 16:00:00
+end_date: 2025-05-22 23:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: 2nd test
+type: meetup
+description: Test france222
+language:
+  - en
+links:
+  website: https://lu.ma/mjjkr1wh
+tags:
+  - lightning
+  - onchain
+  - smart-contracts

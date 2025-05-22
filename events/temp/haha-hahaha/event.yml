@@ -1,0 +1,16 @@
+id: c9683daf-4b51-4d78-8c16-271f340bdd4b
+start_date: 2025-05-21 19:00:00
+end_date: 2025-05-21 21:05:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: haha hahaha
+type: meetup
+description: hahahah
+language:
+  - pt
+links:
+  website: www.com
+tags:
+  - lightning
+  - market-trends
+  - onchain

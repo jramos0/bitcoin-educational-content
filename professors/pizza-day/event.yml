@@ -1,0 +1,16 @@
+id: 17ade25a-06a0-4f2f-b232-23ccffd8baa8
+start_date: 2025-05-23 08:00:00
+end_date: 2025-05-23 08:30:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: Pizza Day
+type: conference
+description: test event
+language:
+  - fr
+links:
+  website: sv.com
+tags:
+  - mining
+  - wallets
+  - lightning

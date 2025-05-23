@@ -1,0 +1,17 @@
+id: bc97af69-9e45-4bfa-b433-7efeed2b589e
+start_date: 2025-05-22 20:44:00
+end_date: 2025-05-22 20:44:00
+timezone: America/El_Salvador
+address_city_country: San Salvador
+name: Test Event
+type: conference
+description: test
+language:
+  - es
+  - fr
+links:
+  website: cuboplus.academy
+tags:
+  - keys
+  - proof-of-work
+  - mining

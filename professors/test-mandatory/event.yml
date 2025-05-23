@@ -1,0 +1,16 @@
+id: a39ef2dc-a1ef-4bf7-90dc-28dad05fd127
+start_date: 2025-05-23 06:49:00
+end_date: 2025-05-23 06:49:00
+timezone: Asia/Taipei
+address_city_country: Taipei, Taiwan
+name: test mandatory
+type: meetup
+description: jsjsjsjjjaajaj
+language:
+  - en
+links:
+  website: ""
+tags:
+  - keys
+  - wallets
+  - offchain

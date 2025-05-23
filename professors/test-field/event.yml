@@ -1,0 +1,16 @@
+id: 64d0d605-2f5b-4b1e-8ab3-b0c892e8ef38
+start_date: 2025-05-23 09:30:00
+end_date: 2025-05-24 09:30:00
+timezone: Asia/Kolkata
+address_city_country: Goa, India
+name: test field
+type: conference
+description: This is a test
+language:
+  - en
+links:
+  website: ""
+tags:
+  - wallets
+  - investment
+  - ""

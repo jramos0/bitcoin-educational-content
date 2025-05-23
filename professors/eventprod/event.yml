@@ -1,0 +1,17 @@
+id: dfb8a663-1242-47fa-bc2e-c4f0b070120a
+start_date: 2025-05-22 07:40:00
+end_date: 2025-05-22 07:40:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: EventProd
+type: conference
+description: test event from prod
+language:
+  - fr
+  - de
+links:
+  website: nohay.com
+tags:
+  - keys
+  - wallets
+  - decentralization

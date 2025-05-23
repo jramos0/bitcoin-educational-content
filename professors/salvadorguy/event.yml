@@ -1,0 +1,16 @@
+id: 49e81aad-2694-4e26-958e-4f6fd2e4836d
+start_date: 2025-05-27 07:00:00
+end_date: 2025-05-27 08:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: salvadorguy
+type: conference
+description: "This is a test "
+language:
+  - en
+links:
+  website: sv.com
+tags:
+  - onchain
+  - finance
+  - keys

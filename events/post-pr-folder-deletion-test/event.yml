@@ -1,0 +1,17 @@
+id: 27071fe3-b18d-4ced-89bd-bd3134e65ead
+start_date: 2025-05-26 16:50:00
+end_date: 2025-05-26 16:50:00
+timezone: Europe/Paris
+address_city_country: Paris
+name: Post PR Folder Deletion Test
+type: conference
+description: test description
+language:
+  - fr
+  - en
+links:
+  website: sinweb.com
+tags:
+  - node
+  - node
+  - security

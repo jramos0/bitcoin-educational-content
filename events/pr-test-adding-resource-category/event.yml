@@ -1,0 +1,17 @@
+id: 2c5e5561-d620-4237-82a9-d11c814e7c98
+start_date: 2025-05-30 09:50:00
+end_date: 2025-05-30 09:50:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: PR Test Adding Resource Category
+type: conference
+description: ""
+language:
+  - nb
+  - es
+links:
+  website: nohay.com
+tags:
+  - backup
+  - onchain
+  - investment

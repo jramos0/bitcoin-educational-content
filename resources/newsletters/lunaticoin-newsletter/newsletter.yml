@@ -1,15 +1,13 @@
 id: 96b83ac3-77b2-4dcb-951b-a974c3d73709
-title: "Lunaticoin Newsletter"
+title: Lunaticoin Newsletter
 author: Lunaticoin
-level: beginner
+level: expert
 publication_date: 2022-01-01
 link:
   - website: https://subscribepage.io/kAg3GD
-language: es
+language: en
 description: |
-  Recibe en tu email todo el valor condensado de mis invitados y no dejes que una red social filtre el contenido por ti:
-
-  En las redes sociales todos somos demasiado dependientes del algoritmo de la censura en la sombra. Pudiéndome comunicar contigo vía email me salto la arbitrariedad del dictador benévolo de turno. 
+  Ultra long test description to check whether or not it still adds strange symbols and unnecessary line breaks. Hopefully it is all working properly now. 
 contributor_names:
   - jramos0
 tags:

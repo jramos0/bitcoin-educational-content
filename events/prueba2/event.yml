@@ -1,0 +1,16 @@
+id: a992f576-96ac-490a-831e-25f1a830bcc5
+start_date: 2025-06-27 16:30:00
+end_date: 2025-06-27 16:30:00
+timezone: America/El_Salvador
+address_city_country: San Salvador
+name: Prueba2
+type: meetup
+description: Testting
+language:
+  - en
+links:
+  website: ww.com
+tags:
+  - adoption
+  - backup
+  - lightning

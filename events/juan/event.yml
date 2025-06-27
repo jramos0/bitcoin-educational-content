@@ -1,0 +1,16 @@
+id: 83b75d10-7461-4b1a-8ea3-0ae75e538642
+start_date: 2025-06-27 16:43:00
+end_date: 2025-06-27 16:43:00
+timezone: America/El_Salvador
+address_city_country: San Salvador
+name: juan
+type: conference
+description: jajajajaja
+language:
+  - en
+links:
+  website: www.c0
+tags:
+  - education
+  - node
+  - backup

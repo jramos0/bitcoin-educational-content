@@ -1,0 +1,16 @@
+id: 44a96905-9256-4b85-bbd0-bb2d4fa76ec6
+start_date: 2025-06-28 23:21:00
+end_date: 2025-06-28 23:21:00
+timezone: Africa/Harare
+address_city_country: ha
+name: test
+type: meetup
+description: eeee
+language:
+  - en
+links:
+  website: www.com
+tags:
+  - onchain
+  - investment
+  - market-trends

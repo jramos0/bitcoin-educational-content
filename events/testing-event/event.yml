@@ -1,0 +1,16 @@
+id: fc8e709b-341a-47b8-8d85-63a311d9f402
+start_date: 2025-07-01 19:00:00
+end_date: 2025-07-01 21:00:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+name: Testing event
+type: conference
+description: Testing
+language:
+  - es
+links:
+  website: ww.c.c
+tags:
+  - market-trends
+  - finance
+  - backup

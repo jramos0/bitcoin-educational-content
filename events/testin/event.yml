@@ -1,0 +1,16 @@
+id: b42f343c-876b-47c1-a322-be009590951c
+start_date: 2025-07-04 23:43:00
+end_date: 2025-07-12 23:43:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+name: testin
+type: exam
+description: jajajajaja
+language:
+  - en
+links:
+  website: www.com
+tags:
+  - software
+  - node
+  - mining

@@ -1,11 +1,11 @@
-id: a2a33771-3f11-4ad7-96db-b20cf0b88c25
+id: b34a4969-b29a-4223-a2a6-d6e51a6ccd93
 start_date: 2025-05-07 14:00:00
 end_date: 2025-05-07 16:00:00
 timezone: Europe/Rome
 address_city_country: Lugano, Switzerland
 address_line_2:
 address_line_3:
-name: Personal Branding 101 - Efrat Fenigson
+name: Communicating Bitcoin Effectively
 type: Lecture
 book_online: true
 book_in_person: true
@@ -14,12 +14,12 @@ available_seats: 10
 language:
   - en
 links:
-  replay_url: https://www.youtube.com/embed/joztvldmBGo?si=tBEr0yecmJneujxq
+  replay_url: https://www.youtube.com/embed/M1r6YTZgL7M?si=tBEr0yecmJneujxq
   live_url:
   chat_url:
 tags:
   - user-friendly
-  - business
-  - innovation
+  - guides
+  - easy-explain
 
 course_related: 8bb3c3bd-7d3e-4c3c-a46a-d3631bb91924

@@ -1,0 +1,8 @@
+question: What innovation did Bitcoin introduce to solve the double spending problem in digital currencies?
+answer: Proof-of-work
+wrong_answers:
+  - Delegated verification
+  - Smart contracts
+  - Reusable signatures
+explanation: |
+  Bitcoin solved the double spending problem by introducing proof-of-work, requiring miners to expend computational resources to validate transactions and add new blocks to the blockchain, making it economically impractical to manipulate the transaction history

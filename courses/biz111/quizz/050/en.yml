@@ -1,0 +1,8 @@
+question: What are the key trade-offs of the layered protocol design?
+answer: Lower layers prioritize stability and security at the expense of innovation, while higher layers enable rapid experimentation at the expense of simplicity
+wrong_answers:
+  - Lower layers handle complex computations at the expense of speed, while higher layers optimize for performance at the expense of security
+  - Lower layers maintain throughput at the expense of decentralization, while higher layers increase trustlessness at the expense of scalability
+  - Lower layers ensure consensus at the expense of flexibility, while higher layers enable features at the expense of reliability
+explanation: |
+  Layered protocol design allows for specialization and modularity. Lower layers focus on fundamental aspects like security and consensus, while higher layers can be built on top to add new features and functionality. This allows for innovation without compromising the stability of the underlying layers

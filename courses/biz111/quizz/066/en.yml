@@ -1,0 +1,8 @@
+question: What is the correct distinction between "Bitcoin" (with an uppercase B) and "bitcoin" (with a lowercase b)?
+answer: Bitcoin refers to the protocol and network, while bitcoin refers to the currency unit
+wrong_answers:
+  - Bitcoin is the original cryptocurrency, while bitcoin refers to all forks like Bitcoin Cash
+  - Bitcoin is used when discussing it in terms of investments, while bitcoin is used to indicate payments
+  - Bitcoin refers to the blockchain, while bitcoin refers to Lightning payments
+explanation: |-
+  The capitalization convention distinguishes between Bitcoin (with a capital B) as the overall system, protocol, and network, versus bitcoin (lowercase b) as the currency unit itself. It is similar to how we might distinguish between Internet (the network) and internet connections, or the Dollar (the system) versus dollars (the units)

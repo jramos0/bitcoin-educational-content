@@ -1,0 +1,8 @@
+question: What is BIP 21?
+answer: A standardized format for Bitcoin payment URIs for Lightning invoices and Bitcoin addresses
+wrong_answers:
+  - A protocol for encoding Bitcoin transaction metadata to create fallback on-chain
+  - A specification for Bitcoin address generation and formatting to increase privacy on-chain
+  - A standard for Bitcoin payment request messages for any layer (Liquid, Lightning, Bitcoin, e-cash)
+explanation: |
+  BIP 21 defines a URI scheme for creating Bitcoin payment requests, allowing users to easily send and receive payments using a standardized format

@@ -1,0 +1,8 @@
+question: In Bitcoin, what are the underlying mechanisms of the supply schedule?
+answer: The Difficulty Adjustment and the Halving
+wrong_answers:
+  - The Difficulty Adjustment and the Merkle Tree
+  - The Merkle Tree and the blockchain
+  - The halving and the Merkle Tree
+explanation: |
+  The difficulty adjustment ensures that blocks are mined at a consistent rate, while the halving reduces the block reward every 210,000 blocks, creating a predictable and decreasing supply

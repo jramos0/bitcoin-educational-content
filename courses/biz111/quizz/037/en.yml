@@ -1,0 +1,8 @@
+question: What happens under a Free Banking system?
+answer: Any bank institution can issue banknotes in exchange for gold, and redeem gold in exchange for banknotes
+wrong_answers:
+  - Only a single bank institution can issue banknotes in exchange for gold, and redeem gold in exchange for banknotes
+  - Only a selection of bank institutions can issue banknotes in exchange for gold, and redeem gold in exchange for banknotes
+  - Any bank institution can accept gold deposits, but only central banks can issue banknotes
+explanation: |
+  Free banking is a system where banks are not subject to government regulation or control, and are free to issue their own banknotes as long as they are backed by reserves (typically gold)

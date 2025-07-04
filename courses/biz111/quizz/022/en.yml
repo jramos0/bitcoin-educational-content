@@ -1,0 +1,8 @@
+question: What data structure must every Bitcoin node store to validate transactions?
+answer: UTXO set
+wrong_answers:
+  - Merkle tree
+  - Full transaction history
+  - Block headers
+explanation: |
+  Bitcoin's decentralized structure requires that every participant in the network stores a copy of the Unspent Transaction Output (UTXO) set, a record of all unspent Bitcoins, to verify that transactions are spending coins that actually exist and haven't been spent before

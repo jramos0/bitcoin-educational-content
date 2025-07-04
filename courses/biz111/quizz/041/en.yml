@@ -1,0 +1,8 @@
+question: What determines the legitimacy of the Bitcoin timechain for nodes?
+answer: The legitimate timechain is the one with the most proof-of-work
+wrong_answers:
+  - The legitimate timechain is the one with the most blocks
+  - The legitimate timechain is the one with the most transactions
+  - The legitimate timechain is the one with the most network nodes
+explanation: |
+  Bitcoin operates on the longest chain rule, where the chain with the most accumulated proof-of-work is considered the valid chain. This feature ensures that the timechain is the most difficult to alter and reflects the consensus of the network

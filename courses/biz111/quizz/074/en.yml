@@ -1,0 +1,8 @@
+question: How does the Austrian Business Cycle Theory explain economic booms and busts?
+answer: Artificial credit expansion causes unsustainable malinvestment
+wrong_answers:
+  - Random fluctuations in consumer confidence create self-fulfilling cycles
+  - Technological innovations create growth followed by necessary adjustments
+  - Underconsumption leads to inventory buildup and production cuts
+explanation: |-
+  Austrian Business Cycle Theory attributes boom-bust cycles to central bank manipulation of interest rates and credit expansion. Artificially low interest rates mislead entrepreneurs into making investments that appear profitable but actually misalign with real consumer time preferences and available savings. These malinvestments eventually prove unsustainable, requiring a painful correction (recession) to reallocate resources properly

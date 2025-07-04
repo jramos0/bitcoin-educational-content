@@ -1,0 +1,8 @@
+question: How does Switzerland's regulatory framework treat Bitcoin salary payments?
+answer: Just like any other foreign currency, requiring CHF value reporting for tax purposes
+wrong_answers:
+  - As a special digital asset class with unique regulatory requirements
+  - As a prohibited payment method due to anti-money laundering concerns
+  - As a supplementary benefit that cannot constitute primary compensation
+explanation: |-
+  Switzerland has a pragmatic approach to Bitcoin, treating it as a foreign currency for salary purposes. Thus, employers can pay wages in Bitcoin, but must report the equivalent Swiss Franc (CHF) value for tax and social security purposes, similar to how they would handle salary payments in euros, dollars, or other foreign currencies

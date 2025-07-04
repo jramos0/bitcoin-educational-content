@@ -1,0 +1,8 @@
+question: What does BIP stand for?
+answer: Bitcoin Improvement Proposal
+wrong_answers:
+  - Bitcoin Implementation Proposal
+  - Blockchain Improvement Proposal
+  - Blockchain Implementation Proposal
+explanation: |
+  BIP stands for Bitcoin Improvement Proposal. It is a design document used to propose new features or processes for Bitcoin

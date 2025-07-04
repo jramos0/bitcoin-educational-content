@@ -1,0 +1,8 @@
+question: What problem does the Lightning Network attempt to solve for Bitcoin?
+answer: Scalability
+wrong_answers:
+- Long Term Security
+- Initial distribution
+- Node verification
+explanation: |
+  The Lightning Network is a second layer protocol built on top of Bitcoin that allows for fast, off-chain transactions that don't burden the main blockchain with additional data, thus addressing Bitcoin's scalability challenges

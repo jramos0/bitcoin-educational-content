@@ -1,0 +1,8 @@
+question: What type of cryptographic algorithm Bitcoin extensively relies on?
+answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+wrong_answers:
+- Advanced Encryption Standards (AES)
+- Rivest-Shamir-Adleman (RSA)
+- Edwards Curve Digital Signature Algorithm (EdCDSA)
+explanation: |
+  ECDSA is widely used in Bitcoin inner-working to create pair of public/private keys to verify and sign transactions for example

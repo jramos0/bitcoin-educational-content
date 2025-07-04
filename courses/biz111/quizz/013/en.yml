@@ -1,0 +1,8 @@
+question: What is one of the limitation of symmetric cryptography?
+answer: Creating secure communication channels requires additional methods
+wrong_answers:
+  - Keys can be easily hacked because of their low entropy
+  - Symmetric cryptography necessarily requires a third-trusted party
+  - It is highly subject to man-in-the-middle attack
+explanation: |
+  It is impossible to share a secret via an non-trusted channel communication with only using symmetrical cryptographic methods. Therefore creating a secure communication channels requires additional methods like exchanging keys by meeting in person, or trusted party communication channel

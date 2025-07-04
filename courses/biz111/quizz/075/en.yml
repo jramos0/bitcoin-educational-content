@@ -1,0 +1,8 @@
+question: In monetary economics, what does the acronym CBDC stand for?
+answer: Central Bank Digital Currency
+wrong_answers:
+  - Commercial Banking Digital Certification
+  - Consumer-Based Digital Cash
+  - Cryptocurrency Blockchain Distribution Coin
+explanation: |-
+  CBDC stands for "Central Bank Digital Currency", which refers to digital money issued directly by a nation's monetary authority (central bank). Unlike cryptocurrencies, CBDCs are centralized and represent the digital form of a nation's fiat currency, combining elements of digital technology with the backing and control of traditional central banking

@@ -1,0 +1,8 @@
+question: What are the underlying properties of a good Store of Value?
+answer: Stability, Adequacy, Securability
+wrong_answers:
+  - Portability, Uniformity, Securability
+  - Stability, Uniformity, Securability
+  - Portability, Adequacy, Securability
+explanation: |
+  A good store of value should maintain its value over time (stability), have a sufficient supply to meet demand (adequacy), and be protected from theft or loss (securability)

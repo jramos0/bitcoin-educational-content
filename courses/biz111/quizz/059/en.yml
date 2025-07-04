@@ -1,0 +1,8 @@
+question: What is the paradox that darknet marketplaces encounter regarding their operational scale?
+answer: They need to grow in reputation/efficiency but stay small to avoid detection
+wrong_answers:
+  - They need centralized administration but decentralized payment processing
+  - They need to verify user identities while maintaining user anonymity
+  - They need to process transactions quickly but wait for block confirmations
+explanation: |-
+  Darknet marketplaces face a fundamental operational dilemma: growth improves their reputation, liquidity, and operational efficiency, but also increases their visibility to law enforcement and security risks. This feature creates an inherent tension between scaling to improve service and maintaining a low profile to avoid detection and shutdown

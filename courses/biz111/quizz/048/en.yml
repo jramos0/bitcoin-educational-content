@@ -1,0 +1,8 @@
+question: What is the PGP keys system used in software development?
+answer: A cryptographic system that verifies code authenticity and enables developers to digitally sign their software releases
+wrong_answers:
+  - A cryptographic system that manages repository access and enables secure code deployment
+  - A cryptographic system that encrypts source code and enables secure collaboration between developers
+  - A cryptographic system that validates build processes and enables automated testing workflows
+explanation: |
+  PGP keys allow developers to digitally sign their software releases, ensuring that the code has not been tampered with and that it originates from a trusted source

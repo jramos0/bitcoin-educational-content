@@ -1,0 +1,8 @@
+question: What early proof-of-work system, developed by Adam Back, influenced Bitcoin?
+answer: Hashcash
+wrong_answers:
+  - BitGold
+  - RPoW
+  - DigiCash
+explanation: |
+  Hashcash, developed by Adam Back, was initially designed to prevent email spam by requiring proof-of-work to send messages. Although it wasn't widely adopted for its original purpose, the idea of proof-of-work was later adapted by Bitcoin to secure transactions

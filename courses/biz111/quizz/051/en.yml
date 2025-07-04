@@ -1,0 +1,8 @@
+question: Which one of the following is NOT true regarding Bitcoin miners?
+answer: Their profitable operations enable them to pay premium rates during peak demand
+wrong_answers:
+  - Their high energy consumption and constant demand makes them reliable baseline customers
+  - Their global network allows them to arbitrage energy prices across different markets
+  - Their unique combination of instant interruptibility and location independence makes them the most flexible energy consumer
+explanation: |
+  Bitcoin miners are incentivized to find the cheapest energy sources possible. They are more likely to reduce or halt operations during peak demand to avoid paying premium rates

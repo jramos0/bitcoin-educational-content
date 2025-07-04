@@ -1,0 +1,8 @@
+question: Who is the inventor of the smart contract concept?
+answer: Nick Szabo
+wrong_answers:
+  - David Chaum
+  - Satoshi Nakamoto
+  - Hal Finney
+explanation: |
+  Nick Szabo is a computer scientist and cryptographer known for his research in digital contracts and digital currency. He coined the term "smart contract" in the 1990s

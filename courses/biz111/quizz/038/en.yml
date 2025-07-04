@@ -1,0 +1,8 @@
+question: What are the two mechanisms underlying e-cash?
+answer: Blind signature and smart contract
+wrong_answers:
+  - Blind encryption and smart signature
+  - Blind contract and smart signature
+  - Blind signature and smart encryption
+explanation: |
+  Blind signatures allow for anonymous transactions, while smart contracts enable programmable and automated execution of agreements

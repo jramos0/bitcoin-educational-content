@@ -1,0 +1,8 @@
+question: Why do some Lightning nodes operate as public nodes?
+answer: Because they want to participate in network routing and earn fees by providing liquidity between other nodes
+wrong_answers:
+  - Because they need to maintain direct connections with merchants and facilitate faster payment processing
+  - Because they want to contribute to network stability and help synchronize channel states
+  - Because they require better visibility in the network to optimize their channel management
+explanation: |
+  Public Lightning nodes act as routing hubs, connecting different channels and facilitating payments across the network. They earn fees for providing liquidity and routing services

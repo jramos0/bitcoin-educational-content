@@ -1,0 +1,8 @@
+question: What underlying concept is needed in order to have a functioning coinage system?
+answer: The concept of delegated verification
+wrong_answers:
+- The concept of maximal value abstraction
+- The concept of resource misallocation
+- The concept of time preference
+explanation: |
+  A coinage system relies on the capacity of individual to delegate the verification of coin authenticity to a trusted third party, who is often the institution who produce the coins

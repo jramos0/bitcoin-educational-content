@@ -1,0 +1,8 @@
+question: According to Austrian economics, what is the primary effect of technological innovation on prices, in a free market with sound money?
+answer: Deflationary pressure, as productivity increase allows more goods to be produced per unit of money
+wrong_answers:
+  - Inflationary pressure, as new technologies increase consumer demand per unit of money
+  - No significant effect, as technology and prices operate in separate economic spheres
+  - Mixed effects that ultimately offset one another in the long run
+explanation: |-
+  In a sound money system with relatively fixed supply, technological innovation increases productivity, allowing more goods and services to be produced with the same resources. This phenomenon naturally creates deflationary pressure, as the same amount of money supply must adapt to an expanding amount of goods, leading to the decline of prices and the increase of money purchasing power over time

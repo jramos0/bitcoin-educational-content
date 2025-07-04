@@ -1,0 +1,8 @@
+question: What are the two types of cryptography?
+answer: Symmetric and asymmetric cryptography
+wrong_answers:
+- Parallel and anti-parallel cryptography
+- Classical and Post-Modern cryptography
+- Continuous and discrete cryptography
+explanation: |
+  Cryptography relies on the uses of key to encrypt and decrypt messages. If the key to decrypt is the same as the one to encrypt, it is a symmetrical cryptographic method. Otherwise, it is a asymmetrical cryptographic method

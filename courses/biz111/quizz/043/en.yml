@@ -1,0 +1,8 @@
+question: Why is the fee mechanism probably more censorship-resistant than the subsidy mechanism?
+answer: Because fees create stronger incentives for transaction inclusion
+wrong_answers:
+  - Because fee revenue is more predictable than subsidy rewards
+  - Because fees make mining more profitable than subsidies alone
+  - Because fees create stronger incentives against miner centralization
+explanation: |
+  Miners are economically incentivized to include transactions with higher fees, regardless of their origin or content. This mechanism makes it more difficult to censor specific transactions, as other miners will likely include them if the fees are high enough

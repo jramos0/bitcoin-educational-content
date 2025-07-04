@@ -1,0 +1,8 @@
+question: As a Bitcoin miner, which of the following is NOT a benefit of participating in a mining pool?
+answer: Higher block rewards
+wrong_answers:
+  - Consistent revenue distribution
+  - Minimized computational variance
+  - Reduced infrastructure threshold
+explanation: |-
+  Mining pools actually provide lower individual block rewards since they are shared among all pool participants, proportionally to their contributed hashpower. The benefits of pools go from a steadier, more predictable income (consistent revenue), to reduced variance in payouts, and to lower barriers to entry - not higher rewards, which would be greater when mining independently and successfully finding a block

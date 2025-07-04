@@ -1,0 +1,8 @@
+question: Which one of the following is NOT a representation of the Cantillon Effect?
+answer: Seasonal Grain Taxation
+wrong_answers:
+  - Printing dollar bills
+  - Gold Coin Seigniorage
+  - Bank's Fractional Reserve
+explanation: |
+  The Cantillon Effect describes how new money injected into an economy does not affect everyone simultaneously and equally. Those closest to the source of new money benefit first, while those further away benefit later or not at all. Seasonal grain taxation is a redistribution of existing wealth, not the creation of new money

@@ -1,0 +1,8 @@
+question: According to the Austrian School of Economics, why can't economic phenomena be adequately described using mathematical equations?
+answer: Human choices cannot be reduced to deterministic variables and constants
+wrong_answers:
+  - Economic data is too complex for current computational capabilities
+  - Mathematical models lack sufficient variables to capture market dynamics
+  - Equations can only describe past events but cannot predict future outcomes
+explanation: |-
+  The Austrian School rejects mathematical models of economics because human choices stem from subjective preferences, creativity, and free will that cannot be reduced to deterministic variables. Unlike physical sciences where objects follow consistent laws, human action involves consciousness, learning, and evolving preferences — elements that mathematical formalism cannot fundamentally capture, not just because of their complexity

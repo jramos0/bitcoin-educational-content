@@ -1,0 +1,8 @@
+question: What is the business model of the company Breez?
+answer: Software Services
+wrong_answers:
+  - Functionary Roles
+  - Hardware Products
+  - Knowledge Brokerage
+explanation: |-
+  Breez operates primarily as a software services company, developing and maintaining a Lightning Network wallet and payment processing solutions. Their business model is centered on creating software applications that make Bitcoin and Lightning Network more accessible and usable, rather than operating as functionaries, producing hardware, or primarily selling knowledge

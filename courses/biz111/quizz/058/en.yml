@@ -1,0 +1,8 @@
+question: Why is it necessary to have a screen on a hardware wallet?
+answer: To verify transaction independently
+wrong_answers:
+  - To validate firmware authenticity
+  - To generate secure seed phrases
+  - To secure network connections
+explanation: |-
+  A screen on a hardware wallet is essential for security because it allows users to independently verify transaction details (addresses, amounts) before signing. Without a screen, users would have to trust potentially-compromised connected devices to display accurate transaction information, creating a significant security vulnerability that could lead to theft

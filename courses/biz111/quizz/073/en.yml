@@ -1,0 +1,8 @@
+question: What does the term "money illusion" refer to, in relation to nominal monetary units?
+answer: Confusing nominal monetary values with real purchasing power
+wrong_answers:
+  - Believing that a physical currency has intrinsic value
+  - Thinking that bank deposits exist as physical cash
+  - Assuming that government money is backed by gold
+explanation: |-
+  The money illusion refers to people's tendency to think in nominal rather than real terms - focusing on the face value of money rather than what it can actually buy. This cognitive bias leads people to perceive themselves as wealthier when their nominal income increases, even if inflation has reduced their actual purchasing power

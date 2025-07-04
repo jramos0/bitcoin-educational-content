@@ -1,0 +1,8 @@
+question: What prevents Sybil attacks in the Bitcoin network?
+answer: Proof-of-work mechanism
+wrong_answers:
+- Digital signatures
+- Difficulty Adjustment Mechanism
+- Merkle trees
+explanation: |
+  Bitcoin's proof-of-work mechanism prevents Sybil attacks, where malicious actors create multiple fake identities (or nodes) to control the network. Since proof-of-work requires real computational effort, it ensures that only those who expend resources can influence the voting process

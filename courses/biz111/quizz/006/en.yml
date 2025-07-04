@@ -1,0 +1,8 @@
+question: Which one is NOT an advantage of governmental fiat money?
+answer: It requires a governmental institution to dictate the value of such currency
+wrong_answers:
+  - It facilitates the exchange between two parties
+  - It is widely accepted within a jurisdiction
+  - It has a low cost of production
+explanation: |
+  A governmental fiat money is highly dependent of the stability of the institution that issue it. Therefore individual economic interactions can be negatively impacted in time of governmental crises, which can inflate the consequences of the crisis it-self

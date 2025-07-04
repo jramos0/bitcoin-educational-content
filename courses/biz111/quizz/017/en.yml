@@ -1,0 +1,8 @@
+question: What is the term Satoshi Nakamoto used to refer to Bitcoin's way of organizing transactions chronologically?
+answer: Time chain
+wrong_answers:
+  - Blockchain
+  - Ledger chain
+  - Transaction log
+explanation: |
+  Contrary to modern terminology, Satoshi Nakamoto never referred to the system as a "blockchain" but rather as a "proof-of-work chain" or "chain of blocks." In his early code, Satoshi used the term "time chain" to refer to Bitcoin's chronological transaction organization

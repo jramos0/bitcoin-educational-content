@@ -1,0 +1,8 @@
+question: What feature distinguishes a pruned node from a full node?
+answer: It only keeps the last N blocks on the disk
+wrong_answers:
+  - It only transmits information to other nodes
+  - It only keeps the block headers on the disk
+  - It only enforces the rules of the Bitcoin protocol
+explanation: |
+  A pruned node is a full node that doesn't store the entire blockchain. It only keeps a certain number of recent blocks to save disk space

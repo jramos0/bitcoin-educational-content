@@ -1,0 +1,8 @@
+question: According to Austrian economics, what economic distortion has been observed since 1970?
+answer: The divergence between productivity growth and worker compensation growth
+wrong_answers:
+  - The gap between nominal GDP growth and real wage increases
+  - The separation of capital returns from labor productivity metrics
+  - The disconnect between the expansion of economic output and the growth of household income
+explanation: |-
+  Austrian economists point to the end of the gold standard in 1971 as a turning point after which worker compensation no longer tracked productivity growth, contrary to what previously happened. This divergence is attributed to the inflationary fiat monetary system that enabled wealth to be transferred from wage earners to those that are closest to newly created money because of the Cantillon Effect

@@ -1,0 +1,8 @@
+question: According to Giacomo Zucco, which of the following is NOT a "functionary role" business model in the Bitcoin ecosystem?
+answer: Creating open-source hardware solutions that enhance Bitcoin network security
+wrong_answers:
+  - Operating mining facilities that contribute to network decentralization
+  - Maintaining LSP nodes to facilitate the access to liquidity on the Lightning Network
+  - Managing a e-cash mint to process transfers between users within the system
+explanation: |-
+  In Zucco's framework, "functionary roles" involve developing specific infrastructure that others rely on, as they are trusted third parties within the Bitcoin ecosystem. Creating open-source hardware solutions is a product development business model, rather than operating as a functionary, as it doesn't involve running infrastructure that others depend on for ongoing operations

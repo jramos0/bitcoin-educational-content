@@ -1,0 +1,8 @@
+question: What is the name of the governmental institution who is responsible of legal tender issuing?
+answer: The Central Bank
+wrong_answers:
+- The Currency Bank
+- The International Monetary Fund
+- The Trust Reserve
+explanation: |
+  Central bank are the institutional entity that issue the base money of a governmental fiat monetary system. Nowadays, the money issued is only used as money between central banks and commercial banks

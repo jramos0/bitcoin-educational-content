@@ -1,0 +1,8 @@
+question: Compared to other economic goods, what is the unique property of money in regards to its marginal utility?
+answer: Money's marginal utility declines more slowly than other goods
+wrong_answers:
+  - Money's marginal utility increases with each additional unit acquired
+  - Money has zero marginal utility because it is only valued for what it can purchase
+  - Money's marginal utility fluctuates inversely with market interest rates
+explanation: |-
+  Unlike consumption goods where utility drops rapidly after basic needs are met, money's marginal utility declines more slowly, more gradually, as it represents generalized purchasing power rather than fulfilling a specific need. Additional units of money continue to provide significant utility by increasing one's options and security, even as the urgency of each additional unit decreases in absolute terms

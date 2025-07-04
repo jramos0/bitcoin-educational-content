@@ -1,0 +1,8 @@
+question: What metal has been considered as the premier Store of Value?
+answer: Gold
+wrong_answers:
+  - Silver
+  - Copper
+  - Platinum
+explanation: |
+  First records of Gold being used as money can be traced back to 700 B.C in Libya

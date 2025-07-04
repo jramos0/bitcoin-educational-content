@@ -1,0 +1,8 @@
+question: What is the order of the four phases of an economic cycle?
+answer: Expansion -> Peak -> Contraction -> Trough
+wrong_answers:
+  - Peak -> Contraction -> Expansion -> Trough
+  - Trough -> Contraction -> Expansion -> Peak
+  - Contraction -> Peak -> Trough -> Expansion
+explanation: |-
+  The economic cycle follows a logical progression: first, there is expansion (which is the growth of economic activity), followed by a peak (maximum growth), then there is contraction (the decline of economic activity), and finally, a trough (lowest point) before re-starting from expansion again. This sequence reflects how economies naturally move from periods of growth, to decline, and back

@@ -1,0 +1,8 @@
+question: What type of wallet provides the highest security for protecting Bitcoin private keys?
+answer: Hardware wallet
+wrong_answers:
+  - Software wallet
+  - Paper wallet
+  - Brain wallet
+explanation: |
+  Hardware wallets are more secure as they store private keys offline (cold storage), protecting them from online attacks. They provide strong security through offline key storage while maintaining usability for transactions

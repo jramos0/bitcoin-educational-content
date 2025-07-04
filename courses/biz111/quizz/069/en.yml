@@ -1,0 +1,8 @@
+question: Which economist of the Austrian School wrote "The Theory of Money and Credit"?
+answer: Ludwig von Mises
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Carl Menger
+explanation: |-
+  "The Theory of Money and Credit" (1912) was written by Ludwig von Mises and represents one of his most significant contributions to economic theory. In this work, Mises developed the regression theorem, explaining the origin of money and integrated monetary theory with marginal utility analysis, establishing the foundations of the Austrian monetary economics

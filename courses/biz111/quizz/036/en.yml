@@ -1,0 +1,9 @@
+question: What happens when the centralization of money issuance gets reinforced?
+answer: It is easier to abuse seigniorage and easier to censor transactions
+wrong_answers:
+  - It is easier to abuse seigniorage at the expense of transaction censorship
+  - It is easier to censor transactions at the expense of seigniorage abuse
+  - It is harder to censor transactions and it is harder to abuse seigniorage
+explanation: |
+  The more centralized the money issuance is, the less costly it is to create a Cantillon Effect
+  Additionally, a central point of the system gains greater control over transactions

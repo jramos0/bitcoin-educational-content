@@ -1,0 +1,33 @@
+id: 8bb3c3bd-7d3e-4c3c-a46a-d3631bb91924
+is_planb_school: true
+teaching_format: professor_led
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+topic: business
+subtopic: business
+level: intermediate
+hours: 102
+requires_payment: false
+format: hybrid # online, inperson, hybrid
+inperson_price_dollars: 500
+paid_description: |
+  The Plan ₿ Biz School 2025 is an educational program dedicated to students and entrepreneurs who wish to find a non-technical job in a Bitcoin company. The curriculum covers Bitcoin fundamentals, practical applications, and insights from industry experts.
+
+  Starting in May, it is designed for students of all levels, who can access lectures either online or in person. After two rounds of selection, the top performers will be selected to attend a Summer School week in Lugano.
+
+start_date: 2025-05-01
+end_date: 2025-07-31
+published_at: 2025-02-07
+payment_expiration_date: 2025-05-21
+professors_id:
+  - dac3b166-31ef-41f3-bfef-6e9d3855c12c
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+## Exam Settings
+passing_grade_threshold_percentage: 48
+assignment_weight_percentage: 40

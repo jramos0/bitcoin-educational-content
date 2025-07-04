@@ -1,0 +1,8 @@
+question: What hash function does Bitcoin use?
+answer: SHA-256
+wrong_answers:
+  - MD5
+  - Keccak
+  - SHA-1024
+explanation: |
+  Bitcoin uses SHA-256, a highly secure hash function developed by the NSA, which provides preimage resistance and makes it computationally infeasible to reverse-engineer the input from the output

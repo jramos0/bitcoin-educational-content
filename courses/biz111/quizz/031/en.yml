@@ -1,0 +1,8 @@
+question: What does the Metcalfe's law state?
+answer: The financial value of a communication network grows proportionally to the square of its participants
+wrong_answers:
+  - The processing power of a network increases linearly with each new node
+  - The security of a network grows proportionally to the square of its participants
+  - The bandwidth capacity of a network doubles every 18 months
+explanation: |
+  Metcalfe's law states that the value of a network is proportional to the square of the number of connected users of the system (n^2). In fact, the number of potential connections grows quadratically with the number of users

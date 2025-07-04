@@ -1,0 +1,8 @@
+question: The proliferation of thousands of cryptocurrencies creates an economic inefficiency in digital payment systems. Which one?
+answer: A return to barter-like conditions where each token pair requires its own exchange rate
+wrong_answers:
+  - An increase in transaction verification times across all blockchain networks
+  - A higher energy consumption for maintaining multiple consensus mechanisms
+  - A reduced privacy as users must register on multiple platforms
+explanation: |-
+  The explosion of cryptocurrencies recreates the "coincidence of wants" problem that money was designed to solve. With thousands of tokens, each pair requires its own exchange rate and liquidity, fragmenting value across many different assets. This system mirrors barter, where direct exchange between different goods was inefficient due to the need for matching specific trading partners

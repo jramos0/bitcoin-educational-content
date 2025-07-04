@@ -1,0 +1,8 @@
+question: What is the most common method Bitcoin holders use to verify their holdings for tax authorities?
+answer: A screenshot of exchange account balances or wallet addresses
+wrong_answers:
+  - An xpub of their wallet to access transaction history
+  - A digital statement downloaded from a cryptocurrency exchange
+  - A spreadsheet summary of wallet balances with cryptographic timestamp
+explanation: |-
+  At the moment, the most common verification method is simply providing screenshots of exchange balances or wallet addresses, despite it being relatively unsophisticated. More advanced methods exist but aren't widely adopted. This reflects the still-developing nature of cryptocurrency tax reporting standards, and the gap between technical possibilities and actual practices

@@ -1,0 +1,8 @@
+question: What is the specificity of Bitcoin as a digital Medium of Exchange?
+answer: Individuals can transact without any trusted party
+wrong_answers:
+- Individuals can transact without any identity verification
+- Individuals can transact without any fee
+- Individuals can transact without any past knowledge about the coins
+explanation: |
+  Like it was titled in the original paper of Satoshi Nakamoto, Bitcoin is a peer-to-peer electronic cash system that requires any trusted party to transact

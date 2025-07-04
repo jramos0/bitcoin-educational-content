@@ -1,0 +1,8 @@
+question: What was the key innovation James Hurst introduced to market analysis in the 1970s?
+answer: The Time structured model
+wrong_answers:
+  - The Price pattern recognition
+  - The Cyclical prediction method
+  - The Market timing formula
+explanation: |-
+  James Hurst introduced the time structured model, which revolutionized market analysis by focusing on cyclical time patterns rather than just price movements. His approach incorporated precise time measurements to identify market cycles, allowing for more accurate predictions in comparison to traditional pattern recognition strategies

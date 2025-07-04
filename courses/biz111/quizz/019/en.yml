@@ -1,0 +1,8 @@
+question: What type of attack caa miner can do by controlling more than half of the Bitcoin network's computational power?
+answer: Re-organize the blockchain to do a commercial double-spend
+wrong_answers:
+- Include a transaction of with an UTXO that has already been spend in the past history
+- Add a non-valid transaction to the blockchain, to steal any fund of pending transactions
+- All of the other 3 answers
+explanation: |
+  In a 51% attack, an aggressor would need to control more than half of the network's computational power to manipulate the blockchain. The cost of acquiring and maintaining this amount of computing power makes such attacks nearly impossible under normal circumstances, but that will allow to simply do a commercial double-spend by removing a past transaction or to censor a pending transaction

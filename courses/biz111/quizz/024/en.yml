@@ -1,0 +1,8 @@
+question: What is critical when generating private keys to ensure they cannot be easily guessed?
+answer: High entropy
+wrong_answers:
+- Key length
+- Hash function
+- Signature algorithm
+explanation: |
+  Generating private keys requires high-quality entropy to ensure security. Poor random number generation can create weak keys that are vulnerable to attacks, as demonstrated by historical incidents like the blockchain.info wallet weak RNG issue and the Android SecureRandom bug

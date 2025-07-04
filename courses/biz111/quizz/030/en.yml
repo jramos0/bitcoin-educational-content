@@ -1,0 +1,8 @@
+question: Which function of money did the Cypherpunk movement try to avoid?
+answer: System of Control
+wrong_answers:
+  - Unit of Control
+  - System of Power
+  - Unit of Power
+explanation: |
+  The Cypherpunks movement sought to create technologies that would empower individuals and protect their privacy and freedom. They viewed the traditional financial system as a tool for control and surveillance, and aimed to create alternative systems that would be resistant to censorship and control

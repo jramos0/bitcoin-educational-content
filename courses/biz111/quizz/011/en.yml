@@ -1,0 +1,8 @@
+question: How is Bitcoin a counter measure to easily corrupt governmental fiat money?
+answer: Changing monetary policy of Bitcoin requires a nearly complete consensus of the network
+wrong_answers:
+- Bitcoin is not a money, so it is not a counter measure to governmental currency
+- Governmental institution are not allowed to mine bitcoins
+- The seigniorage is now accessible to any actor of the network, as the cost of producing bitcoins is very low
+explanation: |
+  In order to produce any bitcoin, any actor of the network must respect consensus rules which define a predefined rate of production. Thanks to the difficulty adjustment, the production of bitcoins adjusted every two weeks based on the total Hashrate. Therefore no entity can, on a long period of time, abuse from their economic power

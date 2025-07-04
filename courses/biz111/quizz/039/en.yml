@@ -1,0 +1,8 @@
+question: Why did Bitcoin originally not use Schnorr Signatures?
+answer: Because the US patent only expired in 2010
+wrong_answers:
+  - Because the computational requirements were too high for early Bitcoin nodes
+  - Because the security proofs weren't mathematically verified until 2011
+  - Because ECDSA was considered more secure at the time
+explanation: |
+  Schnorr signatures offer several advantages over ECDSA, the signature scheme used in early Bitcoin. However, they were patented until 2010, preventing their use in open-source projects like Bitcoin

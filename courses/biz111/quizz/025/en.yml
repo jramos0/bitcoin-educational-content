@@ -1,0 +1,15 @@
+question: If blocks were 100 times heavier, how would it affect Bitcoin users?
+answer: It would make running a node inaccessible to the average person
+wrong_answers:
+  - It would make transacting on the on-chain layer faster
+  - It would make the transaction capacity of the network decrease
+  - It would make the coinbase reward for miners increase
+explanation: |
+  If the blocks were 100 times heavier, running a Bitcoin
+  node would require a 50TB hard disk, a bandwidth of over
+  500GB/month, and hardware capable of validating hundreds of
+  thousands of transactions in less than 10 minutes. This
+  would make running a Bitcoin node inaccessible to the
+  average person, compromising the decentralization of the
+  protocol and the immutability of transactions and consensus
+  rules

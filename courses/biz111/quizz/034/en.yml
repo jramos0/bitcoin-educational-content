@@ -1,0 +1,8 @@
+question: What does a Stock-to-Flow ratio of 100 indicate about an asset?
+answer: New annual production represents only 1% of existing supply, making it an extremely scarce store of value
+wrong_answers:
+  - The asset's total supply will reach its maximum in 100 years, indicating long-term scarcity
+  - The asset needs 100 units in circulation to maintain market equilibrium with production
+  - Production must increase by 100% annually to maintain price stability against existing supply
+explanation: |
+  Stock-to-Flow (SF) is a model used to quantify the scarcity of a resource. A high SF ratio indicates that the existing stock is much larger than the annual production, making the asset more resistant to inflation and a better store of value

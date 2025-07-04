@@ -1,0 +1,8 @@
+question: How does Bitcoin solve the delegation verification problem?
+answer: Any actor of the Bitcoin network can verify the authenticity of any transaction with the use of a node
+wrong_answers:
+- It does not solve it
+- Any actor of the Bitcoin network can ask at any time for a monetary audit to trusted entities
+- The use of a peer-to-peer network removes the need to verify the authenticity of "coins"
+explanation: |
+  As the Bitcoin network is a peer-to-peer network, any node has access to a public record of all transaction. Hence the possibility to verify the respect of Consensus rule by anyone

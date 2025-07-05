@@ -1,11 +1,11 @@
-id: 8b89975a-827f-4da2-9f53-45f88d2721f0
+id: 49ba1d92-7789-4778-9141-f01cf2735e1d
 start_date: 2025-05-07 14:00:00
 end_date: 2025-05-07 16:00:00
 timezone: Europe/Rome
 address_city_country: Lugano, Switzerland
 address_line_2:
 address_line_3:
-name: Communicating Bitcoin Effectively
+name: Bitcoin Startups
 type: Lecture
 book_online: true
 book_in_person: true
@@ -14,12 +14,12 @@ available_seats: 10
 language:
   - en
 links:
-  replay_url: https://www.youtube.com/embed/M1r6YTZgL7M?si=tBEr0yecmJneujxq
+  replay_url: https://www.youtube.com/embed/OAyv5IAEXzc?si=tBEr0yecmJneujxq
   live_url:
   chat_url:
 tags:
-  - user-friendly
-  - guides
-  - easy-explain
+  - business
+  - innovation
+  - use-case
 
 course_related: 8bb3c3bd-7d3e-4c3c-a46a-d3631bb91924

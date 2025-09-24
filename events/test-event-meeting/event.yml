@@ -1,0 +1,16 @@
+id: 1e81b26b-01c2-433d-b32b-c45b7c58e2fc
+start_date: 2025-11-25 06:00:00
+end_date: 2025-11-27 10:00:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+name: test event meeting
+type: meetup
+description: testing description
+language:
+  - en
+links:
+  website: https://planbtest.network/en/events
+tags:
+  - mining
+  - wallets
+  - offchain

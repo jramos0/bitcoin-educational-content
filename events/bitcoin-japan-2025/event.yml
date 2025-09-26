@@ -3,6 +3,7 @@ start_date: 2025-11-24 00:30:00
 end_date: 2025-11-24 09:00:00
 timezone: Asia/Tokyo
 address_city_country: Tokyo, Japan
+address_line_2: Tokyo Station Hotel, Chiyoda City.
 name: Bitcoin Japan 2025
 type: conference
 description: |

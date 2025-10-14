@@ -5,7 +5,9 @@ timezone: Asia/Kolkata
 address_city_country: Goa, India
 name: BPI India - Bitcoin Policy Workshop
 type: workshop
-description: "History of monetary policy, current levers (RBI/MoF, GST/TDS,
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde
+description: |
+  "History of monetary policy, current levers (RBI/MoF, GST/TDS,
   imports), global playbooks, and India roadmaps across Mining, Treasury,
   Education, Exchange of Value, Monetary Sovereignty. 1:1 slots at the end.\r
 

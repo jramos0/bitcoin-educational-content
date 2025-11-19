@@ -5,9 +5,10 @@ timezone: Europe/Berlin
 address_city_country: Berlin, Germany
 name: bitcoin++ gets paid in Berlin
 type: conference
-description: bitcoin++'s payments edition will have an all-star lineup of
+description: |
+  "bitcoin++'s payments edition will have an all-star lineup of
   open-source devs, tinkerers, and builders who are all building the future of
-  exchange.
+  exchange."
 language:
   - en
 links:

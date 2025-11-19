@@ -5,10 +5,11 @@ timezone: Asia/Taipei
 address_city_country: Taipei, Taiwan
 name: bitcoin++ is standing sovereign
 type: workshop
-description: Bitcoin is an important tool at the forefront of freedom to
+description: |
+  "Bitcoin is an important tool at the forefront of freedom to
   transact peer to peer. Join us in Taiwan this coming December 15th to 17th for
   a deep dive into the forefront of sovereignty and peer to peer exchange, both
-  on-chain and off.
+  on-chain and off."
 language:
   - en
 links:

@@ -3,9 +3,11 @@ start_date: 2026-07-22 14:00:00
 end_date: 2026-07-24 22:00:00
 timezone: America/Toronto
 address_city_country: Toronto, Canada
+address_line_2:  The Great Hall, Toronto
 name: bitcoin++ finds consensus
 type: workshop
-description: Bitcoin stands as one of the greatest decentralized protocols.
+description: |
+  Bitcoin stands as one of the greatest decentralized protocols.
   Encompassing commerce around the globe, and billions of people's economic
   desires, the protocol itself becomes the frontier of conflict and possibility
   for the future of the network. In Toronto, we'll be gathering the developers

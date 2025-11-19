@@ -3,6 +3,7 @@ start_date: 2025-12-15 01:00:00
 end_date: 2025-12-17 09:00:00
 timezone: Asia/Taipei
 address_city_country: Taipei, Taiwan
+address_line_2: POPOP
 name: bitcoin++ is standing sovereign
 type: workshop
 description: |

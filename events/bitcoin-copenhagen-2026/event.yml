@@ -5,12 +5,10 @@ timezone: Europe/Copenhagen
 address_city_country: Copenhague, Denmark
 name: Bitcoin Copenhagen 2026
 type: conference
-description: "This is a Bitcoin-only event.\r
-
-  No “crypto,” no \"altcoins\", no \"blockchain\" shenanigans. Just a lasereyed
-  focus on Bitcoin.\r
-
-  Mostly in Danish + a couple in English."
+description: |
+  "This is a Bitcoin-only event.
+  No “crypto,” no "altcoins", no "blockchain" shenanigans. Just a lasereyed
+  focus on Bitcoin. Mostly in Danish + a couple in English."
 language:
   - en
 links:

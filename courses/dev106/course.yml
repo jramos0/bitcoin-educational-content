@@ -1,4 +1,4 @@
-id: 1e779173-c7ba-4de3-92d4-d2e8bab880c2
+id: b038471d-0675-4c97-bf6e-856cd8617f2b
 
 test_only: true
 
@@ -6,7 +6,7 @@ topic: protocol
 subtopic: development
 type: practice
 level: beginner
-hours: 8
+hours: 10
 
 tags:
   - software
@@ -16,7 +16,7 @@ tags:
 professors_id:
   - 1e1a46fd-0cc6-4ad6-aba0-9a0b90457dc3
 
-published_at: 2025-12-14
+published_at: 2025-12-07
 contributor_names:
   - jramos0
 

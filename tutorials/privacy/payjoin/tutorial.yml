@@ -7,6 +7,8 @@ level: advanced
 professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -41,11 +43,12 @@ proofreading:
       - Asi0Flammeus
     reward: 1.21
   - language: it
-    last_contribution_date: 2024-09-09
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 1.21
+      - overbomb
+    reward: 0.6
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -72,10 +75,11 @@ proofreading:
     contributor_names:
     reward: 3.19
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 3.96
+      - 62maximalist
+    reward: 1.98
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -149,6 +153,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.19
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.96
 tags:
   - privacy
   - onchain

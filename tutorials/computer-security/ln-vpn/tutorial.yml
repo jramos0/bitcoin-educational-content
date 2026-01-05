@@ -9,6 +9,8 @@ credit_link: https://agora256.com/lnvpn/
 
 # Proofreading metadata
 project_id: deee5178-a3e8-4697-b72e-2e7e36906a9c
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -150,6 +152,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.36
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.93
 tags:
   - DIY
   - guides

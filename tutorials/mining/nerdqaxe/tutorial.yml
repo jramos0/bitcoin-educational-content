@@ -13,6 +13,8 @@ category: hardware
 
 level: advanced
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -153,3 +155,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.31
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.36

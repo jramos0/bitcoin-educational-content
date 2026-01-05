@@ -1,9 +1,9 @@
 ---
-name: Aho kwikinga
+name: Shelter
 description: Koresha telefone imwe ku kazi no ku buzima bwite na Shelter .
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

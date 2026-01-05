@@ -1,9 +1,9 @@
 ---
-name: Подслон
+name: Shelter
 description: Използване на един и същ телефон за работа и личен живот с Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

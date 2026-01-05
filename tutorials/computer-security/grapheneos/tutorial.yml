@@ -9,6 +9,8 @@ credit_link: https://bitcoiner.guide/grapheneos/
 
 # Proofreading metadata
 project_id: ce82f356-4662-4dad-ba0c-a0ec4f56cf2a
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -150,6 +152,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 19.62
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 24.5
 tags:
   - guides
   - personal-security

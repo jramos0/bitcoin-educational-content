@@ -13,6 +13,8 @@ level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -154,3 +156,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.69
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.33

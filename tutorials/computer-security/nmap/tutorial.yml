@@ -13,6 +13,8 @@ level: advanced
 
 professor_id: 5ce53b80-c842-4ae9-b0f7-fb542aeb425f
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -155,3 +157,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 90.69
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 113.34

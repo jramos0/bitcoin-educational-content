@@ -1,9 +1,9 @@
 ---
-name: Schronienie
+name: Shelter
 description: Używanie tego samego telefonu do pracy i życia prywatnego z Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

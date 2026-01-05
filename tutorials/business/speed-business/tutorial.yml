@@ -13,6 +13,8 @@ tags:
   - user-friendly
   - adoption
 
+license: CC-BY-SA-V4
+
 original_language: fr
 
 #proofreading metadata
@@ -155,3 +157,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.9
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.35

@@ -7,6 +7,8 @@ tags:
   - software
   - DIY-IT
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -148,3 +150,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.24
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.52

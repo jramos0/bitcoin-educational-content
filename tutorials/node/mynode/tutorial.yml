@@ -9,6 +9,8 @@ level: advanced
 
 # Proofreading metadata
 project_id: 46c1b9f6-240e-4acb-8e89-0e34880e5187
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -71,10 +73,11 @@ proofreading:
     contributor_names:
     reward: 8.07
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 6.74
+      - 62maximalist
+    reward: 3.37
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -152,6 +155,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.41
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.74
 tags:
   - node
   - guides

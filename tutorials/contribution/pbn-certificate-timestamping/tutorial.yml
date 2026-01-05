@@ -6,6 +6,8 @@ level: beginner
 
 professor_id: 9599c4e8-91af-405d-9798-bb46357fc548
 project_id: cd62a137-baad-4133-b90d-711963e510c7
+license: CC-BY-SA-V4
+
 original_language: en
 
 proofreading:
@@ -153,6 +155,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.48
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.83
 tags:
   - proof-of-work
   - protocols

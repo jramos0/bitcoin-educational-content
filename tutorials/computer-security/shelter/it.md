@@ -1,9 +1,9 @@
 ---
-name: Rifugio
+name: Shelter
 description: Usare lo stesso telefono per il lavoro e la vita privata con Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

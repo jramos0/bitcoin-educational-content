@@ -13,7 +13,7 @@ level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -46,10 +46,11 @@ proofreading:
     contributor_names:
     reward: 4.81
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 4.81
+      - Salgraphics
+    reward: 2.4
   - language: et
     last_contribution_date:
     urgency: 1
@@ -135,3 +136,23 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 7.94
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.51
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.38
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.94
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.51

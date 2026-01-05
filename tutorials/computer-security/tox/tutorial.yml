@@ -7,6 +7,8 @@ tags:
   - privacy
   - protocols
   - personal-security
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -149,3 +151,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.98
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.45

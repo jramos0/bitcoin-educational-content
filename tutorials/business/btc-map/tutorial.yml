@@ -13,6 +13,8 @@ level: beginner
 
 professor_id: fe12ea99-744f-4a00-aef9-36ee1bbacb77
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
@@ -157,3 +159,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.15
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.67

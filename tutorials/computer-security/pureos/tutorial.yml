@@ -8,6 +8,8 @@ tags:
   - user-friendly
 
 #proofreading metadata
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -148,3 +150,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.67
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.06

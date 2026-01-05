@@ -1,9 +1,9 @@
 ---
-name: Abrigo
+name: Shelter
 description: Utilizar o mesmo telemóvel para o trabalho e para a vida privada com a Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

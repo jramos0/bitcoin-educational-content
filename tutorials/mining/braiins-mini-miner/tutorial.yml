@@ -13,6 +13,8 @@ tags:
   - hardware
   - guides
 
+license: CC-BY-SA-V4
+
 original_language: it
 proofreading:
   - language: it
@@ -154,3 +156,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.57
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.44

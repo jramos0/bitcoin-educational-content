@@ -17,6 +17,8 @@ tags:
 
 credit_link: https://getbittr.com/blog/how-do-i-buy-bitcoin-using-bluewallet https://getbittr.com/blog/how-do-i-buy-bitcoin-into-my-bitbox
 
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: en
@@ -159,3 +161,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.63
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.76

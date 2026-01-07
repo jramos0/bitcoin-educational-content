@@ -3952,30 +3952,30 @@ The green squares on your profile show:
 #### README Best Practices
 A good README includes:
 ```markdown
-## Project Name
-Brief description of what it does
+    ## Project Name
+    Brief description of what it does
 
-### Features
-- List key features
-- What makes it special
+    ### Features
+    - List key features
+    - What makes it special
 
-### Demo
-[Live Demo](https://your-app.vercel.app)
+    ### Demo
+    [Live Demo](https://your-app.vercel.app)
 
-### Screenshots
-![App Screenshot](screenshot.png)
+    ### Screenshots
+    ![App Screenshot](screenshot.png)
 
-### Installation
-Steps to run locally
+    ### Installation
+    Steps to run locally
 
-### Technologies Used
-- HTML, CSS, JavaScript
-- React, Node.js
-- LNbits, Bitcoin APIs
+    ### Technologies Used
+    - HTML, CSS, JavaScript
+    - React, Node.js
+    - LNbits, Bitcoin APIs
 
-### What I Learned
-- New skills gained
-- Challenges overcome
+    ### What I Learned
+    - New skills gained
+    - Challenges overcome
 ``` 
 
 ## Moving to React Architecture

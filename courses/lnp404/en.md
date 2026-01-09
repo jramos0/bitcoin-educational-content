@@ -9,7 +9,6 @@ objectives:
 ---
 
 # A Journey into your Lightning Node
-<partId>f8c354b7-8ddf-45a7-b187-18e66f8914f9</partId>
 
 Navigating Your Node with Terminal is a comprehensive journey into managing, optimizing, and understanding your Bitcoin Lightning node through the power of the command line.
 From installation to advanced multi-node management, this course equips you with the practical skills and theoretical knowledge needed to operate your Lightning setup like a pro. You’ll explore key tools such as Lightning Terminal (LND, Loop, Pool, and Faraday) and learn to analyze your node’s health, liquidity, fees, and network interactions directly from the terminal.

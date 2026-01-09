@@ -424,6 +424,8 @@ Ready to build your first server? Let's continue to Lesson 2! 🚀
 ## Express Server Basics 
 <chapterId>dabebb1d-26a3-4101-bd6b-8d7a67e3b746</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/c6369582-8c03-46d8-80f6-de859990a197)
+
 ### Understanding HTTP APIs
 
 #### Definition

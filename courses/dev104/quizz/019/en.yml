@@ -1,0 +1,8 @@
+question: Which CSS unit would be most appropriate for creating a responsive container that adapts to different screen sizes while maintaining consistent typography scaling?
+answer: A combination of % for width and rem for padding and font-size
+wrong_answers:
+  - Using px for all measurements to ensure pixel-perfect consistency
+  - Using em for all measurements including container width and height
+  - Using vw and vh exclusively for all container dimensions and spacing
+explanation: |
+  The correct answer combines relative units strategically: % for width ensures the container adapts to its parent element, making it responsive across different screen sizes, while rem units for padding and font-size provide consistent scaling based on the root font size. Using px exclusively prevents responsiveness, em for container dimensions can cause compounding scaling issues, and vw/vh alone don't provide the flexibility needed for proper container design that works well with content flow and typography.

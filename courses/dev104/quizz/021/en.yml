@@ -1,0 +1,8 @@
+question: When using flexbox, which combination of properties would center content both horizontally and vertically within a container?
+answer: display: flex, justify-content: center, align-items: center
+wrong_answers:
+  - display: flex, align-items: center, flex-direction: center
+  - display: flex, justify-content: space-between, align-items: stretch
+  - display: flex, flex-wrap: wrap, justify-content: center
+explanation: |
+  To center content both horizontally and vertically in flexbox, you need display: flex to activate flexbox, justify-content: center to center along the main axis (horizontal by default), and align-items: center to center along the cross axis (vertical by default). The other options either use non-existent properties like flex-direction: center, use properties that distribute rather than center content like space-between, or include irrelevant properties like flex-wrap that don't achieve centering.

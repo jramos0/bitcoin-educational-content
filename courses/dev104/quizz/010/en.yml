@@ -1,0 +1,8 @@
+question: Which HTML attribute is used to create a unique identifier for an element that can be used for anchor links?
+answer: id
+wrong_answers:
+  - class
+  - name
+  - href
+explanation: |
+  The 'id' attribute creates a unique identifier for HTML elements and is specifically used for anchor links to navigate within a page. When you create a link like <a href='#section1'>, it targets an element with id='section1'. The 'class' attribute is used for categorization and CSS styling, 'name' is used to pass form data to servers, and 'href' specifies the destination URL for links but doesn't identify the target element itself.

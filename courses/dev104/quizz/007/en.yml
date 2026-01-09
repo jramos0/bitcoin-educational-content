@@ -1,0 +1,8 @@
+question: Which HTML attribute is used to specify where form data should be sent when the form is submitted?
+answer: action
+wrong_answers:
+  - method
+  - target
+  - submit
+explanation: |
+  The 'action' attribute specifies the URL or destination where the form data should be sent when submitted. This is essential for forms to function properly, as it tells the browser where to process the data. The 'method' attribute specifies how data is sent (GET or POST), 'target' determines where to display the response, and 'submit' is not a valid form attribute but rather a button type.

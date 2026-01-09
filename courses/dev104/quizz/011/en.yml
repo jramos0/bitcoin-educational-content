@@ -1,0 +1,8 @@
+question: What CSS property ensures that borders and padding are included in element width calculations?
+answer: box-sizing: border-box
+wrong_answers:
+  - width: border-box
+  - padding: border-box
+  - margin: border-box
+explanation: |
+  The box-sizing property with the value 'border-box' ensures that when you set a width on an element, that width includes the padding and border, not just the content area. This makes layout calculations much more predictable. The other options are incorrect because 'width' sets the actual width value, 'padding' controls spacing inside elements, and 'margin' controls spacing outside elements - none of these properties control how the box model calculates total element dimensions.

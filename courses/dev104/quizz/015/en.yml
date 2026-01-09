@@ -1,0 +1,8 @@
+question: According to the Bitcoin blog project, which HTML element should be used specifically for the main title of a blog post?
+answer: <h1> for main headings
+wrong_answers:
+  - <title> for main headings
+  - <header> for main headings
+  - <main> for main headings
+explanation: |
+  The <h1> element is the correct choice for main headings in HTML documents. In the Bitcoin blog project, <h1> is specifically used for the main title 'Bitcoin: A Peer-to-Peer Electronic Cash System'. The chapter emphasizes semantic HTML and mentions using '<h1> for main headings' as a best practice. While <title> sets the browser tab title, <header> is for header sections, and <main> is for main content areas, only <h1> is designed for the primary heading that users see on the page itself.

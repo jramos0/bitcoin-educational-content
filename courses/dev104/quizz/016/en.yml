@@ -1,0 +1,8 @@
+question: What is the main reason why inline styles should be avoided in CSS development?
+answer: They violate separation of concerns and are hard to maintain
+wrong_answers:
+  - They load slower than external stylesheets and cause performance issues
+  - They are not supported by modern browsers and cause compatibility problems
+  - They override external styles too aggressively and cannot be customized
+explanation: |
+  Inline styles should be avoided because they violate the principle of separation of concerns by mixing presentation code directly with HTML content. This makes code hard to maintain, reduces reusability across pages, and creates messy HTML that's difficult to read and update. External stylesheets are recommended instead because they keep styling separate from content, allow for better organization, and can be reused across multiple pages while maintaining clean, semantic HTML.

@@ -1,0 +1,8 @@
+question: What is the correct file extension that must be used when saving HTML files to ensure they display properly in web browsers?
+answer: .html
+wrong_answers:
+  - .css
+  - .txt
+  - .web
+explanation: |
+  HTML files must be saved with the .html extension to be properly recognized and displayed by web browsers. This extension tells the browser that the file contains HTML markup that should be interpreted and rendered as a webpage. The .css extension is used for Cascading Style Sheets files, .txt is for plain text files, and .web is not a standard web file extension. Without the proper .html extension, browsers may not display the content correctly or may treat it as plain text instead of formatted HTML.

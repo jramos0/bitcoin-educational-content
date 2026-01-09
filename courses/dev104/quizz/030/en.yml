@@ -1,0 +1,8 @@
+question: In the Pleb Wallet project, what CSS selector technique is used to create hover effects that change button opacity when users interact with them?
+answer: The :hover pseudo-class selector combined with the opacity property
+wrong_answers:
+  - The :active pseudo-element selector combined with the transform property
+  - The :focus class selector combined with the visibility property
+  - The :target pseudo-class selector combined with the display property
+explanation: |
+  The :hover pseudo-class selector is the correct CSS technique for creating interactive effects when users hover over elements. In the Pleb Wallet, it's combined with the opacity property to create smooth fade effects on buttons. The :active selector triggers on click rather than hover, :focus is for keyboard navigation, and :target is for anchor links. Pseudo-elements like ::before are for adding content, while visibility and display properties control element visibility rather than creating smooth interactive effects like opacity does.

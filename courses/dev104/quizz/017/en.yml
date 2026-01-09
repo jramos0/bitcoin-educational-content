@@ -1,0 +1,8 @@
+question: What is the recommended method for integrating CSS into HTML documents?
+answer: External stylesheets linked via the <link> element
+wrong_answers:
+  - Internal styles within <style> tags in the head section
+  - Inline styles using the style attribute on HTML elements
+  - Embedded CSS directly within JavaScript functions
+explanation: |
+  External stylesheets are the recommended method because they provide clean separation of concerns, keeping HTML focused on structure while CSS handles presentation. This approach offers the best reusability across multiple pages, improved organization and maintainability, and better performance through browser caching. While internal styles are acceptable for limited use and inline styles work functionally, they create maintenance challenges and violate the principle of separating content from presentation.

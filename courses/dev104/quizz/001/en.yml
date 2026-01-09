@@ -1,0 +1,8 @@
+question: What happens when you visit a website in terms of how HTML content is delivered to your browser?
+answer: Your browser downloads the HTML document from a server and reads it to display the content
+wrong_answers:
+  - The server processes the HTML code and sends only the final visual result to your browser
+  - "Your browser creates the HTML code locally based on the website's URL and domain name"
+  - "The HTML content is streamed directly from the website owner's computer to your browser"
+explanation: |
+  When you visit a website, the process involves your browser downloading the complete HTML document from the server where it's hosted. The browser then interprets this HTML code to display the content according to the markup instructions. The server doesn't process the HTML into a visual format - it sends the raw HTML code. Browsers don't generate HTML from URLs alone, and websites aren't typically hosted on personal computers but on dedicated servers.

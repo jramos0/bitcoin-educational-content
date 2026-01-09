@@ -1,0 +1,8 @@
+question: Which HTML element contains document metadata and is not visible to users on the webpage?
+answer: <head>
+wrong_answers:
+  - <body>
+  - <meta>
+  - <title>
+explanation: |
+  The <head> element is the correct answer because it serves as the container for all document metadata that is not displayed to users on the webpage itself. While <body> contains the visible content, <meta> is just one type of metadata element that goes inside <head>, and <title> is also metadata but specifically for the page title. The <head> element encompasses all metadata including <meta>, <title>, and other non-visible elements that provide information about the document to browsers and search engines.

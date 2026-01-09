@@ -1,0 +1,8 @@
+question: Which HTML element is used to create a multi-line text input field in forms?
+answer: <textarea>
+wrong_answers:
+  - <input>
+  - <textbox>
+  - <multitext>
+explanation: |
+  The <textarea> element is specifically designed for multi-line text input in HTML forms, allowing users to enter longer content that spans multiple lines. The <input> element is used for single-line text fields and other input types, but cannot handle multi-line text input. <textbox> and <multitext> are not valid HTML elements - they don't exist in the HTML specification and would not function as form controls.

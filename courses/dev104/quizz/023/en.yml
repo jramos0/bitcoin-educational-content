@@ -1,0 +1,8 @@
+question: Which CSS selector combination would target only paragraph elements that are direct children of elements with the class 'article-content'?
+answer: .article-content > p
+wrong_answers:
+  - .article-content p
+  - .article-content + p
+  - .article-content ~ p
+explanation: |
+  The child combinator (>) selects only direct children, making '.article-content > p' target paragraphs that are immediate children of elements with class 'article-content'. The descendant selector '.article-content p' would target ALL paragraphs inside the element, including nested ones. The adjacent sibling selector '+' targets elements immediately following the specified element, while the general sibling selector '~' targets all siblings that come after.

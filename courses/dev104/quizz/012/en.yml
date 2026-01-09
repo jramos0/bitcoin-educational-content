@@ -1,0 +1,8 @@
+question: What is the primary purpose of CSS (Cascading Style Sheets) in web development?
+answer: To make HTML look beautiful and separate content from presentation
+wrong_answers:
+  - To create interactive forms and handle user input validation
+  - To store and manage database connections for web applications
+  - To provide server-side processing and backend functionality
+explanation: |
+  CSS (Cascading Style Sheets) is specifically designed to handle the visual presentation of HTML content. Its main purpose is to make HTML look beautiful by controlling colors, fonts, layouts, and other visual aspects, while keeping the content (HTML) separate from its presentation (CSS). This separation allows developers to change the appearance without modifying the content structure. The wrong answers describe JavaScript functionality (form validation), database management systems, and server-side technologies respectively, which are completely different aspects of web development that CSS does not handle.

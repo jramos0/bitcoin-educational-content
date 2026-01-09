@@ -1,0 +1,8 @@
+question: What is the primary reason why ID selectors should be avoided for styling purposes in CSS?
+answer: They have too high specificity making them difficult to override and reducing code reusability
+wrong_answers:
+  - They cannot be used with pseudo-classes like :hover or :focus for interactive effects
+  - They only work with JavaScript and are not recognized by CSS rendering engines
+  - They cause performance issues because browsers must search the entire DOM for unique IDs
+explanation: |
+  ID selectors have very high specificity in CSS, making them extremely difficult to override when needed. This creates maintenance problems and reduces code reusability since styles tied to IDs cannot be easily applied to multiple elements. Class selectors are preferred because they offer medium specificity, allowing for better control and flexibility in styling while maintaining the ability to override when necessary.

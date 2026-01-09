@@ -1,0 +1,8 @@
+question: What happens when multiple CSS rules target the same element with different specificity values?
+answer: The rule with the highest specificity value takes precedence and is applied to the element
+wrong_answers:
+  - All rules are combined together and their properties are merged into a single style
+  - The last rule written in the CSS file always overrides all previous rules regardless of specificity
+  - The browser randomly selects one of the conflicting rules to apply to the element
+explanation: |
+  CSS specificity determines which rule wins when multiple rules target the same element. The hierarchy is: inline styles (highest), IDs, classes, then elements (lowest). For example, a class selector (.text with specificity 10) will override an element selector (p with specificity 1) even if the element selector comes later in the code. This system ensures predictable styling behavior and allows developers to create maintainable CSS by understanding which rules will take precedence.

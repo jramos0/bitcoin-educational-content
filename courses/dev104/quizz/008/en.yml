@@ -1,0 +1,8 @@
+question: Which HTML element is used to declare the document type and should appear at the very beginning of an HTML document?
+answer: <!DOCTYPE html>
+wrong_answers:
+  - <html>
+  - <head>
+  - <meta>
+explanation: |
+  The <!DOCTYPE html> declaration must appear at the very beginning of an HTML document to tell the browser what type of document it is processing. While <html> is the root element, <head> contains metadata, and <meta> provides specific metadata information, none of these serve the purpose of declaring the document type. The DOCTYPE declaration ensures the browser renders the page in standards mode and is essential for proper HTML5 document structure.

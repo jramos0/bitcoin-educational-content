@@ -1,0 +1,8 @@
+question: What happens when two CSS properties with the same name are declared for the same element?
+answer: The second property overwrites the first one due to the cascade
+wrong_answers:
+  - Both properties are applied and their values are combined together
+  - The first property takes priority and the second one is ignored
+  - An error occurs and neither property will be applied to the element
+explanation: |
+  CSS follows the cascade principle, which means properties are read from top to bottom. When the same property is declared multiple times for the same element, the last declaration wins and overwrites any previous ones. This cascading behavior allows developers to set general styles first and then override them with more specific values when needed, making CSS flexible and powerful for styling web pages.

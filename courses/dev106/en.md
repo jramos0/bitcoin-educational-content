@@ -38,6 +38,8 @@ Ready to dive into the fascinating world of Bitcoin Development, specifically th
 ## Node.js Environment
 <chapterId>986f478c-6780-4a64-a191-5816c8da454d</chapterId>
 
+![Video](https://peertube.planb.network/videos/embed/69898b56-edd6-4e15-a38b-c904d3fcecf3)
+
 ### Introducing Node.js
 
 Node.js is a **JavaScript runtime** built on the V8 engine that allows you to run JavaScript code outside of a web browser.

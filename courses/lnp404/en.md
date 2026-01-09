@@ -17,45 +17,9 @@ By the end, you’ll not only understand how to maintain and scale your Lightnin
 
 +++
 
-# Introduction
-<partId>122045c5-d87a-46a9-9d46-04dc24230284</partId>
-
-## Course overview
-<chapterId>560dd189-0bc2-44f5-a951-f402bca34132</chapterId>
-
-#### Welcome to the Terminal Journey
-Managing a Lightning Network node is more than just keeping a server online; it is an art of liquidity management, routing optimization, and infrastructure security. While many graphical interfaces exist, the true power of a Lightning operator lies in the Terminal.
-
-In this course, we will move beyond basic wallet functions and dive deep into the professional management of an LND node using the Lightning Terminal (LitD) suite. Whether you are a "Pleb" starting your first routing node or a developer looking to scale a payment infrastructure, this course provides the roadmap to professional-grade operations.
-
-#### Why the Command Line?
-The terminal is the native language of the internet and the Bitcoin protocol. By mastering tools like litd, loop, pool, and faraday, you gain:
-
-Precision: Execute complex operations like batch channel opens and liquidity swaps with exact parameters.
-
-Automation: Set up "set-and-forget" systems for fee management and rebalancing.
-
-Efficiency: Manage multiple nodes and virtual accounts without the overhead of heavy web browsers.
-
-Insight: Access granular data about your peers and routing history that standard UIs often hide.
-
-#### What You Will Accomplish
-By the end of this journey, you will have transformed your node into a high-performance routing machine. You will be able to:
-
-Deploy and Configure: Install LitD in remote or integrated modes and manage it as a system service.
-
-Audit Health: Use professional metrics to diagnose why your node isn't routing and how to fix it.
-
-Optimize Liquidity: Master "Loop Out" and "Loop In" to keep your channels perfectly balanced.
-
-Automate Revenue: Use the Autofees engine to maximize earnings based on market demand.
-
-Scale Operations: Manage a fleet of nodes and create secure, restricted accounts for third-party apps.
-
-Ready to start? Let’s head to the terminal.
-
-# Getting Started with the Node Deployment
+# First steps of installing your Lightning Node
 <partId>d74ec352-1a5d-466d-a06d-571fc9f99937</partId>
+
 
 ## Install & Connect
 <chapterId>0fa71ff6-9b15-4e8b-8270-2ff7df465c11</chapterId>
@@ -127,43 +91,6 @@ This is essential for multi‑admin environments or tooling that integrates with
 - Proper `lit.conf` and systemd integration make LitD production‑ready.
 - Terminal + LNC provide secure, flexible local and remote node management.
 
-## RUN LITD: Building a Node from Scratch
-<chapterId>710c2090-e905-4141-8b12-7a81d7c276a1</chapterId>
-
-![video](https://www.youtube.com/watch?v=lopHP_nF0tE)
-
-### LITD Architecture and Repository Structure
-
-The Lightning Terminal Daemon (LITD) is a unified binary that bundles the core Lightning Network Daemon (LND) with essential operational tools: **Loop** (liquidity swaps), **Pool** (liquidity marketplace), **Faraday** (accounting/analytics), and **Taproot Assets**. By running these components as a single integrated system, developers and node operators avoid the complexity of managing five distinct daemons and their inter-process communications.
-
-To streamline deployment, the community utilizes the **Run LITD** repository. Inspired by Alex Bosworth’s "Run LND," this repository is optimized for speed and standardized configuration. It offers three distinct implementation pathways depending on the operator's need for control:
-1.  **Automated Scripts:** Bash scripts that handle the end-to-end installation (ideal for rapid testing).
-2.  **Manual Checklists:** Step-by-step guides for operators who need to audit every command.
-3.  **Example Configurations:** Reference files for `bitcoin.conf`, `lit.conf`, and systemd services.
-
-### Hardware Prerequisites and Installation Stages
-
-Before deployment, operators must provision a server meeting minimum specifications. The scripts are tested specifically on **Ubuntu 24.04**. A baseline configuration requires at least **4GB of RAM** and sufficient storage.
-* **Pruned Node:** ~80GB storage (sufficient for most Lightning operations).
-* **Archival Node:** ~1TB+ storage (required only if you need a full historical copy of the blockchain).
-
-The installation workflow is divided into three sequential stages:
-1.  **Server Preparation:** Secures the environment by creating a dedicated user, configuring SSH keys, and disabling root login/password authentication.
-2.  **Bitcoin Core Setup:** Installs the Bitcoin backend. The repository supports both **Binary** (faster, pre-compiled) and **Source** (auditable, slower) installation methods.
-3.  **LITD Deployment:** Compiles or downloads the LITD binary. For source installations, this step automatically handles dependencies like Go, Node.js, and Yarn.
-
-### Configuration, Wallet Ops, and Service Management
-
-Unlike a standalone LND setup, LITD uses a unified configuration file located in the `.lit` directory. This introduces a specific syntax requirement: standard LND parameters must be prefixed with `lnd.`. For example, a setting that is `alias=MyNode` in LND becomes `lnd.alias=MyNode` in `lit.conf`. This separation allows the daemon to route configurations to the correct internal sub-server (e.g., specific settings for Loop or Faraday).
-
-**Wallet Initialization:**
-Once the software is installed, the operator must manually start LITD to generate the wallet seed. The setup scripts include a secure password management mechanism that enables **Auto-Unlock**. This allows LITD to automatically decrypt the wallet upon system reboot, ensuring the node comes back online immediately after power failures or maintenance without manual intervention.
-
-**Systemd Integration:**
-The final setup script wraps both Bitcoin Core and LITD in `systemd` service files. This transforms them into background services that start on boot (`systemctl enable litd`). Verification involves checking the service status logs to ensure the node is successfully syncing with the blockchain and that all bundled sub-servers (Loop, Pool) are active and communicating.
-
-# Diagnostics & Network Intelligence
-<partId>4a75b440-c330-4ef0-aafe-f7e19981049b</partId>
 
 ## Health Checks and Recommendations
 <chapterId>ceb149b0-473b-4264-8bc3-b64ec8717aac</chapterId>
@@ -208,94 +135,6 @@ Regular monitoring of Health Check performance and thoughtful selection of new c
 
 By leveraging both Health Checks for performance assessment and Recommended Channels for strategic growth, you can maintain a well-functioning node that serves both your operational goals and the broader network's needs.
 
-## Peer Insights
-<chapterId>27d09714-6496-4451-bb08-1927e0148d1e</chapterId>
-
-![video](https://www.youtube.com/watch?v=4x1V_G_DlKo)
-
-### Peer Insights: Network Intelligence
-
-Lightning Terminal’s **Peer Insights** is a robust intelligence layer integrated directly into the Explorer tab. It is designed to move node operators beyond basic connectivity metrics (like capacity and channel count) toward a deeper understanding of network behavior and peer value.
-
-The feature operates on a tiered information architecture. At the base level, it provides general reconnaissance data for any node on the public network, useful for scouting potential partners. At the advanced level, it unlocks detailed performance analytics for nodes with whom you already maintain open channels. This dual capability allows operators to assess the "reputation" and strategic value of a peer before opening a channel, and then monitor the actual ROI of that relationship over time.
-
-### Visual Indicators and Network Scouting
-
-The primary interface for Peer Insights is the **Explorer Tab**. This dashboard presents a ranked list of top-performing nodes, but augments this list with contextual "badges" or visual indicators overlaid on the node entries.
-
-These indicators allow for rapid scanning of the network landscape. For example, specific badges highlight whether a node has open liquidity orders in the Pool marketplace or if it is currently connected to your node.
-* **Health Check:** Instantly communicates operational uptime and reliability.
-* **Centrality Score:** Indicates how critical that node is to the overall network topology.
-* **Capacity & Age:** Establishes the scale and longevity of the node’s operations.
-
-By filtering through these metrics, an operator can quickly identify stable, high-capacity nodes that are actively seeking liquidity, making them ideal candidates for new channel openings.
-
-### Analyzing Fee Strategies
-
-One of the most sophisticated tools within Peer Insights is the **Fee Distribution Graph**. This visualization decompresses the complex fee policies of a target node across its entire channel portfolio.
-
-The graph uses a dual-axis design:
-* **Horizontal Axis:** Represents fee rates (parts per million or ppm).
-* **Vertical Axis:** Represents the number of channels.
-* **Split View:** Inbound fees are plotted above the axis; outbound fees are plotted below.
-
-This visual clustering reveals the peer's routing philosophy. For example, if a node has a tight cluster of channels priced at 100ppm but a few outliers at 1000ppm, it suggests a tiered strategy where scarce liquidity is priced at a premium. Conversely, a flat distribution suggests a "set-and-forget" passive management style. Understanding these patterns is crucial when setting your own fees; pricing your channel competitively against a peer's existing connections ensures your node remains an attractive hop for routing.
-
-### Peer-Specific Performance Analytics
-
-For existing partners, Peer Insights unlocks a granular history of the relationship. While general network explorers can only guess at routing volume, Terminal leverages your node's local data to display exact interaction metrics.
-
-Key metrics include:
-* **Forwarding Events:** The total count of payments routed through this specific peer.
-* **Volume Routed:** The cumulative amount of satoshis moved.
-* **Fees Earned:** The direct revenue generated by this relationship.
-
-This data transforms abstract channel management into evidence-based strategy. If a channel has high capacity but zero forwarding events over a month, the analytics will make this inefficiency obvious, signaling a need for fee adjustment or channel closure. Conversely, high-volume, low-fee peers can be identified as candidates for fee increases. By centralizing this data, Peer Insights allows operators to treat their node not just as a piece of software, but as a portfolio of financial assets that requires active optimization.
-
-## Liquidity Reports
-<chapterId>ed0d914d-08af-4e32-9eb0-93955bff0474</chapterId>
-
-![video](https://www.youtube.com/watch?v=7ga-8AhCNK4)
-
-### Visualizing Liquidity Health
-
-Managing liquidity is arguably the most complex aspect of running a Lightning node because failure is often silent. Unlike a crashed server or a rejected transaction, poor liquidity manifests as "invisible" problems—payments that simply route around your node because they cannot find a path, leaving you unaware of the lost revenue.
-
-Lightning Terminal addresses this with the **Liquidity Report**, accessible via the **Loop** tab. This tool provides a diagnostic visualization of your node's ability to route payments and receive funds.
-
-The primary tool here is the **Routable Liquidity Chart**. It breaks down capacity into its two critical components:
-* **Inbound Liquidity:** The ability to receive funds (remote balance).
-* **Outbound Liquidity:** The ability to send funds (local balance).
-
-The chart offers two viewing modes to help operators assess their standing. The **Cumulative View** provides a high-level ratio assessment, useful for quickly spotting gross imbalances (e.g., a node that is 90% outbound and only 10% inbound). The **Detailed View** breaks this data down by individual channels, allowing for specific troubleshooting.
-
-### Simulating Payment Scenarios
-
-Liquidity is not static; it behaves differently depending on the size of the payment being routed. A node might be perfectly capable of routing a 1,000 satoshi micropayment but completely fail to route a 5,000,000 satoshi transaction. The Liquidity Report includes a **Simulation Engine** to test these variances.
-
-Operators can toggle between three preset payment sizes: **500k sats**, **5M sats**, and **15M sats**.
-As you adjust these settings, the dashboard dynamically updates two key metrics:
-1.  **Routable Liquidity Chart:** Visually demonstrates which channels "drop off" and become unusable as the payment size increases.
-2.  **Estimated Last Hop Fee:** Projects the cost for an external user to route a payment of that specific size to your node.
-
-This feature is critical for capacity planning. It helps operators identify "bottleneck" channels that appear healthy on the surface but lack the depth required to handle larger, higher-fee transactions.
-
-### Analyzing Performance by Fee Rate
-
-Beyond raw capacity, the report analyzes liquidity through the lens of **Fee Rates**. The **Routable Inbound Chart** plots your channels along an X-axis representing fee rates (parts per million), while the Y-axis displays channel density.
-
-This dual-perspective chart (Channel Count vs. Percentage) reveals the "quality" of your routing options. It helps answer specific strategic questions:
-* **Availability:** Do I have inbound liquidity available at low fee rates, or is my capacity expensive to access?
-* **Dead Zones:** Are there fee ranges where I have zero routable capacity?
-
-#### Identifying Hidden Issues
-The ultimate goal of these reports is to detect **Systematic Inefficiencies**. For example, the chart might reveal that while you have ample total liquidity, it is all concentrated in high-fee channels that the network routing algorithms ignore for standard payments. Alternatively, it might show that your low-fee channels are constantly depleted.
-
-By correlating payment sizes with fee rates, the Liquidity Report transforms node management from a reactive process (fixing stuck channels) to a proactive strategy. It allows the operator to rebalance channels specifically to fill the gaps in their routing profile, capturing the fee revenue that was previously bypassing their node entirely.
-
-# Channel Operations, Routing and Liquidity
-<partId>bb3cc75e-1b84-4afd-8271-b5ba652fc9a3</partId>
-
 ## Insights, Forwards, and Channels
 <chapterId>37799ff2-ca5a-4db4-aa21-fed5a5420be4</chapterId>
 
@@ -323,45 +162,6 @@ Rather than displaying raw numbers, Terminal Web utilizes visual bars to represe
 
 #### Advanced Channel Actions
 Terminal Web goes beyond passive monitoring by integrating actionable controls directly into the analytics interface. Each channel displays a calculated ROI—specifically for channels initiated by the local operator—comparing earned fees against the on-chain cost of opening the channel. This per-channel profitability metric is decisive when determining whether to keep a connection alive. From this same interface, operators can execute critical lifecycle actions: they can adjust fee policies to influence traffic flow or initiate channel closures for underperforming peers. The system also logs all channel lifecycle events—opens, cooperative closes, and force closes—providing a historical context that helps operators refine their peer selection strategy over time.
-
-## Opening Channels & Batching
-<chapterId>c7e83bd9-df1c-4763-8401-488b733d835c</chapterId>
-
-![video](https://www.youtube.com/watch?v=VmvwM-zv2i0)
-
-### The Economics of Batch Opens
-
-In the Lightning Network, every payment channel is anchored by an on-chain Bitcoin transaction. Traditionally, establishing a robust node with multiple peers required a separate transaction for each channel. This approach is inefficient, consuming significant block space and incurring separate mining fees for every single connection.
-
-Lightning Terminal solves this with **Batch Opens**. This feature allows node operators to aggregate multiple channel openings into a single on-chain transaction.
-
-The technical advantage is substantial. Instead of broadcasting five separate transactions to open five channels (paying overhead bytes for inputs and signatures five times), a batch open consumes a single UTXO (or set of UTXOs) and creates multiple outputs—one for each channel—within the same transaction envelope. This consolidation drastically reduces the cost per channel, making it a critical strategy for liquidity management during periods of high on-chain fee pressure. It also optimizes the node's UTXO set, preventing the fragmentation of wallet funds into "dust" outputs.
-
-### Configuring the Batch Workflow
-
-The process begins in the Terminal dashboard via the **Open Channel** interface. To initiate a batch, the operator requires the public identity keys of the target peers.
-
-The workflow is iterative:
-1.  **Peer Identification:** Enter the Public Key of the first peer. Terminal validates the node's existence on the network.
-2.  **Capacity Allocation:** Define the channel size in satoshis. This determines the liquidity locked into that specific connection.
-3.  **Parameter Setup:** Configure initial routing fees (Base Fee and Fee Rate) and visibility settings (Public vs. Private).
-
-#### Channel Visibility and Fees
-A critical decision point during configuration is the channel's visibility. **Public Channels** are broadcast to the network graph, enabling random nodes to route payments through them, generating fee revenue. **Private Channels** remain unannounced, visible only to the two direct peers. These are ideal for mobile wallets or merchant terminals that do not intend to route third-party traffic. Similarly, initial fee settings dictate the channel's competitiveness; while defaults are provided, experienced operators tune these metrics based on the specific peer's reliability and location in the network topology.
-
-### Execution and On-Chain Verification
-
-The true utility of the batch feature is the **"Add Channel"** function. Rather than finalizing the transaction after configuring one peer, the operator stacks additional peers into the same session. As new channels are added, the marginal cost of each addition is negligible compared to the base cost of the transaction.
-
-Once the batch is fully assembled, the operator sets the **Mining Fee**. This fee pays the Bitcoin miners to confirm the aggregate transaction. Because this single fee is amortized across all new channels, the effective cost per channel drops significantly.
-
-**Verification:**
-After the transaction is broadcast, the channels enter a "pending" state until confirmed. Verification can be performed via any block explorer. A properly executed batch transaction will display a distinct structure:
-* **Inputs:** One or more UTXOs from the node's wallet.
-* **Outputs:** Multiple outputs of equal or varying values (representing the funded channels).
-* **Change Output:** A single output returning any remaining funds to the node's internal wallet.
-
-This on-chain footprint confirms that the batch logic was executed correctly, locking funds into the 2-of-2 multisignature addresses required for the Lightning channels while maximizing capital efficiency.
 
 ## Autofees
 <chapterId>c6264c0b-10f6-4261-8d1e-47593168d8ca</chapterId>
@@ -408,6 +208,82 @@ Once the configuration is set, activation is handled via the Terminal UI:
 3.  Click **Enable**.
 
 The interface provides granular control, allowing operators to toggle Auto-Fees on or off for individual channels. This allows for a hybrid management style, where stable, high-volume channels are managed automatically, while experimental or strategic private channels remain under manual control.
+
+## Multi-Node Connections
+<chapterId>9f6f9bf3-999e-4dad-9d2d-0b725178d754</chapterId>
+
+![video](https://www.youtube.com/watch?v=SGY9h8JW4go)
+
+### Unified Infrastructure Management
+
+Lightning Terminal has evolved from a single-node utility into a comprehensive infrastructure management platform. The **Multi-Node Interface** enables operators to oversee distinct Lightning Network nodes—whether they are redundant backups, separate routing nodes, or nodes operating on different networks (e.g., Mainnet vs. Testnet)—from a single, unified dashboard.
+
+This architecture eliminates the friction of logging in and out of different browser sessions or managing multiple disparate URLs. The integration is designed to be lightweight yet robust; adding a new node does not dilute the functionality available. Whether an operator manages two nodes or a dozen, the full suite of Terminal tools—Loop for liquidity, Pool for leasing, and health monitoring—remains fully accessible for every specific instance connected to the workspace.
+
+### Generating Connection Credentials
+
+The foundation of the multi-node setup is the **Connection String**. Because Terminal operates securely over Lightning Node Connect (LNC), it does not require opening ports on your firewall. Instead, each node must generate a unique, cryptographic pairing phrase that authorizes the Terminal interface to communicate with the Lightning Terminal Daemon (LitD).
+
+Operators can generate these strings via the LitD UI, but the Command Line Interface (CLI) offers granular control for power users. Using the `litcli` tool, an operator creates a session by defining specific parameters:
+* **Network:** Specifies if the node is on `mainnet` or `testnet`.
+* **Label:** Assigns a human-readable alias (e.g., "Routing-Node-East") to distinguish the node in the UI.
+* **Type:** Defines the permission scope, typically set to "admin" for full management capabilities.
+
+#### Security Implications
+The generated connection string contains the authentication data necessary to administer the node. It functions effectively as a private key for administrative access. Consequently, these strings must be handled with extreme care—never shared in public forums or transmitted over unencrypted channels. Possession of the string grants the holder the ability to manipulate the node's channels and funds through the Terminal interface.
+
+### The Connection Workflow and Context Switching
+
+Connecting the first node establishes the baseline workspace. The operator selects "Connect My Node" and pastes the generated connection string. Crucially, Terminal enforces a secondary security layer: **The Session Password**. Upon pasting the string, the user must define a local password. This ensures that even if the physical device running the browser is compromised, the active Terminal session cannot be used to interact with the node without this second factor of authentication.
+
+Adding subsequent nodes follows an identical pattern via the "Add Node" option in the interface's header. Terminal treats each connection independently, maintaining separate authentication tokens and session states for each node.
+
+**Operational Context Switching:**
+Once multiple nodes are onboarded, the **Node Selector** dropdown becomes the primary navigation tool. Switching between nodes is instantaneous. When a new node is selected, the entire dashboard context shifts.
+* **Metrics Update:** ROI, net profit, and routing history immediately reflect the selected node's data.
+* **Channel Management:** The channel list refreshes to show peers associated only with the active node.
+* **Tool State:** Loop and Pool interfaces update to show swaps and auctions relevant to the currently selected entity.
+
+This efficient switching mechanism allows operators to maintain high-level situational awareness across their entire fleet, rapidly responding to liquidity imbalances or alerts on any specific node without leaving the command center.
+
+## Opening Channels & Batching
+<chapterId>c7e83bd9-df1c-4763-8401-488b733d835c</chapterId>
+
+![video](https://www.youtube.com/watch?v=VmvwM-zv2i0)
+
+### The Economics of Batch Opens
+
+In the Lightning Network, every payment channel is anchored by an on-chain Bitcoin transaction. Traditionally, establishing a robust node with multiple peers required a separate transaction for each channel. This approach is inefficient, consuming significant block space and incurring separate mining fees for every single connection.
+
+Lightning Terminal solves this with **Batch Opens**. This feature allows node operators to aggregate multiple channel openings into a single on-chain transaction.
+
+The technical advantage is substantial. Instead of broadcasting five separate transactions to open five channels (paying overhead bytes for inputs and signatures five times), a batch open consumes a single UTXO (or set of UTXOs) and creates multiple outputs—one for each channel—within the same transaction envelope. This consolidation drastically reduces the cost per channel, making it a critical strategy for liquidity management during periods of high on-chain fee pressure. It also optimizes the node's UTXO set, preventing the fragmentation of wallet funds into "dust" outputs.
+
+### Configuring the Batch Workflow
+
+The process begins in the Terminal dashboard via the **Open Channel** interface. To initiate a batch, the operator requires the public identity keys of the target peers.
+
+The workflow is iterative:
+1.  **Peer Identification:** Enter the Public Key of the first peer. Terminal validates the node's existence on the network.
+2.  **Capacity Allocation:** Define the channel size in satoshis. This determines the liquidity locked into that specific connection.
+3.  **Parameter Setup:** Configure initial routing fees (Base Fee and Fee Rate) and visibility settings (Public vs. Private).
+
+#### Channel Visibility and Fees
+A critical decision point during configuration is the channel's visibility. **Public Channels** are broadcast to the network graph, enabling random nodes to route payments through them, generating fee revenue. **Private Channels** remain unannounced, visible only to the two direct peers. These are ideal for mobile wallets or merchant terminals that do not intend to route third-party traffic. Similarly, initial fee settings dictate the channel's competitiveness; while defaults are provided, experienced operators tune these metrics based on the specific peer's reliability and location in the network topology.
+
+### Execution and On-Chain Verification
+
+The true utility of the batch feature is the **"Add Channel"** function. Rather than finalizing the transaction after configuring one peer, the operator stacks additional peers into the same session. As new channels are added, the marginal cost of each addition is negligible compared to the base cost of the transaction.
+
+Once the batch is fully assembled, the operator sets the **Mining Fee**. This fee pays the Bitcoin miners to confirm the aggregate transaction. Because this single fee is amortized across all new channels, the effective cost per channel drops significantly.
+
+**Verification:**
+After the transaction is broadcast, the channels enter a "pending" state until confirmed. Verification can be performed via any block explorer. A properly executed batch transaction will display a distinct structure:
+* **Inputs:** One or more UTXOs from the node's wallet.
+* **Outputs:** Multiple outputs of equal or varying values (representing the funded channels).
+* **Change Output:** A single output returning any remaining funds to the node's internal wallet.
+
+This on-chain footprint confirms that the batch logic was executed correctly, locking funds into the 2-of-2 multisignature addresses required for the Lightning channels while maximizing capital efficiency.
 
 ## Lightning Loop
 <chapterId>f2642efb-a485-4bc9-b571-d8e901e3e8b1</chapterId>
@@ -459,45 +335,93 @@ Additionally, specific constraints ensure efficiency:
 
 The Autopilot dashboard provides a live view of these operations, allowing operators to pause the service during volatile market conditions or adjust budgets as their node's revenue grows.
 
-# Scalability & Fleet Management
+## Peer Insights
+<chapterId>27d09714-6496-4451-bb08-1927e0148d1e</chapterId>
+
+![video](https://www.youtube.com/watch?v=4x1V_G_DlKo)
+
+### Peer Insights: Network Intelligence
+
+Lightning Terminal’s **Peer Insights** is a robust intelligence layer integrated directly into the Explorer tab. It is designed to move node operators beyond basic connectivity metrics (like capacity and channel count) toward a deeper understanding of network behavior and peer value.
+
+The feature operates on a tiered information architecture. At the base level, it provides general reconnaissance data for any node on the public network, useful for scouting potential partners. At the advanced level, it unlocks detailed performance analytics for nodes with whom you already maintain open channels. This dual capability allows operators to assess the "reputation" and strategic value of a peer before opening a channel, and then monitor the actual ROI of that relationship over time.
+
+### Visual Indicators and Network Scouting
+
+The primary interface for Peer Insights is the **Explorer Tab**. This dashboard presents a ranked list of top-performing nodes, but augments this list with contextual "badges" or visual indicators overlaid on the node entries.
+
+These indicators allow for rapid scanning of the network landscape. For example, specific badges highlight whether a node has open liquidity orders in the Pool marketplace or if it is currently connected to your node.
+* **Health Check:** Instantly communicates operational uptime and reliability.
+* **Centrality Score:** Indicates how critical that node is to the overall network topology.
+* **Capacity & Age:** Establishes the scale and longevity of the node’s operations.
+
+By filtering through these metrics, an operator can quickly identify stable, high-capacity nodes that are actively seeking liquidity, making them ideal candidates for new channel openings.
+
+### Analyzing Fee Strategies
+
+One of the most sophisticated tools within Peer Insights is the **Fee Distribution Graph**. This visualization decompresses the complex fee policies of a target node across its entire channel portfolio.
+
+The graph uses a dual-axis design:
+* **Horizontal Axis:** Represents fee rates (parts per million or ppm).
+* **Vertical Axis:** Represents the number of channels.
+* **Split View:** Inbound fees are plotted above the axis; outbound fees are plotted below.
+
+This visual clustering reveals the peer's routing philosophy. For example, if a node has a tight cluster of channels priced at 100ppm but a few outliers at 1000ppm, it suggests a tiered strategy where scarce liquidity is priced at a premium. Conversely, a flat distribution suggests a "set-and-forget" passive management style. Understanding these patterns is crucial when setting your own fees; pricing your channel competitively against a peer's existing connections ensures your node remains an attractive hop for routing.
+
+### Peer-Specific Performance Analytics
+
+For existing partners, Peer Insights unlocks a granular history of the relationship. While general network explorers can only guess at routing volume, Terminal leverages your node's local data to display exact interaction metrics.
+
+Key metrics include:
+* **Forwarding Events:** The total count of payments routed through this specific peer.
+* **Volume Routed:** The cumulative amount of satoshis moved.
+* **Fees Earned:** The direct revenue generated by this relationship.
+
+This data transforms abstract channel management into evidence-based strategy. If a channel has high capacity but zero forwarding events over a month, the analytics will make this inefficiency obvious, signaling a need for fee adjustment or channel closure. Conversely, high-volume, low-fee peers can be identified as candidates for fee increases. By centralizing this data, Peer Insights allows operators to treat their node not just as a piece of software, but as a portfolio of financial assets that requires active optimization.
+
+# Last Steps
 <partId>2e886890-62f7-4453-9c6f-9b397a280b75</partId>
 
-## Multi-Node Connections
-<chapterId>9f6f9bf3-999e-4dad-9d2d-0b725178d754</chapterId>
+## Liquidity Reports
+<chapterId>ed0d914d-08af-4e32-9eb0-93955bff0474</chapterId>
 
-![video](https://www.youtube.com/watch?v=SGY9h8JW4go)
+![video](https://www.youtube.com/watch?v=7ga-8AhCNK4)
 
-### Unified Infrastructure Management
+### Visualizing Liquidity Health
 
-Lightning Terminal has evolved from a single-node utility into a comprehensive infrastructure management platform. The **Multi-Node Interface** enables operators to oversee distinct Lightning Network nodes—whether they are redundant backups, separate routing nodes, or nodes operating on different networks (e.g., Mainnet vs. Testnet)—from a single, unified dashboard.
+Managing liquidity is arguably the most complex aspect of running a Lightning node because failure is often silent. Unlike a crashed server or a rejected transaction, poor liquidity manifests as "invisible" problems—payments that simply route around your node because they cannot find a path, leaving you unaware of the lost revenue.
 
-This architecture eliminates the friction of logging in and out of different browser sessions or managing multiple disparate URLs. The integration is designed to be lightweight yet robust; adding a new node does not dilute the functionality available. Whether an operator manages two nodes or a dozen, the full suite of Terminal tools—Loop for liquidity, Pool for leasing, and health monitoring—remains fully accessible for every specific instance connected to the workspace.
+Lightning Terminal addresses this with the **Liquidity Report**, accessible via the **Loop** tab. This tool provides a diagnostic visualization of your node's ability to route payments and receive funds.
 
-### Generating Connection Credentials
+The primary tool here is the **Routable Liquidity Chart**. It breaks down capacity into its two critical components:
+* **Inbound Liquidity:** The ability to receive funds (remote balance).
+* **Outbound Liquidity:** The ability to send funds (local balance).
 
-The foundation of the multi-node setup is the **Connection String**. Because Terminal operates securely over Lightning Node Connect (LNC), it does not require opening ports on your firewall. Instead, each node must generate a unique, cryptographic pairing phrase that authorizes the Terminal interface to communicate with the Lightning Terminal Daemon (LitD).
+The chart offers two viewing modes to help operators assess their standing. The **Cumulative View** provides a high-level ratio assessment, useful for quickly spotting gross imbalances (e.g., a node that is 90% outbound and only 10% inbound). The **Detailed View** breaks this data down by individual channels, allowing for specific troubleshooting.
 
-Operators can generate these strings via the LitD UI, but the Command Line Interface (CLI) offers granular control for power users. Using the `litcli` tool, an operator creates a session by defining specific parameters:
-* **Network:** Specifies if the node is on `mainnet` or `testnet`.
-* **Label:** Assigns a human-readable alias (e.g., "Routing-Node-East") to distinguish the node in the UI.
-* **Type:** Defines the permission scope, typically set to "admin" for full management capabilities.
+### Simulating Payment Scenarios
 
-#### Security Implications
-The generated connection string contains the authentication data necessary to administer the node. It functions effectively as a private key for administrative access. Consequently, these strings must be handled with extreme care—never shared in public forums or transmitted over unencrypted channels. Possession of the string grants the holder the ability to manipulate the node's channels and funds through the Terminal interface.
+Liquidity is not static; it behaves differently depending on the size of the payment being routed. A node might be perfectly capable of routing a 1,000 satoshi micropayment but completely fail to route a 5,000,000 satoshi transaction. The Liquidity Report includes a **Simulation Engine** to test these variances.
 
-### The Connection Workflow and Context Switching
+Operators can toggle between three preset payment sizes: **500k sats**, **5M sats**, and **15M sats**.
+As you adjust these settings, the dashboard dynamically updates two key metrics:
+1.  **Routable Liquidity Chart:** Visually demonstrates which channels "drop off" and become unusable as the payment size increases.
+2.  **Estimated Last Hop Fee:** Projects the cost for an external user to route a payment of that specific size to your node.
 
-Connecting the first node establishes the baseline workspace. The operator selects "Connect My Node" and pastes the generated connection string. Crucially, Terminal enforces a secondary security layer: **The Session Password**. Upon pasting the string, the user must define a local password. This ensures that even if the physical device running the browser is compromised, the active Terminal session cannot be used to interact with the node without this second factor of authentication.
+This feature is critical for capacity planning. It helps operators identify "bottleneck" channels that appear healthy on the surface but lack the depth required to handle larger, higher-fee transactions.
 
-Adding subsequent nodes follows an identical pattern via the "Add Node" option in the interface's header. Terminal treats each connection independently, maintaining separate authentication tokens and session states for each node.
+### Analyzing Performance by Fee Rate
 
-**Operational Context Switching:**
-Once multiple nodes are onboarded, the **Node Selector** dropdown becomes the primary navigation tool. Switching between nodes is instantaneous. When a new node is selected, the entire dashboard context shifts.
-* **Metrics Update:** ROI, net profit, and routing history immediately reflect the selected node's data.
-* **Channel Management:** The channel list refreshes to show peers associated only with the active node.
-* **Tool State:** Loop and Pool interfaces update to show swaps and auctions relevant to the currently selected entity.
+Beyond raw capacity, the report analyzes liquidity through the lens of **Fee Rates**. The **Routable Inbound Chart** plots your channels along an X-axis representing fee rates (parts per million), while the Y-axis displays channel density.
 
-This efficient switching mechanism allows operators to maintain high-level situational awareness across their entire fleet, rapidly responding to liquidity imbalances or alerts on any specific node without leaving the command center.
+This dual-perspective chart (Channel Count vs. Percentage) reveals the "quality" of your routing options. It helps answer specific strategic questions:
+* **Availability:** Do I have inbound liquidity available at low fee rates, or is my capacity expensive to access?
+* **Dead Zones:** Are there fee ranges where I have zero routable capacity?
+
+#### Identifying Hidden Issues
+The ultimate goal of these reports is to detect **Systematic Inefficiencies**. For example, the chart might reveal that while you have ample total liquidity, it is all concentrated in high-fee channels that the network routing algorithms ignore for standard payments. Alternatively, it might show that your low-fee channels are constantly depleted.
+
+By correlating payment sizes with fee rates, the Liquidity Report transforms node management from a reactive process (fixing stuck channels) to a proactive strategy. It allows the operator to rebalance channels specifically to fill the gaps in their routing profile, capturing the fee revenue that was previously bypassing their node entirely.
 
 ## LND Accounts
 <chapterId>0d31ef81-4e77-4c5e-adc5-081df64c27ec</chapterId>
@@ -536,7 +460,40 @@ These accounts connect via **Lightning Node Connect (LNC)**. This protocol estab
 **Practical Use Cases:**
 This functionality is ideal for onboarding trusted peers or testing environments. For example, a node operator can create an account for a friend to experiment with Lightning payments. The friend downloads a compatible wallet, scans the QR code, and immediately has access to the Lightning Network using the operator's liquidity, but is strictly limited to the funds allocated in the virtual account. Similarly, developers can spin up separate accounts for different microservices, ensuring that a bug in one service cannot drain the wallet of another.
 
+## RUN LITD: Building a Node from Scratch
+<chapterId>710c2090-e905-4141-8b12-7a81d7c276a1</chapterId>
 
+![video](https://www.youtube.com/watch?v=lopHP_nF0tE)
+
+### LITD Architecture and Repository Structure
+
+The Lightning Terminal Daemon (LITD) is a unified binary that bundles the core Lightning Network Daemon (LND) with essential operational tools: **Loop** (liquidity swaps), **Pool** (liquidity marketplace), **Faraday** (accounting/analytics), and **Taproot Assets**. By running these components as a single integrated system, developers and node operators avoid the complexity of managing five distinct daemons and their inter-process communications.
+
+To streamline deployment, the community utilizes the **Run LITD** repository. Inspired by Alex Bosworth’s "Run LND," this repository is optimized for speed and standardized configuration. It offers three distinct implementation pathways depending on the operator's need for control:
+1.  **Automated Scripts:** Bash scripts that handle the end-to-end installation (ideal for rapid testing).
+2.  **Manual Checklists:** Step-by-step guides for operators who need to audit every command.
+3.  **Example Configurations:** Reference files for `bitcoin.conf`, `lit.conf`, and systemd services.
+
+### Hardware Prerequisites and Installation Stages
+
+Before deployment, operators must provision a server meeting minimum specifications. The scripts are tested specifically on **Ubuntu 24.04**. A baseline configuration requires at least **4GB of RAM** and sufficient storage.
+* **Pruned Node:** ~80GB storage (sufficient for most Lightning operations).
+* **Archival Node:** ~1TB+ storage (required only if you need a full historical copy of the blockchain).
+
+The installation workflow is divided into three sequential stages:
+1.  **Server Preparation:** Secures the environment by creating a dedicated user, configuring SSH keys, and disabling root login/password authentication.
+2.  **Bitcoin Core Setup:** Installs the Bitcoin backend. The repository supports both **Binary** (faster, pre-compiled) and **Source** (auditable, slower) installation methods.
+3.  **LITD Deployment:** Compiles or downloads the LITD binary. For source installations, this step automatically handles dependencies like Go, Node.js, and Yarn.
+
+### Configuration, Wallet Ops, and Service Management
+
+Unlike a standalone LND setup, LITD uses a unified configuration file located in the `.lit` directory. This introduces a specific syntax requirement: standard LND parameters must be prefixed with `lnd.`. For example, a setting that is `alias=MyNode` in LND becomes `lnd.alias=MyNode` in `lit.conf`. This separation allows the daemon to route configurations to the correct internal sub-server (e.g., specific settings for Loop or Faraday).
+
+**Wallet Initialization:**
+Once the software is installed, the operator must manually start LITD to generate the wallet seed. The setup scripts include a secure password management mechanism that enables **Auto-Unlock**. This allows LITD to automatically decrypt the wallet upon system reboot, ensuring the node comes back online immediately after power failures or maintenance without manual intervention.
+
+**Systemd Integration:**
+The final setup script wraps both Bitcoin Core and LITD in `systemd` service files. This transforms them into background services that start on boot (`systemctl enable litd`). Verification involves checking the service status logs to ensure the node is successfully syncing with the blockchain and that all bundled sub-servers (Loop, Pool) are active and communicating.
 
 # Conclusion 
 <partId>90cfdd76-7deb-4162-87a5-24bb845ba786</partId>
@@ -551,7 +508,6 @@ This functionality is ideal for onboarding trusted peers or testing environments
 
 
 ## Final Exam
-<chapterId>b015e535-c91c-42b2-9e67-b91e6f381333</chapterId>
 
 <chapterId>2a19c10e-ced6-11f0-8ab2-cf79e817a351</chapterId>
 <isCourseExam>true</isCourseExam>

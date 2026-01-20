@@ -1,0 +1,24 @@
+id: d17776c2-88a4-43f2-9bc8-316590db397c
+start_date: 2026-02-03 15:00:00
+end_date: 2026-02-03 18:00:00
+timezone: America/El_Salvador
+address_city_country: El Zonte, El Salvador
+address_line_2: Bitcoin Beach Community Center, El Zonte
+address_line_3:
+name: Plan ₿ Program First Lecture
+type: lecture
+language:
+  - en
+book_online: true
+book_in_person: true
+price_dollars: 0
+available_seats: 40
+links:
+  replay_url: 
+  live_url: https://www.youtube.com/embed/RbPioYFCB0U
+  chat_url:
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - software
+  - market-trends
+  - education

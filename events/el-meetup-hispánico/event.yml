@@ -3,26 +3,22 @@ start_date: 2026-01-30 01:00:00
 end_date: 2026-01-30 04:00:00
 timezone: America/El_Salvador
 address_city_country: San Salvador, El Salvador
+address_line_2: Cowboy Steakhouse
 name: El Meetup Hispánico
 type: meetup
-description: "|\r
+description: |
+ Un espacio para conectar, aprender y construir al rededor de Bitcoin,
+ compartir ideas, experiencias y salir con contactos y claridad para el próximo
+ año.
 
-  \  Un espacio para conectar, aprender y construir al rededor de Bitcoin,
-  compartir ideas, experiencias y salir con contactos y claridad para el próximo
-  año.\r
+  📍 Comunidad hispana
 
-  \  \r
+  ⚡ Bitcoin-only
 
-  \  📍 Comunidad hispana\r
+  🤝 Networking real, no humo
 
-  \  ⚡ Bitcoin-only\r
-
-  \  🤝 Networking real, no humo\r
-
-  \  \r
-
-  \  Si estás construyendo, aprendiendo o simplemente quieres estar donde pasan
-  las cosas… este meetup es para ti."
+  Si estás construyendo, aprendiendo o simplemente quieres estar donde pasan
+  las cosas… este meetup es para ti
 language:
   - es
 links:

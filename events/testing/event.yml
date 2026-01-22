@@ -1,0 +1,15 @@
+id: d26bbdd4-fec2-49d2-b702-addaf92215cb
+start_date: 2026-01-24 20:00:00
+end_date: 2026-01-27 21:30:00
+timezone: America/El_Salvador
+address_city_country: San Salvador
+name: testing
+type: conference
+description: this is a test
+language:
+  - en
+links:
+  website: www.com
+tags:
+  - offchain
+  - fees

@@ -5,17 +5,8 @@ timezone: America/El_Salvador
 address_city_country: San Salvador, El Salvador
 name: Bitfinex Securities Day El Salvador
 type: workshop
-description: "|\r
-
-  \  Join an exclusive gathering of regulators, issuers, investors, and thought
-  leaders as we explore the transformative power of tokenisation and security
-  token offerings in modern capital markets. Through engaging panel discussions
-  \r
-
-  \  \r
-
-  \  and invaluable networking opportunities, gain actionable insights into this
-  innovative financial frontier."
+description: |
+  Join an exclusive gathering of regulators, issuers, investors, and thought  leaders as we explore the transformative power of tokenisation and security  token offerings in modern capital markets. Through engaging panel discussions and invaluable networking opportunities, gain actionable insights into this innovative financial frontier.
 language:
   - en
 links:

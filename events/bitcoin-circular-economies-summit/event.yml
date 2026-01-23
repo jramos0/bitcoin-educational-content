@@ -5,13 +5,10 @@ timezone: America/El_Salvador
 address_city_country: El Zonte, El Salvador
 name: Bitcoin Circular Economies Summit
 type: workshop
-description: "|\r
-
-  \  Bitcoin Circular Economy leaders and partners from around the world gather
-  at BitcoinBeach\r
-
-  \  in El Zonte, El Salvador 🇸🇻 for the second Global Bitcoin Circular
-  Economies Summit."
+description: |
+  Bitcoin Circular Economy leaders and partners from around the world gather
+  at BitcoinBeach in El Zonte, El Salvador 🇸🇻 for the second Global Bitcoin Circular
+  Economies Summit.
 language:
   - en
   - es

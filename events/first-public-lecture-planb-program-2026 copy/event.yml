@@ -3,8 +3,8 @@ start_date: 2026-02-03 15:00:00
 end_date: 2026-02-03 18:00:00
 timezone: America/El_Salvador
 address_city_country: El Zonte, El Salvador
-address_line_2: Casa Comunal El Zonte, FHX5+QR4, El Zonte
-address_line_3:
+address_line_2: FHX5+QR4, El Zonte
+address_line_3: Casa Comunal El Zonte
 name: Plan ₿ Program First Lecture
 type: lecture
 language:

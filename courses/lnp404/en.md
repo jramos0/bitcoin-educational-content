@@ -17,7 +17,22 @@ By the end, you’ll not only understand how to maintain and scale your Lightnin
 
 +++
 
-# First steps of installing your Lightning Node
+# Introduction
+<partId>a809ce9d-72b0-4eec-ba3b-b431e1ffeb2a</partId>
+
+## Course Overview
+<chapterId>da8a728b-1092-4131-97b9-c3c095c75c2c</chapterId>
+
+
+Navigating Your Node with Terminal is a practical, operator-focused course for Bitcoiners who want to understand what their Lightning node is doing and confidently manage it using Lightning Terminal and the command line.
+
+You will start by installing and connecting Lightning Terminal in a way that fits real-world setups, including remote mode. Then you will learn how to evaluate your node’s health using clear signals like uptime, channel count, routing capacity, channel stability, and peer quality. From there, you will move into performance analysis by reading forwarding activity, profitability metrics, and channel-level ROI so you can make decisions based on data instead of guesswork.
+
+As you progress, the course shifts from observation to action. You will learn how to automate fee policies with Auto-Fees, interpret peer behavior with Peer Insights, and use liquidity reports to detect bottlenecks that silently reduce your routing success. You will also practice the operational workflows that matter most for keeping a node efficient: opening channels (including batching to reduce on-chain costs), rebalancing inbound and outbound liquidity with Loop In and Loop Out, and setting up safer access patterns using LND Accounts.
+
+Finally, you will step into infrastructure-level operations by managing multiple nodes from a single Terminal workspace and building a LitD-based node from scratch with production-style service management. By the end, you will have a clear mental model of node economics, liquidity mechanics, and the routines needed to run a Lightning node reliably on testnet or mainnet.
+
+# Getting Started with Lightning Terminal
 <partId>d74ec352-1a5d-466d-a06d-571fc9f99937</partId>
 
 ## Install & Connect
@@ -162,6 +177,9 @@ Rather than displaying raw numbers, Terminal Web utilizes visual bars to represe
 #### Advanced Channel Actions
 Terminal Web goes beyond passive monitoring by integrating actionable controls directly into the analytics interface. Each channel displays a calculated ROI—specifically for channels initiated by the local operator—comparing earned fees against the on-chain cost of opening the channel. This per-channel profitability metric is decisive when determining whether to keep a connection alive. From this same interface, operators can execute critical lifecycle actions: they can adjust fee policies to influence traffic flow or initiate channel closures for underperforming peers. The system also logs all channel lifecycle events—opens, cooperative closes, and force closes—providing a historical context that helps operators refine their peer selection strategy over time.
 
+# Fee Strategy and Routing Performance
+<partId>a051ec06-6230-42d9-9b83-c759fca19e11</partId>
+
 ## Autofees
 <chapterId>c6264c0b-10f6-4261-8d1e-47593168d8ca</chapterId>
 
@@ -208,42 +226,93 @@ Once the configuration is set, activation is handled via the Terminal UI:
 
 The interface provides granular control, allowing operators to toggle Auto-Fees on or off for individual channels. This allows for a hybrid management style, where stable, high-volume channels are managed automatically, while experimental or strategic private channels remain under manual control.
 
-## Multi-Node Connections
-<chapterId>9f6f9bf3-999e-4dad-9d2d-0b725178d754</chapterId>
+## Peer Insights
+<chapterId>27d09714-6496-4451-bb08-1927e0148d1e</chapterId>
 
-![video](https://www.youtube.com/watch?v=SGY9h8JW4go)
+![video](https://www.youtube.com/watch?v=4x1V_G_DlKo)
 
-### Unified Infrastructure Management
+### Peer Insights: Network Intelligence
 
-Lightning Terminal has evolved from a single-node utility into a comprehensive infrastructure management platform. The **Multi-Node Interface** enables operators to oversee distinct Lightning Network nodes—whether they are redundant backups, separate routing nodes, or nodes operating on different networks (e.g., Mainnet vs. Testnet)—from a single, unified dashboard.
+Lightning Terminal’s **Peer Insights** is a robust intelligence layer integrated directly into the Explorer tab. It is designed to move node operators beyond basic connectivity metrics (like capacity and channel count) toward a deeper understanding of network behavior and peer value.
 
-This architecture eliminates the friction of logging in and out of different browser sessions or managing multiple disparate URLs. The integration is designed to be lightweight yet robust; adding a new node does not dilute the functionality available. Whether an operator manages two nodes or a dozen, the full suite of Terminal tools—Loop for liquidity, Pool for leasing, and health monitoring—remains fully accessible for every specific instance connected to the workspace.
+The feature operates on a tiered information architecture. At the base level, it provides general reconnaissance data for any node on the public network, useful for scouting potential partners. At the advanced level, it unlocks detailed performance analytics for nodes with whom you already maintain open channels. This dual capability allows operators to assess the "reputation" and strategic value of a peer before opening a channel, and then monitor the actual ROI of that relationship over time.
 
-### Generating Connection Credentials
+### Visual Indicators and Network Scouting
 
-The foundation of the multi-node setup is the **Connection String**. Because Terminal operates securely over Lightning Node Connect (LNC), it does not require opening ports on your firewall. Instead, each node must generate a unique, cryptographic pairing phrase that authorizes the Terminal interface to communicate with the Lightning Terminal Daemon (LitD).
+The primary interface for Peer Insights is the **Explorer Tab**. This dashboard presents a ranked list of top-performing nodes, but augments this list with contextual "badges" or visual indicators overlaid on the node entries.
 
-Operators can generate these strings via the LitD UI, but the Command Line Interface (CLI) offers granular control for power users. Using the `litcli` tool, an operator creates a session by defining specific parameters:
-* **Network:** Specifies if the node is on `mainnet` or `testnet`.
-* **Label:** Assigns a human-readable alias (e.g., "Routing-Node-East") to distinguish the node in the UI.
-* **Type:** Defines the permission scope, typically set to "admin" for full management capabilities.
+These indicators allow for rapid scanning of the network landscape. For example, specific badges highlight whether a node has open liquidity orders in the Pool marketplace or if it is currently connected to your node.
+* **Health Check:** Instantly communicates operational uptime and reliability.
+* **Centrality Score:** Indicates how critical that node is to the overall network topology.
+* **Capacity & Age:** Establishes the scale and longevity of the node’s operations.
 
-#### Security Implications
-The generated connection string contains the authentication data necessary to administer the node. It functions effectively as a private key for administrative access. Consequently, these strings must be handled with extreme care—never shared in public forums or transmitted over unencrypted channels. Possession of the string grants the holder the ability to manipulate the node's channels and funds through the Terminal interface.
+By filtering through these metrics, an operator can quickly identify stable, high-capacity nodes that are actively seeking liquidity, making them ideal candidates for new channel openings.
 
-### The Connection Workflow and Context Switching
+### Analyzing Fee Strategies
 
-Connecting the first node establishes the baseline workspace. The operator selects "Connect My Node" and pastes the generated connection string. Crucially, Terminal enforces a secondary security layer: **The Session Password**. Upon pasting the string, the user must define a local password. This ensures that even if the physical device running the browser is compromised, the active Terminal session cannot be used to interact with the node without this second factor of authentication.
+One of the most sophisticated tools within Peer Insights is the **Fee Distribution Graph**. This visualization decompresses the complex fee policies of a target node across its entire channel portfolio.
 
-Adding subsequent nodes follows an identical pattern via the "Add Node" option in the interface's header. Terminal treats each connection independently, maintaining separate authentication tokens and session states for each node.
+The graph uses a dual-axis design:
+* **Horizontal Axis:** Represents fee rates (parts per million or ppm).
+* **Vertical Axis:** Represents the number of channels.
+* **Split View:** Inbound fees are plotted above the axis; outbound fees are plotted below.
 
-**Operational Context Switching:**
-Once multiple nodes are onboarded, the **Node Selector** dropdown becomes the primary navigation tool. Switching between nodes is instantaneous. When a new node is selected, the entire dashboard context shifts.
-* **Metrics Update:** ROI, net profit, and routing history immediately reflect the selected node's data.
-* **Channel Management:** The channel list refreshes to show peers associated only with the active node.
-* **Tool State:** Loop and Pool interfaces update to show swaps and auctions relevant to the currently selected entity.
+This visual clustering reveals the peer's routing philosophy. For example, if a node has a tight cluster of channels priced at 100ppm but a few outliers at 1000ppm, it suggests a tiered strategy where scarce liquidity is priced at a premium. Conversely, a flat distribution suggests a "set-and-forget" passive management style. Understanding these patterns is crucial when setting your own fees; pricing your channel competitively against a peer's existing connections ensures your node remains an attractive hop for routing.
 
-This efficient switching mechanism allows operators to maintain high-level situational awareness across their entire fleet, rapidly responding to liquidity imbalances or alerts on any specific node without leaving the command center.
+### Peer-Specific Performance Analytics
+
+For existing partners, Peer Insights unlocks a granular history of the relationship. While general network explorers can only guess at routing volume, Terminal leverages your node's local data to display exact interaction metrics.
+
+Key metrics include:
+* **Forwarding Events:** The total count of payments routed through this specific peer.
+* **Volume Routed:** The cumulative amount of satoshis moved.
+* **Fees Earned:** The direct revenue generated by this relationship.
+
+This data transforms abstract channel management into evidence-based strategy. If a channel has high capacity but zero forwarding events over a month, the analytics will make this inefficiency obvious, signaling a need for fee adjustment or channel closure. Conversely, high-volume, low-fee peers can be identified as candidates for fee increases. By centralizing this data, Peer Insights allows operators to treat their node not just as a piece of software, but as a portfolio of financial assets that requires active optimization.
+
+## Liquidity Reports
+<chapterId>ed0d914d-08af-4e32-9eb0-93955bff0474</chapterId>
+
+![video](https://www.youtube.com/watch?v=7ga-8AhCNK4)
+
+### Visualizing Liquidity Health
+
+Managing liquidity is arguably the most complex aspect of running a Lightning node because failure is often silent. Unlike a crashed server or a rejected transaction, poor liquidity manifests as "invisible" problems—payments that simply route around your node because they cannot find a path, leaving you unaware of the lost revenue.
+
+Lightning Terminal addresses this with the **Liquidity Report**, accessible via the **Loop** tab. This tool provides a diagnostic visualization of your node's ability to route payments and receive funds.
+
+The primary tool here is the **Routable Liquidity Chart**. It breaks down capacity into its two critical components:
+* **Inbound Liquidity:** The ability to receive funds (remote balance).
+* **Outbound Liquidity:** The ability to send funds (local balance).
+
+The chart offers two viewing modes to help operators assess their standing. The **Cumulative View** provides a high-level ratio assessment, useful for quickly spotting gross imbalances (e.g., a node that is 90% outbound and only 10% inbound). The **Detailed View** breaks this data down by individual channels, allowing for specific troubleshooting.
+
+### Simulating Payment Scenarios
+
+Liquidity is not static; it behaves differently depending on the size of the payment being routed. A node might be perfectly capable of routing a 1,000 satoshi micropayment but completely fail to route a 5,000,000 satoshi transaction. The Liquidity Report includes a **Simulation Engine** to test these variances.
+
+Operators can toggle between three preset payment sizes: **500k sats**, **5M sats**, and **15M sats**.
+As you adjust these settings, the dashboard dynamically updates two key metrics:
+1.  **Routable Liquidity Chart:** Visually demonstrates which channels "drop off" and become unusable as the payment size increases.
+2.  **Estimated Last Hop Fee:** Projects the cost for an external user to route a payment of that specific size to your node.
+
+This feature is critical for capacity planning. It helps operators identify "bottleneck" channels that appear healthy on the surface but lack the depth required to handle larger, higher-fee transactions.
+
+### Analyzing Performance by Fee Rate
+
+Beyond raw capacity, the report analyzes liquidity through the lens of **Fee Rates**. The **Routable Inbound Chart** plots your channels along an X-axis representing fee rates (parts per million), while the Y-axis displays channel density.
+
+This dual-perspective chart (Channel Count vs. Percentage) reveals the "quality" of your routing options. It helps answer specific strategic questions:
+* **Availability:** Do I have inbound liquidity available at low fee rates, or is my capacity expensive to access?
+* **Dead Zones:** Are there fee ranges where I have zero routable capacity?
+
+#### Identifying Hidden Issues
+The ultimate goal of these reports is to detect **Systematic Inefficiencies**. For example, the chart might reveal that while you have ample total liquidity, it is all concentrated in high-fee channels that the network routing algorithms ignore for standard payments. Alternatively, it might show that your low-fee channels are constantly depleted.
+
+By correlating payment sizes with fee rates, the Liquidity Report transforms node management from a reactive process (fixing stuck channels) to a proactive strategy. It allows the operator to rebalance channels specifically to fill the gaps in their routing profile, capturing the fee revenue that was previously bypassing their node entirely.
+
+# Liquidity Operations and Channel Management
+<partId>f231d2a2-ece1-49ba-9bf7-2fb1a16733b7</partId>
 
 ## Opening Channels & Batching
 <chapterId>c7e83bd9-df1c-4763-8401-488b733d835c</chapterId>
@@ -334,93 +403,6 @@ Additionally, specific constraints ensure efficiency:
 
 The Autopilot dashboard provides a live view of these operations, allowing operators to pause the service during volatile market conditions or adjust budgets as their node's revenue grows.
 
-## Peer Insights
-<chapterId>27d09714-6496-4451-bb08-1927e0148d1e</chapterId>
-
-![video](https://www.youtube.com/watch?v=4x1V_G_DlKo)
-
-### Peer Insights: Network Intelligence
-
-Lightning Terminal’s **Peer Insights** is a robust intelligence layer integrated directly into the Explorer tab. It is designed to move node operators beyond basic connectivity metrics (like capacity and channel count) toward a deeper understanding of network behavior and peer value.
-
-The feature operates on a tiered information architecture. At the base level, it provides general reconnaissance data for any node on the public network, useful for scouting potential partners. At the advanced level, it unlocks detailed performance analytics for nodes with whom you already maintain open channels. This dual capability allows operators to assess the "reputation" and strategic value of a peer before opening a channel, and then monitor the actual ROI of that relationship over time.
-
-### Visual Indicators and Network Scouting
-
-The primary interface for Peer Insights is the **Explorer Tab**. This dashboard presents a ranked list of top-performing nodes, but augments this list with contextual "badges" or visual indicators overlaid on the node entries.
-
-These indicators allow for rapid scanning of the network landscape. For example, specific badges highlight whether a node has open liquidity orders in the Pool marketplace or if it is currently connected to your node.
-* **Health Check:** Instantly communicates operational uptime and reliability.
-* **Centrality Score:** Indicates how critical that node is to the overall network topology.
-* **Capacity & Age:** Establishes the scale and longevity of the node’s operations.
-
-By filtering through these metrics, an operator can quickly identify stable, high-capacity nodes that are actively seeking liquidity, making them ideal candidates for new channel openings.
-
-### Analyzing Fee Strategies
-
-One of the most sophisticated tools within Peer Insights is the **Fee Distribution Graph**. This visualization decompresses the complex fee policies of a target node across its entire channel portfolio.
-
-The graph uses a dual-axis design:
-* **Horizontal Axis:** Represents fee rates (parts per million or ppm).
-* **Vertical Axis:** Represents the number of channels.
-* **Split View:** Inbound fees are plotted above the axis; outbound fees are plotted below.
-
-This visual clustering reveals the peer's routing philosophy. For example, if a node has a tight cluster of channels priced at 100ppm but a few outliers at 1000ppm, it suggests a tiered strategy where scarce liquidity is priced at a premium. Conversely, a flat distribution suggests a "set-and-forget" passive management style. Understanding these patterns is crucial when setting your own fees; pricing your channel competitively against a peer's existing connections ensures your node remains an attractive hop for routing.
-
-### Peer-Specific Performance Analytics
-
-For existing partners, Peer Insights unlocks a granular history of the relationship. While general network explorers can only guess at routing volume, Terminal leverages your node's local data to display exact interaction metrics.
-
-Key metrics include:
-* **Forwarding Events:** The total count of payments routed through this specific peer.
-* **Volume Routed:** The cumulative amount of satoshis moved.
-* **Fees Earned:** The direct revenue generated by this relationship.
-
-This data transforms abstract channel management into evidence-based strategy. If a channel has high capacity but zero forwarding events over a month, the analytics will make this inefficiency obvious, signaling a need for fee adjustment or channel closure. Conversely, high-volume, low-fee peers can be identified as candidates for fee increases. By centralizing this data, Peer Insights allows operators to treat their node not just as a piece of software, but as a portfolio of financial assets that requires active optimization.
-
-# Last Steps
-<partId>2e886890-62f7-4453-9c6f-9b397a280b75</partId>
-
-## Liquidity Reports
-<chapterId>ed0d914d-08af-4e32-9eb0-93955bff0474</chapterId>
-
-![video](https://www.youtube.com/watch?v=7ga-8AhCNK4)
-
-### Visualizing Liquidity Health
-
-Managing liquidity is arguably the most complex aspect of running a Lightning node because failure is often silent. Unlike a crashed server or a rejected transaction, poor liquidity manifests as "invisible" problems—payments that simply route around your node because they cannot find a path, leaving you unaware of the lost revenue.
-
-Lightning Terminal addresses this with the **Liquidity Report**, accessible via the **Loop** tab. This tool provides a diagnostic visualization of your node's ability to route payments and receive funds.
-
-The primary tool here is the **Routable Liquidity Chart**. It breaks down capacity into its two critical components:
-* **Inbound Liquidity:** The ability to receive funds (remote balance).
-* **Outbound Liquidity:** The ability to send funds (local balance).
-
-The chart offers two viewing modes to help operators assess their standing. The **Cumulative View** provides a high-level ratio assessment, useful for quickly spotting gross imbalances (e.g., a node that is 90% outbound and only 10% inbound). The **Detailed View** breaks this data down by individual channels, allowing for specific troubleshooting.
-
-### Simulating Payment Scenarios
-
-Liquidity is not static; it behaves differently depending on the size of the payment being routed. A node might be perfectly capable of routing a 1,000 satoshi micropayment but completely fail to route a 5,000,000 satoshi transaction. The Liquidity Report includes a **Simulation Engine** to test these variances.
-
-Operators can toggle between three preset payment sizes: **500k sats**, **5M sats**, and **15M sats**.
-As you adjust these settings, the dashboard dynamically updates two key metrics:
-1.  **Routable Liquidity Chart:** Visually demonstrates which channels "drop off" and become unusable as the payment size increases.
-2.  **Estimated Last Hop Fee:** Projects the cost for an external user to route a payment of that specific size to your node.
-
-This feature is critical for capacity planning. It helps operators identify "bottleneck" channels that appear healthy on the surface but lack the depth required to handle larger, higher-fee transactions.
-
-### Analyzing Performance by Fee Rate
-
-Beyond raw capacity, the report analyzes liquidity through the lens of **Fee Rates**. The **Routable Inbound Chart** plots your channels along an X-axis representing fee rates (parts per million), while the Y-axis displays channel density.
-
-This dual-perspective chart (Channel Count vs. Percentage) reveals the "quality" of your routing options. It helps answer specific strategic questions:
-* **Availability:** Do I have inbound liquidity available at low fee rates, or is my capacity expensive to access?
-* **Dead Zones:** Are there fee ranges where I have zero routable capacity?
-
-#### Identifying Hidden Issues
-The ultimate goal of these reports is to detect **Systematic Inefficiencies**. For example, the chart might reveal that while you have ample total liquidity, it is all concentrated in high-fee channels that the network routing algorithms ignore for standard payments. Alternatively, it might show that your low-fee channels are constantly depleted.
-
-By correlating payment sizes with fee rates, the Liquidity Report transforms node management from a reactive process (fixing stuck channels) to a proactive strategy. It allows the operator to rebalance channels specifically to fill the gaps in their routing profile, capturing the fee revenue that was previously bypassing their node entirely.
 
 ## LND Accounts
 <chapterId>0d31ef81-4e77-4c5e-adc5-081df64c27ec</chapterId>
@@ -458,6 +440,47 @@ These accounts connect via **Lightning Node Connect (LNC)**. This protocol estab
 
 **Practical Use Cases:**
 This functionality is ideal for onboarding trusted peers or testing environments. For example, a node operator can create an account for a friend to experiment with Lightning payments. The friend downloads a compatible wallet, scans the QR code, and immediately has access to the Lightning Network using the operator's liquidity, but is strictly limited to the funds allocated in the virtual account. Similarly, developers can spin up separate accounts for different microservices, ensuring that a bug in one service cannot drain the wallet of another.
+
+
+# Operating at Scale and Infrastructure
+<partId>2e886890-62f7-4453-9c6f-9b397a280b75</partId>
+
+## Multi-Node Connections
+<chapterId>9f6f9bf3-999e-4dad-9d2d-0b725178d754</chapterId>
+
+![video](https://www.youtube.com/watch?v=SGY9h8JW4go)
+
+### Unified Infrastructure Management
+
+Lightning Terminal has evolved from a single-node utility into a comprehensive infrastructure management platform. The **Multi-Node Interface** enables operators to oversee distinct Lightning Network nodes—whether they are redundant backups, separate routing nodes, or nodes operating on different networks (e.g., Mainnet vs. Testnet)—from a single, unified dashboard.
+
+This architecture eliminates the friction of logging in and out of different browser sessions or managing multiple disparate URLs. The integration is designed to be lightweight yet robust; adding a new node does not dilute the functionality available. Whether an operator manages two nodes or a dozen, the full suite of Terminal tools—Loop for liquidity, Pool for leasing, and health monitoring—remains fully accessible for every specific instance connected to the workspace.
+
+### Generating Connection Credentials
+
+The foundation of the multi-node setup is the **Connection String**. Because Terminal operates securely over Lightning Node Connect (LNC), it does not require opening ports on your firewall. Instead, each node must generate a unique, cryptographic pairing phrase that authorizes the Terminal interface to communicate with the Lightning Terminal Daemon (LitD).
+
+Operators can generate these strings via the LitD UI, but the Command Line Interface (CLI) offers granular control for power users. Using the `litcli` tool, an operator creates a session by defining specific parameters:
+* **Network:** Specifies if the node is on `mainnet` or `testnet`.
+* **Label:** Assigns a human-readable alias (e.g., "Routing-Node-East") to distinguish the node in the UI.
+* **Type:** Defines the permission scope, typically set to "admin" for full management capabilities.
+
+#### Security Implications
+The generated connection string contains the authentication data necessary to administer the node. It functions effectively as a private key for administrative access. Consequently, these strings must be handled with extreme care—never shared in public forums or transmitted over unencrypted channels. Possession of the string grants the holder the ability to manipulate the node's channels and funds through the Terminal interface.
+
+### The Connection Workflow and Context Switching
+
+Connecting the first node establishes the baseline workspace. The operator selects "Connect My Node" and pastes the generated connection string. Crucially, Terminal enforces a secondary security layer: **The Session Password**. Upon pasting the string, the user must define a local password. This ensures that even if the physical device running the browser is compromised, the active Terminal session cannot be used to interact with the node without this second factor of authentication.
+
+Adding subsequent nodes follows an identical pattern via the "Add Node" option in the interface's header. Terminal treats each connection independently, maintaining separate authentication tokens and session states for each node.
+
+**Operational Context Switching:**
+Once multiple nodes are onboarded, the **Node Selector** dropdown becomes the primary navigation tool. Switching between nodes is instantaneous. When a new node is selected, the entire dashboard context shifts.
+* **Metrics Update:** ROI, net profit, and routing history immediately reflect the selected node's data.
+* **Channel Management:** The channel list refreshes to show peers associated only with the active node.
+* **Tool State:** Loop and Pool interfaces update to show swaps and auctions relevant to the currently selected entity.
+
+This efficient switching mechanism allows operators to maintain high-level situational awareness across their entire fleet, rapidly responding to liquidity imbalances or alerts on any specific node without leaving the command center.
 
 ## RUN LITD: Building a Node from Scratch
 <chapterId>710c2090-e905-4141-8b12-7a81d7c276a1</chapterId>

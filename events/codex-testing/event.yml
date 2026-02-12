@@ -1,0 +1,20 @@
+id: 9bc8023f-242b-4b76-821b-4158a8cc0683
+start_date: 2026-02-13 22:30:00
+end_date: 2026-02-14 22:30:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+name: Codex testing
+type: meetup
+description: |-
+  this is a second test
+
+  to see how is created the description side
+
+  of the ecent
+language:
+  - en
+links:
+  website: www.com
+tags:
+  - backup
+  - DIY

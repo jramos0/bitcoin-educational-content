@@ -1,0 +1,20 @@
+id: 31347abf-820d-4d1e-963c-a5ffadbdeb48
+start_date: 2026-02-13 15:00:00
+end_date: 2026-02-13 18:00:00
+timezone: Europe/Rome
+address_city_country: Roma, Italy
+name: last testing
+type: meetup
+description: |
+  this is a test of 
+
+  the inline change
+
+  we are gonna see if it works
+language:
+  - es
+links:
+  website: ww.c.c
+tags:
+  - software
+  - mining

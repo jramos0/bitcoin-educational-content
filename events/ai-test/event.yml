@@ -1,0 +1,26 @@
+id: 8c36a5f1-0230-4b4f-bde5-88bcc937e08a
+start_date: 2026-02-13 15:00:00
+end_date: 2026-02-14 16:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: AI test
+type: conference
+description: "|\r
+
+  \  This a test to prove a gemini what is wrong with the description part\r
+
+  \  \r
+
+  \  Cause is not the right way of create the changes of line\r
+
+  \  \r
+
+  \  As you can see this is not gonna be clean on the yml"
+language:
+  - en
+links:
+  website: www.ai.com
+tags:
+  - offchain
+  - lightning
+  - DIY
